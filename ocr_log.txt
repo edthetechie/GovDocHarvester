@@ -172,3 +172,10 @@
 2025-04-18 16:35:25,881 - INFO - Processing 44-bs-646-part_3_of_5.pdf
 2025-04-18 16:36:30,629 - INFO - Processing 44-bs-646-part_4_of_5.pdf
 2025-04-18 16:37:12,145 - INFO - Processing 44-bs-646-part_5_of_5.pdf
+2025-04-18 17:50:17,746 - INFO - Found 229 PDF files, 58 need processing
+2025-04-18 17:50:17,780 - INFO - Processing pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 17:50:17,790 - INFO - Processing pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_8_of_8.pdf
+2025-04-18 17:50:22,488 - INFO - Processing pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_6_of_6.pdf
+2025-04-18 17:50:25,445 - INFO - Processing pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 17:50:31,981 - INFO - Processing 44-la-2897-part_2_of_2.pdf
+2025-04-18 17:50:37,136 - INFO - Processing pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_3_of_3.pdf
