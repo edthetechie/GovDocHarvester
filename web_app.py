@@ -7,7 +7,7 @@ Simplified version for deployment to cloud platforms
 import os
 import sys
 from flask import Flask, render_template, request, redirect, url_for, send_file
-from whoosh.index import open_dir
+from whoosh.index import open_dir, exists_in
 from whoosh.qparser import QueryParser, MultifieldParser
 from whoosh.highlight import ContextFragmenter
 import logging
@@ -26,6 +26,9 @@ try:
     if os.path.exists('pdf_mappings.json'):
         with open('pdf_mappings.json', 'r') as f:
             PDF_PATHS = json.load(f)
+        logger.info(f"Loaded {len(PDF_PATHS)} PDF mappings")
+    else:
+        logger.warning("pdf_mappings.json not found. PDF viewing will be disabled.")
 except Exception as e:
     logger.error(f"Error loading PDF mappings: {e}")
 
@@ -35,13 +38,24 @@ class PDFSearchApp:
         self.index_dir = index_dir
         
         try:
-            # Open the search index
-            if os.path.exists(index_dir):
-                self.ix = open_dir(index_dir)
-                logger.info(f"Search index opened from {index_dir}")
-            else:
+            # Check if the directory exists
+            if not os.path.exists(index_dir):
                 logger.error(f"Search index directory not found: {index_dir}")
+                logger.info(f"Current working directory: {os.getcwd()}")
+                logger.info(f"Directory contents: {os.listdir('.')}")
                 self.ix = None
+                return
+            
+            # Check if it contains a valid Whoosh index
+            if not exists_in(index_dir):
+                logger.error(f"No valid Whoosh index found in {index_dir}")
+                self.ix = None
+                return
+                
+            # Open the search index
+            self.ix = open_dir(index_dir)
+            logger.info(f"Search index opened successfully from {index_dir}")
+            
         except Exception as e:
             logger.error(f"Failed to open search index: {e}")
             self.ix = None
@@ -154,6 +168,23 @@ def view_pdf(filename):
 def about():
     """About page"""
     return render_template('about.html')
+
+@app.route('/status')
+def status():
+    """Status page for debugging deployment issues"""
+    status_info = {
+        "app_running": True,
+        "working_directory": os.getcwd(),
+        "directory_contents": os.listdir('.'),
+        "search_index_exists": os.path.exists('search_index'),
+        "search_index_items": os.listdir('search_index') if os.path.exists('search_index') else [],
+        "templates_exist": os.path.exists('templates'),
+        "template_files": os.listdir('templates') if os.path.exists('templates') else [],
+        "pdf_mappings_exist": os.path.exists('pdf_mappings.json'),
+        "index_is_valid": search_app.ix is not None
+    }
+    
+    return render_template('status.html', status=status_info)
 
 # Create an error handler for 404 errors
 @app.errorhandler(404)

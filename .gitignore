@@ -29,10 +29,9 @@ ENV/
 # OCR specific files
 ocr_text/*
 !ocr_text/.gitkeep
-search_index/*
-!search_index/.gitkeep
-downloads.zip
-ocr_text.zip
+
+# Allow search index files
+!search_index/*
 
 # Log files
 *.log
