@@ -1,3 +1,6 @@
 2025-04-18 13:39:08,064 - INFO - Found 229 PDF files to process
 2025-04-18 13:39:08,077 - INFO - Processing 166-12c-1_section_1-part_1_of_5.pdf
 2025-04-18 13:39:08,077 - INFO - Processing 166-12c-1_box_42_jan1970.pdf
+2025-04-18 13:39:18,980 - INFO - Processing 166-12c-1_section_1-part_2_of_5.pdf
+2025-04-18 13:41:14,612 - INFO - Processing 166-12c-1_section_1-part_3_of_5.pdf
+2025-04-18 13:41:34,753 - INFO - Processing 166-12c-1_section_1-part_4_of_5.pdf
