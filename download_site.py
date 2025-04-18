@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Easy PDF Downloader - Download PDFs from pre-configured government websites
+GovDocHarvester - Download Site Module
+Simplified interface for downloading PDFs from pre-configured websites
 """
 
 import sys

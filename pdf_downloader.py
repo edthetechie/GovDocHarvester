@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-PDF Downloader - A tool to download all PDF files from a specified website
+GovDocHarvester - PDF Downloader Module
+Download PDF files from government websites
 """
 
 import os

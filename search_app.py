@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-PDF Search Web Interface - Search through OCR'd PDF documents
+GovDocHarvester - Search Interface Module
+Web search interface for OCR'd PDF documents
 """
 
 import os

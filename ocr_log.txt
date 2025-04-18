@@ -179,3 +179,964 @@
 2025-04-18 17:50:25,445 - INFO - Processing pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_5_of_5.pdf
 2025-04-18 17:50:31,981 - INFO - Processing 44-la-2897-part_2_of_2.pdf
 2025-04-18 17:50:37,136 - INFO - Processing pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_3_of_3.pdf
+2025-04-18 17:50:43,195 - INFO - Processing page 1/22 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_3_of_3.pdf
+2025-04-18 17:50:48,199 - INFO - Processing page 6/22 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_3_of_3.pdf
+2025-04-18 17:50:50,171 - INFO - Processing pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_6_of_6.pdf
+2025-04-18 17:50:57,128 - INFO - Processing page 11/22 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_3_of_3.pdf
+2025-04-18 17:51:03,916 - INFO - Processing page 16/22 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_3_of_3.pdf
+2025-04-18 17:51:07,159 - INFO - Processing page 1/40 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_6_of_6.pdf
+2025-04-18 17:51:10,113 - WARNING - Memory usage high (75.2% > 75%), triggering garbage collection
+2025-04-18 17:51:10,127 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:51:15,839 - WARNING - Memory usage high (75.9% > 75%), triggering garbage collection
+2025-04-18 17:51:15,868 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:51:16,201 - WARNING - Memory usage high (75.3% > 75%), triggering garbage collection
+2025-04-18 17:51:16,217 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:51:22,010 - WARNING - Memory usage high (75.5% > 75%), triggering garbage collection
+2025-04-18 17:51:22,026 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:51:22,976 - INFO - Processing page 6/40 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_6_of_6.pdf
+2025-04-18 17:51:27,027 - INFO - Processing page 21/22 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_3_of_3.pdf
+2025-04-18 17:51:28,145 - WARNING - Memory usage high (75.1% > 75%), triggering garbage collection
+2025-04-18 17:51:28,157 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:51:30,033 - INFO - Processing page 11/40 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_6_of_6.pdf
+2025-04-18 17:51:33,266 - WARNING - Memory usage high (75.2% > 75%), triggering garbage collection
+2025-04-18 17:51:33,277 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:51:33,643 - INFO - Processing pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 17:51:39,634 - INFO - Processing page 16/40 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_6_of_6.pdf
+2025-04-18 17:51:47,341 - INFO - Processing page 21/40 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_6_of_6.pdf
+2025-04-18 17:51:51,739 - INFO - Processing page 1/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 17:51:57,502 - INFO - Processing page 26/40 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_6_of_6.pdf
+2025-04-18 17:51:59,546 - WARNING - Memory usage high (75.1% > 75%), triggering garbage collection
+2025-04-18 17:51:59,560 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:52:00,909 - WARNING - Memory usage high (75.1% > 75%), triggering garbage collection
+2025-04-18 17:52:00,949 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:52:07,674 - WARNING - Memory usage high (75.5% > 75%), triggering garbage collection
+2025-04-18 17:52:07,687 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:52:07,792 - WARNING - Memory usage high (75.1% > 75%), triggering garbage collection
+2025-04-18 17:52:07,803 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:52:13,470 - WARNING - Memory usage high (75.6% > 75%), triggering garbage collection
+2025-04-18 17:52:13,483 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:52:13,700 - WARNING - Memory usage high (75.3% > 75%), triggering garbage collection
+2025-04-18 17:52:13,711 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:52:19,168 - WARNING - Memory usage high (75.5% > 75%), triggering garbage collection
+2025-04-18 17:52:19,180 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:52:19,979 - WARNING - Memory usage high (75.4% > 75%), triggering garbage collection
+2025-04-18 17:52:19,991 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:52:24,181 - INFO - Processing page 6/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 17:52:26,424 - WARNING - Memory usage high (75.6% > 75%), triggering garbage collection
+2025-04-18 17:52:26,444 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:52:27,254 - WARNING - Memory usage high (75.2% > 75%), triggering garbage collection
+2025-04-18 17:52:27,284 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:52:31,975 - WARNING - Memory usage high (75.4% > 75%), triggering garbage collection
+2025-04-18 17:52:31,985 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:52:32,285 - INFO - Processing page 31/40 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_6_of_6.pdf
+2025-04-18 17:52:33,520 - WARNING - Memory usage high (75.5% > 75%), triggering garbage collection
+2025-04-18 17:52:33,542 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:52:37,435 - WARNING - Memory usage high (75.6% > 75%), triggering garbage collection
+2025-04-18 17:52:37,449 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:52:39,861 - WARNING - Memory usage high (75.9% > 75%), triggering garbage collection
+2025-04-18 17:52:39,872 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:52:43,052 - WARNING - Memory usage high (76.1% > 75%), triggering garbage collection
+2025-04-18 17:52:43,061 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:52:46,411 - WARNING - Memory usage high (75.8% > 75%), triggering garbage collection
+2025-04-18 17:52:46,422 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:52:49,570 - WARNING - Memory usage high (75.6% > 75%), triggering garbage collection
+2025-04-18 17:52:49,579 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:52:52,210 - WARNING - Memory usage high (75.6% > 75%), triggering garbage collection
+2025-04-18 17:52:52,220 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:52:54,580 - INFO - Processing page 11/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 17:52:54,998 - WARNING - Memory usage high (75.6% > 75%), triggering garbage collection
+2025-04-18 17:52:55,007 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:52:57,929 - WARNING - Memory usage high (75.6% > 75%), triggering garbage collection
+2025-04-18 17:52:57,939 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:53:01,746 - WARNING - Memory usage high (76.2% > 75%), triggering garbage collection
+2025-04-18 17:53:01,757 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:53:02,940 - INFO - Processing page 36/40 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_6_of_6.pdf
+2025-04-18 17:53:03,951 - WARNING - Memory usage high (76.1% > 75%), triggering garbage collection
+2025-04-18 17:53:03,960 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:53:08,208 - WARNING - Memory usage high (75.6% > 75%), triggering garbage collection
+2025-04-18 17:53:08,218 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:53:10,121 - WARNING - Memory usage high (75.7% > 75%), triggering garbage collection
+2025-04-18 17:53:10,133 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:53:13,891 - WARNING - Memory usage high (75.4% > 75%), triggering garbage collection
+2025-04-18 17:53:13,899 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:53:15,887 - WARNING - Memory usage high (75.5% > 75%), triggering garbage collection
+2025-04-18 17:53:15,897 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:53:19,929 - WARNING - Memory usage high (75.5% > 75%), triggering garbage collection
+2025-04-18 17:53:19,939 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:53:21,254 - WARNING - Memory usage high (75.6% > 75%), triggering garbage collection
+2025-04-18 17:53:21,264 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:53:24,939 - INFO - Processing page 16/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 17:53:26,018 - WARNING - Memory usage high (75.7% > 75%), triggering garbage collection
+2025-04-18 17:53:26,028 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:53:27,051 - INFO - Processing pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_3_of_4.pdf
+2025-04-18 17:53:36,846 - INFO - Processing page 21/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 17:53:44,584 - INFO - Processing page 26/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 17:53:47,882 - INFO - Processing page 1/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_3_of_4.pdf
+2025-04-18 17:53:51,305 - WARNING - Memory usage high (75.1% > 75%), triggering garbage collection
+2025-04-18 17:53:51,314 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:53:54,668 - INFO - Processing page 6/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_3_of_4.pdf
+2025-04-18 17:53:56,316 - INFO - Processing page 31/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 17:53:56,474 - WARNING - Memory usage high (75.2% > 75%), triggering garbage collection
+2025-04-18 17:53:56,485 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:53:56,888 - WARNING - Memory usage high (75.2% > 75%), triggering garbage collection
+2025-04-18 17:53:56,899 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:54:02,606 - WARNING - Memory usage high (75.9% > 75%), triggering garbage collection
+2025-04-18 17:54:02,619 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:54:03,106 - WARNING - Memory usage high (75.5% > 75%), triggering garbage collection
+2025-04-18 17:54:03,116 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:54:10,124 - WARNING - Memory usage high (75.9% > 75%), triggering garbage collection
+2025-04-18 17:54:10,135 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:54:10,181 - WARNING - Memory usage high (75.5% > 75%), triggering garbage collection
+2025-04-18 17:54:10,194 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:54:15,971 - WARNING - Memory usage high (75.9% > 75%), triggering garbage collection
+2025-04-18 17:54:15,980 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:54:16,157 - WARNING - Memory usage high (75.5% > 75%), triggering garbage collection
+2025-04-18 17:54:16,166 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:54:22,969 - WARNING - Memory usage high (76.2% > 75%), triggering garbage collection
+2025-04-18 17:54:22,981 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:54:23,181 - WARNING - Memory usage high (75.8% > 75%), triggering garbage collection
+2025-04-18 17:54:23,196 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:54:27,983 - INFO - Processing page 11/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_3_of_4.pdf
+2025-04-18 17:54:28,197 - INFO - Processing page 36/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 17:54:28,758 - WARNING - Memory usage high (76.4% > 75%), triggering garbage collection
+2025-04-18 17:54:28,770 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:54:28,805 - WARNING - Memory usage high (76.0% > 75%), triggering garbage collection
+2025-04-18 17:54:28,818 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:54:35,277 - WARNING - Memory usage high (76.6% > 75%), triggering garbage collection
+2025-04-18 17:54:35,292 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:54:35,318 - WARNING - Memory usage high (76.2% > 75%), triggering garbage collection
+2025-04-18 17:54:35,332 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:54:41,112 - WARNING - Memory usage high (76.8% > 75%), triggering garbage collection
+2025-04-18 17:54:41,129 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:54:41,278 - WARNING - Memory usage high (76.4% > 75%), triggering garbage collection
+2025-04-18 17:54:41,293 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:54:47,586 - WARNING - Memory usage high (76.8% > 75%), triggering garbage collection
+2025-04-18 17:54:47,602 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:54:48,053 - WARNING - Memory usage high (76.4% > 75%), triggering garbage collection
+2025-04-18 17:54:48,064 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:54:53,681 - WARNING - Memory usage high (77.1% > 75%), triggering garbage collection
+2025-04-18 17:54:53,693 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:54:54,260 - WARNING - Memory usage high (76.7% > 75%), triggering garbage collection
+2025-04-18 17:54:54,272 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:54:58,694 - INFO - Processing page 41/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 17:54:59,277 - INFO - Processing page 16/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_3_of_4.pdf
+2025-04-18 17:55:02,126 - WARNING - Memory usage high (78.0% > 75%), triggering garbage collection
+2025-04-18 17:55:02,151 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:55:03,864 - WARNING - Memory usage high (77.7% > 75%), triggering garbage collection
+2025-04-18 17:55:03,883 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:55:08,844 - WARNING - Memory usage high (77.5% > 75%), triggering garbage collection
+2025-04-18 17:55:08,858 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:55:09,757 - WARNING - Memory usage high (78.0% > 75%), triggering garbage collection
+2025-04-18 17:55:09,770 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:55:14,361 - WARNING - Memory usage high (78.1% > 75%), triggering garbage collection
+2025-04-18 17:55:14,373 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:55:16,822 - WARNING - Memory usage high (77.8% > 75%), triggering garbage collection
+2025-04-18 17:55:16,832 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:55:18,871 - INFO - Progress: 12.1% (7/58) - Est. remaining: 0h 36m
+2025-04-18 17:55:20,241 - WARNING - Memory usage high (77.9% > 75%), triggering garbage collection
+2025-04-18 17:55:20,257 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:55:24,181 - WARNING - Memory usage high (78.1% > 75%), triggering garbage collection
+2025-04-18 17:55:24,193 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:55:25,949 - WARNING - Memory usage high (78.0% > 75%), triggering garbage collection
+2025-04-18 17:55:25,959 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:55:30,495 - WARNING - Memory usage high (78.0% > 75%), triggering garbage collection
+2025-04-18 17:55:30,505 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:55:30,960 - INFO - Processing page 46/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 17:55:32,881 - WARNING - Memory usage high (78.0% > 75%), triggering garbage collection
+2025-04-18 17:55:32,891 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:55:35,506 - INFO - Processing page 21/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_3_of_4.pdf
+2025-04-18 17:55:36,067 - WARNING - Memory usage high (78.0% > 75%), triggering garbage collection
+2025-04-18 17:55:36,079 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:55:41,049 - WARNING - Memory usage high (78.4% > 75%), triggering garbage collection
+2025-04-18 17:55:41,068 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:55:42,919 - WARNING - Memory usage high (78.2% > 75%), triggering garbage collection
+2025-04-18 17:55:42,929 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:55:47,768 - WARNING - Memory usage high (78.2% > 75%), triggering garbage collection
+2025-04-18 17:55:47,783 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:55:49,005 - WARNING - Memory usage high (78.1% > 75%), triggering garbage collection
+2025-04-18 17:55:49,014 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:55:54,667 - WARNING - Memory usage high (78.6% > 75%), triggering garbage collection
+2025-04-18 17:55:54,678 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:55:55,533 - WARNING - Memory usage high (78.2% > 75%), triggering garbage collection
+2025-04-18 17:55:55,543 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:56:02,203 - INFO - Processing pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 17:56:02,324 - INFO - Processing page 26/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_3_of_4.pdf
+2025-04-18 17:56:11,308 - INFO - Processing page 31/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_3_of_4.pdf
+2025-04-18 17:56:13,173 - WARNING - Memory usage high (75.4% > 75%), triggering garbage collection
+2025-04-18 17:56:13,191 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:56:20,523 - WARNING - Memory usage high (75.5% > 75%), triggering garbage collection
+2025-04-18 17:56:20,546 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:56:20,639 - WARNING - Memory usage high (75.4% > 75%), triggering garbage collection
+2025-04-18 17:56:20,653 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:56:25,655 - INFO - Processing page 1/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 17:56:28,186 - WARNING - Memory usage high (76.3% > 75%), triggering garbage collection
+2025-04-18 17:56:28,203 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:56:29,561 - WARNING - Memory usage high (75.8% > 75%), triggering garbage collection
+2025-04-18 17:56:29,575 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:56:34,939 - WARNING - Memory usage high (75.9% > 75%), triggering garbage collection
+2025-04-18 17:56:34,956 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:56:41,300 - WARNING - Memory usage high (75.1% > 75%), triggering garbage collection
+2025-04-18 17:56:41,320 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:56:42,136 - INFO - Processing page 36/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_3_of_4.pdf
+2025-04-18 17:56:46,321 - INFO - Processing page 6/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 17:56:46,975 - INFO - Processing page 41/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_3_of_4.pdf
+2025-04-18 17:56:49,504 - WARNING - Memory usage high (75.6% > 75%), triggering garbage collection
+2025-04-18 17:56:49,528 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:56:52,464 - WARNING - Memory usage high (75.3% > 75%), triggering garbage collection
+2025-04-18 17:56:52,476 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:56:55,180 - WARNING - Memory usage high (75.5% > 75%), triggering garbage collection
+2025-04-18 17:56:55,193 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:56:59,560 - WARNING - Memory usage high (75.4% > 75%), triggering garbage collection
+2025-04-18 17:56:59,574 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:57:02,399 - WARNING - Memory usage high (76.3% > 75%), triggering garbage collection
+2025-04-18 17:57:02,414 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:57:04,912 - WARNING - Memory usage high (76.5% > 75%), triggering garbage collection
+2025-04-18 17:57:04,927 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:57:08,249 - WARNING - Memory usage high (76.2% > 75%), triggering garbage collection
+2025-04-18 17:57:08,261 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:57:10,887 - WARNING - Memory usage high (76.4% > 75%), triggering garbage collection
+2025-04-18 17:57:10,897 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:57:14,870 - WARNING - Memory usage high (76.5% > 75%), triggering garbage collection
+2025-04-18 17:57:14,888 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:57:15,899 - INFO - Processing page 11/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 17:57:17,508 - WARNING - Memory usage high (76.7% > 75%), triggering garbage collection
+2025-04-18 17:57:17,521 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:57:19,888 - INFO - Processing page 46/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_3_of_4.pdf
+2025-04-18 17:57:21,772 - WARNING - Memory usage high (76.2% > 75%), triggering garbage collection
+2025-04-18 17:57:21,788 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:57:22,965 - WARNING - Memory usage high (76.3% > 75%), triggering garbage collection
+2025-04-18 17:57:22,980 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:57:29,110 - WARNING - Memory usage high (76.4% > 75%), triggering garbage collection
+2025-04-18 17:57:29,122 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:57:29,572 - WARNING - Memory usage high (76.1% > 75%), triggering garbage collection
+2025-04-18 17:57:29,582 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:57:35,912 - WARNING - Memory usage high (76.7% > 75%), triggering garbage collection
+2025-04-18 17:57:35,923 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:57:36,334 - WARNING - Memory usage high (76.3% > 75%), triggering garbage collection
+2025-04-18 17:57:36,348 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:57:41,549 - WARNING - Memory usage high (76.5% > 75%), triggering garbage collection
+2025-04-18 17:57:41,563 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:57:43,122 - WARNING - Memory usage high (76.4% > 75%), triggering garbage collection
+2025-04-18 17:57:43,136 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:57:48,160 - INFO - Processing page 16/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 17:57:48,160 - INFO - Processing pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_1_of_4.pdf
+2025-04-18 17:57:57,299 - INFO - Processing page 21/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 17:58:04,259 - WARNING - Memory usage high (75.2% > 75%), triggering garbage collection
+2025-04-18 17:58:04,287 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:58:09,288 - INFO - Processing page 26/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 17:58:09,784 - INFO - Processing page 1/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_1_of_4.pdf
+2025-04-18 17:58:10,995 - WARNING - Memory usage high (75.1% > 75%), triggering garbage collection
+2025-04-18 17:58:11,014 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:58:16,611 - WARNING - Memory usage high (75.1% > 75%), triggering garbage collection
+2025-04-18 17:58:16,623 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:58:18,064 - INFO - Processing page 6/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_1_of_4.pdf
+2025-04-18 17:58:22,360 - WARNING - Memory usage high (75.4% > 75%), triggering garbage collection
+2025-04-18 17:58:22,378 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:58:25,114 - WARNING - Memory usage high (75.1% > 75%), triggering garbage collection
+2025-04-18 17:58:25,133 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:58:27,958 - INFO - Processing page 31/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 17:58:30,134 - INFO - Processing page 11/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_1_of_4.pdf
+2025-04-18 17:58:30,811 - WARNING - Memory usage high (75.6% > 75%), triggering garbage collection
+2025-04-18 17:58:30,827 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:58:31,303 - WARNING - Memory usage high (75.2% > 75%), triggering garbage collection
+2025-04-18 17:58:31,313 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:58:36,777 - WARNING - Memory usage high (76.3% > 75%), triggering garbage collection
+2025-04-18 17:58:36,789 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:58:36,943 - WARNING - Memory usage high (75.9% > 75%), triggering garbage collection
+2025-04-18 17:58:36,958 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:58:42,103 - WARNING - Memory usage high (76.2% > 75%), triggering garbage collection
+2025-04-18 17:58:42,114 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:58:44,418 - WARNING - Memory usage high (76.2% > 75%), triggering garbage collection
+2025-04-18 17:58:44,433 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:58:47,114 - INFO - Processing page 36/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 17:58:47,720 - WARNING - Memory usage high (76.5% > 75%), triggering garbage collection
+2025-04-18 17:58:47,731 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:58:49,890 - WARNING - Memory usage high (76.5% > 75%), triggering garbage collection
+2025-04-18 17:58:49,902 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:58:52,956 - WARNING - Memory usage high (76.3% > 75%), triggering garbage collection
+2025-04-18 17:58:52,967 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:58:56,833 - WARNING - Memory usage high (76.9% > 75%), triggering garbage collection
+2025-04-18 17:58:56,857 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:58:58,892 - WARNING - Memory usage high (76.6% > 75%), triggering garbage collection
+2025-04-18 17:58:58,902 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:59:01,858 - INFO - Processing page 16/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_1_of_4.pdf
+2025-04-18 17:59:03,119 - WARNING - Memory usage high (76.4% > 75%), triggering garbage collection
+2025-04-18 17:59:03,129 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:59:04,345 - WARNING - Memory usage high (76.4% > 75%), triggering garbage collection
+2025-04-18 17:59:04,356 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:59:08,596 - WARNING - Memory usage high (76.1% > 75%), triggering garbage collection
+2025-04-18 17:59:08,605 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:59:10,174 - WARNING - Memory usage high (76.1% > 75%), triggering garbage collection
+2025-04-18 17:59:10,184 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:59:15,185 - INFO - Processing page 41/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 17:59:16,222 - WARNING - Memory usage high (75.1% > 75%), triggering garbage collection
+2025-04-18 17:59:16,233 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:59:19,439 - WARNING - Memory usage high (75.1% > 75%), triggering garbage collection
+2025-04-18 17:59:19,452 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:59:21,975 - INFO - Processing page 21/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_1_of_4.pdf
+2025-04-18 17:59:23,118 - WARNING - Memory usage high (75.1% > 75%), triggering garbage collection
+2025-04-18 17:59:23,130 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:59:25,535 - WARNING - Memory usage high (75.3% > 75%), triggering garbage collection
+2025-04-18 17:59:25,548 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 17:59:30,549 - INFO - Processing page 46/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 17:59:32,254 - INFO - Processing page 26/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_1_of_4.pdf
+2025-04-18 17:59:36,752 - INFO - Processing page 31/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_1_of_4.pdf
+2025-04-18 17:59:39,668 - INFO - Processing pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 17:59:44,366 - INFO - Processing page 36/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_1_of_4.pdf
+2025-04-18 17:59:52,078 - INFO - Processing page 41/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_1_of_4.pdf
+2025-04-18 17:59:59,261 - INFO - Processing page 46/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_1_of_4.pdf
+2025-04-18 18:00:04,706 - INFO - Processing page 1/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:00:06,317 - INFO - Processing pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 18:00:11,007 - INFO - Processing page 6/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:00:19,321 - INFO - Progress: 19.0% (11/58) - Est. remaining: 0h 42m
+2025-04-18 18:00:19,557 - INFO - Processing page 11/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:00:24,284 - INFO - Processing page 16/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:00:26,614 - INFO - Processing page 1/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 18:00:30,318 - INFO - Processing page 21/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:00:34,727 - INFO - Processing page 6/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 18:00:37,330 - INFO - Processing page 26/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:00:44,811 - INFO - Processing page 11/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 18:00:46,719 - INFO - Processing page 31/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:00:52,230 - INFO - Processing page 36/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:00:52,702 - INFO - Processing page 16/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 18:00:59,000 - WARNING - Memory usage high (75.1% > 75%), triggering garbage collection
+2025-04-18 18:00:59,019 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:01:03,255 - WARNING - Memory usage high (75.3% > 75%), triggering garbage collection
+2025-04-18 18:01:03,266 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:01:04,021 - INFO - Processing page 41/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:01:04,451 - WARNING - Memory usage high (75.4% > 75%), triggering garbage collection
+2025-04-18 18:01:04,461 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:01:08,266 - INFO - Processing page 21/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 18:01:09,907 - WARNING - Memory usage high (75.4% > 75%), triggering garbage collection
+2025-04-18 18:01:09,918 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:01:10,486 - WARNING - Memory usage high (75.1% > 75%), triggering garbage collection
+2025-04-18 18:01:10,496 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:01:16,129 - WARNING - Memory usage high (75.2% > 75%), triggering garbage collection
+2025-04-18 18:01:16,144 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:01:18,959 - INFO - Processing page 46/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:01:20,263 - WARNING - Memory usage high (75.3% > 75%), triggering garbage collection
+2025-04-18 18:01:20,276 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:01:23,055 - WARNING - Memory usage high (75.3% > 75%), triggering garbage collection
+2025-04-18 18:01:23,064 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:01:26,313 - WARNING - Memory usage high (75.4% > 75%), triggering garbage collection
+2025-04-18 18:01:26,324 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:01:29,823 - WARNING - Memory usage high (76.2% > 75%), triggering garbage collection
+2025-04-18 18:01:29,834 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:01:32,550 - WARNING - Memory usage high (76.2% > 75%), triggering garbage collection
+2025-04-18 18:01:32,560 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:01:37,121 - WARNING - Memory usage high (75.9% > 75%), triggering garbage collection
+2025-04-18 18:01:37,145 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:01:38,420 - WARNING - Memory usage high (75.9% > 75%), triggering garbage collection
+2025-04-18 18:01:38,437 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:01:42,146 - INFO - Processing page 26/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 18:01:43,898 - WARNING - Memory usage high (76.5% > 75%), triggering garbage collection
+2025-04-18 18:01:43,910 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:01:44,261 - INFO - Processing pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:01:55,843 - INFO - Processing page 31/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 18:02:07,109 - INFO - Processing page 1/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:02:09,233 - INFO - Processing page 36/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 18:02:20,800 - INFO - Processing page 6/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:02:22,963 - INFO - Processing page 41/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 18:02:28,460 - INFO - Processing page 11/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:02:32,042 - INFO - Processing page 46/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 18:02:39,220 - INFO - Processing page 16/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:02:40,638 - INFO - Processing 44-sd-394-part_1_of_5.pdf
+2025-04-18 18:02:49,034 - INFO - Processing page 21/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:02:55,912 - INFO - Processing page 1/50 of 44-sd-394-part_1_of_5.pdf
+2025-04-18 18:03:00,424 - INFO - Processing page 6/50 of 44-sd-394-part_1_of_5.pdf
+2025-04-18 18:03:03,855 - INFO - Processing page 26/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:03:13,163 - INFO - Processing page 31/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:03:15,505 - INFO - Processing page 11/50 of 44-sd-394-part_1_of_5.pdf
+2025-04-18 18:03:19,224 - INFO - Processing page 36/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:03:24,471 - INFO - Processing page 16/50 of 44-sd-394-part_1_of_5.pdf
+2025-04-18 18:03:28,503 - INFO - Processing page 21/50 of 44-sd-394-part_1_of_5.pdf
+2025-04-18 18:03:29,652 - INFO - Processing page 41/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:03:32,293 - INFO - Processing page 26/50 of 44-sd-394-part_1_of_5.pdf
+2025-04-18 18:03:35,448 - INFO - Processing page 31/50 of 44-sd-394-part_1_of_5.pdf
+2025-04-18 18:03:41,392 - INFO - Processing page 46/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:03:42,772 - INFO - Processing page 36/50 of 44-sd-394-part_1_of_5.pdf
+2025-04-18 18:03:51,752 - INFO - Processing 44-bs-646-part_5_of_5.pdf
+2025-04-18 18:03:51,779 - INFO - Processing page 41/50 of 44-sd-394-part_1_of_5.pdf
+2025-04-18 18:04:01,670 - INFO - Processing page 46/50 of 44-sd-394-part_1_of_5.pdf
+2025-04-18 18:04:07,311 - INFO - Processing page 1/41 of 44-bs-646-part_5_of_5.pdf
+2025-04-18 18:04:13,872 - INFO - Processing page 6/41 of 44-bs-646-part_5_of_5.pdf
+2025-04-18 18:04:13,951 - INFO - Processing pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 18:04:19,684 - INFO - Processing page 11/41 of 44-bs-646-part_5_of_5.pdf
+2025-04-18 18:04:28,534 - INFO - Processing page 16/41 of 44-bs-646-part_5_of_5.pdf
+2025-04-18 18:04:31,222 - INFO - Processing page 1/25 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 18:04:34,998 - INFO - Processing page 21/41 of 44-bs-646-part_5_of_5.pdf
+2025-04-18 18:04:39,335 - INFO - Processing page 6/25 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 18:04:41,752 - INFO - Processing page 26/41 of 44-bs-646-part_5_of_5.pdf
+2025-04-18 18:04:42,225 - INFO - Processing page 11/25 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 18:04:45,928 - INFO - Processing page 16/25 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 18:04:48,390 - INFO - Processing page 31/41 of 44-bs-646-part_5_of_5.pdf
+2025-04-18 18:04:50,640 - INFO - Processing page 21/25 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 18:04:55,048 - INFO - Processing pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:04:55,679 - INFO - Processing page 36/41 of 44-bs-646-part_5_of_5.pdf
+2025-04-18 18:05:04,533 - INFO - Processing page 41/41 of 44-bs-646-part_5_of_5.pdf
+2025-04-18 18:05:06,203 - INFO - Processing pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 18:05:14,467 - INFO - Processing page 1/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:05:19,783 - INFO - Progress: 29.3% (17/58) - Est. remaining: 0h 36m
+2025-04-18 18:05:21,395 - INFO - Processing page 6/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:05:25,978 - INFO - Processing page 1/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 18:05:26,061 - INFO - Processing page 11/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:05:33,905 - INFO - Processing page 6/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 18:05:33,920 - INFO - Processing page 16/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:05:40,505 - INFO - Processing page 21/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:05:42,163 - INFO - Processing page 11/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 18:05:48,300 - INFO - Processing page 26/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:05:52,193 - INFO - Processing page 16/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 18:05:55,883 - INFO - Processing page 31/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:05:59,019 - INFO - Processing page 21/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 18:06:03,129 - INFO - Processing page 36/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:06:07,863 - INFO - Processing page 26/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 18:06:09,829 - INFO - Processing page 41/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:06:13,594 - INFO - Processing page 31/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 18:06:18,468 - INFO - Processing page 46/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:06:21,551 - INFO - Processing page 36/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 18:06:26,117 - INFO - Processing 44-sd-394-part_4_of_5.pdf
+2025-04-18 18:06:32,883 - INFO - Processing page 41/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 18:06:46,561 - INFO - Processing page 46/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 18:06:53,717 - INFO - Processing page 1/50 of 44-sd-394-part_4_of_5.pdf
+2025-04-18 18:06:57,740 - INFO - Processing pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 18:07:04,342 - INFO - Processing page 6/50 of 44-sd-394-part_4_of_5.pdf
+2025-04-18 18:07:14,591 - INFO - Processing page 11/50 of 44-sd-394-part_4_of_5.pdf
+2025-04-18 18:07:18,466 - INFO - Processing page 1/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 18:07:22,541 - INFO - Processing page 16/50 of 44-sd-394-part_4_of_5.pdf
+2025-04-18 18:07:30,736 - INFO - Processing page 6/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 18:07:34,581 - INFO - Processing page 21/50 of 44-sd-394-part_4_of_5.pdf
+2025-04-18 18:07:38,156 - INFO - Processing page 11/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 18:07:45,939 - INFO - Processing page 26/50 of 44-sd-394-part_4_of_5.pdf
+2025-04-18 18:07:49,223 - INFO - Processing page 16/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 18:07:53,595 - INFO - Processing page 31/50 of 44-sd-394-part_4_of_5.pdf
+2025-04-18 18:07:58,294 - INFO - Processing page 36/50 of 44-sd-394-part_4_of_5.pdf
+2025-04-18 18:08:03,412 - INFO - Processing page 21/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 18:08:04,531 - INFO - Processing page 41/50 of 44-sd-394-part_4_of_5.pdf
+2025-04-18 18:08:11,577 - INFO - Processing page 46/50 of 44-sd-394-part_4_of_5.pdf
+2025-04-18 18:08:15,781 - INFO - Processing page 26/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 18:08:17,950 - WARNING - Memory usage high (75.1% > 75%), triggering garbage collection
+2025-04-18 18:08:17,966 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:08:26,111 - INFO - Processing pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_5_of_8.pdf
+2025-04-18 18:08:29,181 - INFO - Processing page 31/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 18:08:39,283 - INFO - Processing page 36/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 18:08:46,987 - INFO - Processing page 1/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_5_of_8.pdf
+2025-04-18 18:08:47,323 - INFO - Processing page 41/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 18:08:57,408 - INFO - Processing page 46/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 18:08:57,748 - INFO - Processing page 6/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_5_of_8.pdf
+2025-04-18 18:09:04,254 - WARNING - Memory usage high (75.1% > 75%), triggering garbage collection
+2025-04-18 18:09:04,267 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:09:09,206 - INFO - Processing page 11/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_5_of_8.pdf
+2025-04-18 18:09:11,005 - INFO - Processing pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:09:17,149 - INFO - Processing page 1/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:09:18,407 - INFO - Processing page 16/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_5_of_8.pdf
+2025-04-18 18:09:24,408 - INFO - Processing page 6/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:09:25,956 - INFO - Processing page 21/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_5_of_8.pdf
+2025-04-18 18:09:27,614 - INFO - Processing page 11/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:09:32,353 - INFO - Processing page 16/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:09:35,886 - INFO - Processing page 26/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_5_of_8.pdf
+2025-04-18 18:09:39,217 - INFO - Processing page 21/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:09:44,825 - INFO - Processing page 26/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:09:48,014 - INFO - Processing page 31/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_5_of_8.pdf
+2025-04-18 18:09:50,676 - INFO - Processing page 31/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:09:56,697 - INFO - Processing page 36/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:10:00,359 - WARNING - Memory usage high (75.1% > 75%), triggering garbage collection
+2025-04-18 18:10:00,379 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:10:00,637 - WARNING - Memory usage high (75.2% > 75%), triggering garbage collection
+2025-04-18 18:10:00,704 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:10:05,380 - INFO - Processing page 36/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_5_of_8.pdf
+2025-04-18 18:10:07,628 - WARNING - Memory usage high (75.9% > 75%), triggering garbage collection
+2025-04-18 18:10:07,669 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:10:07,941 - WARNING - Memory usage high (75.3% > 75%), triggering garbage collection
+2025-04-18 18:10:08,005 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:10:13,740 - WARNING - Memory usage high (76.8% > 75%), triggering garbage collection
+2025-04-18 18:10:13,757 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:10:14,168 - WARNING - Memory usage high (75.7% > 75%), triggering garbage collection
+2025-04-18 18:10:14,180 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:10:18,758 - INFO - Processing page 41/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:10:19,706 - WARNING - Memory usage high (75.9% > 75%), triggering garbage collection
+2025-04-18 18:10:19,725 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:10:20,335 - INFO - Progress: 36.2% (21/58) - Est. remaining: 0h 35m
+2025-04-18 18:10:21,694 - WARNING - Memory usage high (75.5% > 75%), triggering garbage collection
+2025-04-18 18:10:21,706 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:10:25,179 - WARNING - Memory usage high (75.5% > 75%), triggering garbage collection
+2025-04-18 18:10:25,190 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:10:28,520 - WARNING - Memory usage high (75.4% > 75%), triggering garbage collection
+2025-04-18 18:10:28,532 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:10:31,931 - WARNING - Memory usage high (75.4% > 75%), triggering garbage collection
+2025-04-18 18:10:31,943 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:10:35,671 - WARNING - Memory usage high (75.5% > 75%), triggering garbage collection
+2025-04-18 18:10:35,686 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:10:38,382 - WARNING - Memory usage high (76.0% > 75%), triggering garbage collection
+2025-04-18 18:10:38,420 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:10:40,687 - INFO - Processing page 41/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_5_of_8.pdf
+2025-04-18 18:10:43,292 - WARNING - Memory usage high (75.9% > 75%), triggering garbage collection
+2025-04-18 18:10:43,303 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:10:44,456 - WARNING - Memory usage high (76.0% > 75%), triggering garbage collection
+2025-04-18 18:10:44,470 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:10:49,470 - INFO - Processing page 46/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:10:55,577 - INFO - Processing pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:10:55,839 - INFO - Processing page 46/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_5_of_8.pdf
+2025-04-18 18:11:08,355 - INFO - Processing pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_6_of_8.pdf
+2025-04-18 18:11:22,831 - INFO - Processing page 1/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:11:28,609 - INFO - Processing page 6/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:11:31,971 - INFO - Processing page 1/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_6_of_8.pdf
+2025-04-18 18:11:36,354 - INFO - Processing page 11/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:11:44,446 - INFO - Processing page 6/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_6_of_8.pdf
+2025-04-18 18:11:47,981 - INFO - Processing page 16/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:11:55,978 - INFO - Processing page 11/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_6_of_8.pdf
+2025-04-18 18:11:59,851 - INFO - Processing page 21/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:12:05,191 - INFO - Processing page 16/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_6_of_8.pdf
+2025-04-18 18:12:14,295 - INFO - Processing page 26/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:12:17,524 - INFO - Processing page 21/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_6_of_8.pdf
+2025-04-18 18:12:24,627 - INFO - Processing page 31/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:12:29,069 - INFO - Processing page 26/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_6_of_8.pdf
+2025-04-18 18:12:42,706 - INFO - Processing page 36/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:12:46,710 - INFO - Processing page 31/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_6_of_8.pdf
+2025-04-18 18:12:51,626 - WARNING - Memory usage high (75.1% > 75%), triggering garbage collection
+2025-04-18 18:12:51,642 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:12:57,575 - WARNING - Memory usage high (75.6% > 75%), triggering garbage collection
+2025-04-18 18:12:57,595 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:12:59,557 - WARNING - Memory usage high (75.2% > 75%), triggering garbage collection
+2025-04-18 18:12:59,578 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:13:05,187 - INFO - Processing page 36/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_6_of_8.pdf
+2025-04-18 18:13:05,354 - INFO - Processing page 41/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:13:16,351 - INFO - Processing page 41/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_6_of_8.pdf
+2025-04-18 18:13:20,882 - INFO - Processing page 46/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:13:25,384 - INFO - Processing page 46/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_6_of_8.pdf
+2025-04-18 18:13:33,207 - INFO - Processing pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:13:38,618 - INFO - Processing pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_3_of_8.pdf
+2025-04-18 18:13:56,473 - INFO - Processing page 1/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:14:02,747 - INFO - Processing page 1/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_3_of_8.pdf
+2025-04-18 18:14:07,737 - INFO - Processing page 6/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:14:09,691 - INFO - Processing page 6/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_3_of_8.pdf
+2025-04-18 18:14:15,272 - INFO - Processing page 11/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:14:18,700 - INFO - Processing page 11/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_3_of_8.pdf
+2025-04-18 18:14:24,858 - INFO - Processing page 16/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:14:34,841 - INFO - Processing page 21/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:14:38,778 - INFO - Processing page 26/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:14:41,149 - INFO - Processing page 16/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_3_of_8.pdf
+2025-04-18 18:14:45,187 - INFO - Processing page 31/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:14:48,297 - INFO - Processing page 36/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:14:50,693 - INFO - Processing page 21/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_3_of_8.pdf
+2025-04-18 18:14:53,901 - INFO - Processing page 41/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:15:00,430 - INFO - Processing page 46/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:15:01,023 - INFO - Processing page 26/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_3_of_8.pdf
+2025-04-18 18:15:09,229 - INFO - Processing pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 18:15:11,167 - INFO - Processing page 31/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_3_of_8.pdf
+2025-04-18 18:15:20,949 - INFO - Progress: 44.8% (26/58) - Est. remaining: 0h 30m
+2025-04-18 18:15:22,990 - INFO - Processing page 36/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_3_of_8.pdf
+2025-04-18 18:15:29,141 - INFO - Processing page 1/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 18:15:37,835 - INFO - Processing page 41/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_3_of_8.pdf
+2025-04-18 18:15:49,701 - INFO - Processing page 6/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 18:15:54,145 - INFO - Processing page 46/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_3_of_8.pdf
+2025-04-18 18:16:02,500 - INFO - Processing page 11/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 18:16:05,978 - INFO - Processing pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_4_of_8.pdf
+2025-04-18 18:16:14,023 - INFO - Processing page 16/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 18:16:24,077 - INFO - Processing page 21/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 18:16:34,096 - INFO - Processing page 1/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_4_of_8.pdf
+2025-04-18 18:16:41,270 - INFO - Processing page 26/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 18:16:44,799 - INFO - Processing page 6/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_4_of_8.pdf
+2025-04-18 18:16:51,943 - INFO - Processing page 31/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 18:16:56,357 - INFO - Processing page 11/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_4_of_8.pdf
+2025-04-18 18:17:03,574 - INFO - Processing page 36/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 18:17:08,887 - INFO - Processing page 16/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_4_of_8.pdf
+2025-04-18 18:17:11,817 - INFO - Processing page 41/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 18:17:23,922 - INFO - Processing page 46/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 18:17:30,881 - INFO - Processing page 21/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_4_of_8.pdf
+2025-04-18 18:17:35,766 - INFO - Processing pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 18:17:46,501 - INFO - Processing page 26/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_4_of_8.pdf
+2025-04-18 18:17:54,498 - INFO - Processing page 31/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_4_of_8.pdf
+2025-04-18 18:17:57,295 - INFO - Processing page 1/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 18:18:08,567 - INFO - Processing page 6/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 18:18:22,741 - INFO - Processing page 11/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 18:18:27,956 - INFO - Processing page 36/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_4_of_8.pdf
+2025-04-18 18:18:33,588 - INFO - Processing page 16/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 18:18:38,008 - INFO - Processing page 41/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_4_of_8.pdf
+2025-04-18 18:18:46,847 - INFO - Processing page 21/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 18:18:48,605 - INFO - Processing page 46/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_4_of_8.pdf
+2025-04-18 18:18:52,559 - WARNING - Memory usage high (75.1% > 75%), triggering garbage collection
+2025-04-18 18:18:52,575 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:18:57,356 - INFO - Processing pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 18:19:04,326 - INFO - Processing page 26/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 18:19:09,587 - INFO - Processing page 31/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 18:19:21,704 - INFO - Processing page 36/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 18:19:26,208 - INFO - Processing page 1/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 18:19:36,647 - INFO - Processing page 6/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 18:19:37,575 - INFO - Processing page 41/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 18:19:43,839 - WARNING - Memory usage high (75.2% > 75%), triggering garbage collection
+2025-04-18 18:19:43,865 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:19:44,702 - INFO - Processing page 11/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 18:19:48,738 - WARNING - Memory usage high (75.2% > 75%), triggering garbage collection
+2025-04-18 18:19:48,758 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:19:50,928 - WARNING - Memory usage high (75.2% > 75%), triggering garbage collection
+2025-04-18 18:19:50,943 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:19:56,601 - WARNING - Memory usage high (75.5% > 75%), triggering garbage collection
+2025-04-18 18:19:56,614 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:19:57,016 - INFO - Processing page 46/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 18:20:03,607 - WARNING - Memory usage high (75.1% > 75%), triggering garbage collection
+2025-04-18 18:20:03,620 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:20:07,402 - WARNING - Memory usage high (75.1% > 75%), triggering garbage collection
+2025-04-18 18:20:07,459 - INFO - Processing page 16/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 18:20:11,653 - WARNING - Memory usage high (75.6% > 75%), triggering garbage collection
+2025-04-18 18:20:11,670 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:20:12,010 - WARNING - Memory usage high (75.2% > 75%), triggering garbage collection
+2025-04-18 18:20:12,023 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:20:18,999 - WARNING - Memory usage high (76.2% > 75%), triggering garbage collection
+2025-04-18 18:20:19,020 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:20:21,138 - INFO - Processing 44-sd-394-part_3_of_5.pdf
+2025-04-18 18:20:21,516 - INFO - Progress: 51.7% (30/58) - Est. remaining: 0h 28m
+2025-04-18 18:20:30,401 - INFO - Processing page 21/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 18:20:38,384 - INFO - Processing page 26/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 18:20:43,462 - INFO - Processing page 1/50 of 44-sd-394-part_3_of_5.pdf
+2025-04-18 18:20:49,441 - INFO - Processing page 6/50 of 44-sd-394-part_3_of_5.pdf
+2025-04-18 18:20:49,813 - INFO - Processing page 31/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 18:20:54,491 - INFO - Processing page 11/50 of 44-sd-394-part_3_of_5.pdf
+2025-04-18 18:21:00,138 - INFO - Processing page 36/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 18:21:08,904 - INFO - Processing page 16/50 of 44-sd-394-part_3_of_5.pdf
+2025-04-18 18:21:10,163 - INFO - Processing page 41/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 18:21:19,114 - INFO - Processing page 46/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 18:21:22,382 - WARNING - Memory usage high (76.1% > 75%), triggering garbage collection
+2025-04-18 18:21:22,402 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:21:23,011 - WARNING - Memory usage high (75.7% > 75%), triggering garbage collection
+2025-04-18 18:21:23,027 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:21:27,404 - INFO - Processing page 21/50 of 44-sd-394-part_3_of_5.pdf
+2025-04-18 18:21:28,314 - WARNING - Memory usage high (76.1% > 75%), triggering garbage collection
+2025-04-18 18:21:28,335 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:21:28,758 - WARNING - Memory usage high (75.8% > 75%), triggering garbage collection
+2025-04-18 18:21:28,771 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:21:34,210 - WARNING - Memory usage high (75.8% > 75%), triggering garbage collection
+2025-04-18 18:21:34,221 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:21:35,410 - WARNING - Memory usage high (75.5% > 75%), triggering garbage collection
+2025-04-18 18:21:35,428 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:21:40,461 - WARNING - Memory usage high (75.5% > 75%), triggering garbage collection
+2025-04-18 18:21:40,478 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:21:43,990 - INFO - Processing 44-la-2897-part_1_of_2.pdf
+2025-04-18 18:21:47,297 - INFO - Processing page 26/50 of 44-sd-394-part_3_of_5.pdf
+2025-04-18 18:21:55,506 - INFO - Processing page 31/50 of 44-sd-394-part_3_of_5.pdf
+2025-04-18 18:21:57,912 - INFO - Processing page 1/50 of 44-la-2897-part_1_of_2.pdf
+2025-04-18 18:22:04,159 - INFO - Processing page 36/50 of 44-sd-394-part_3_of_5.pdf
+2025-04-18 18:22:07,296 - INFO - Processing page 6/50 of 44-la-2897-part_1_of_2.pdf
+2025-04-18 18:22:15,359 - INFO - Processing page 41/50 of 44-sd-394-part_3_of_5.pdf
+2025-04-18 18:22:17,991 - INFO - Processing page 11/50 of 44-la-2897-part_1_of_2.pdf
+2025-04-18 18:22:19,671 - INFO - Processing page 46/50 of 44-sd-394-part_3_of_5.pdf
+2025-04-18 18:22:25,919 - INFO - Processing 44-bs-646-part_4_of_5.pdf
+2025-04-18 18:22:29,580 - INFO - Processing page 16/50 of 44-la-2897-part_1_of_2.pdf
+2025-04-18 18:22:40,905 - INFO - Processing page 21/50 of 44-la-2897-part_1_of_2.pdf
+2025-04-18 18:22:47,751 - INFO - Processing page 1/50 of 44-bs-646-part_4_of_5.pdf
+2025-04-18 18:22:50,881 - INFO - Processing page 26/50 of 44-la-2897-part_1_of_2.pdf
+2025-04-18 18:22:57,421 - INFO - Processing page 6/50 of 44-bs-646-part_4_of_5.pdf
+2025-04-18 18:23:00,298 - INFO - Processing page 31/50 of 44-la-2897-part_1_of_2.pdf
+2025-04-18 18:23:05,215 - INFO - Processing page 11/50 of 44-bs-646-part_4_of_5.pdf
+2025-04-18 18:23:10,552 - INFO - Processing page 36/50 of 44-la-2897-part_1_of_2.pdf
+2025-04-18 18:23:17,394 - INFO - Processing page 16/50 of 44-bs-646-part_4_of_5.pdf
+2025-04-18 18:23:18,483 - INFO - Processing page 41/50 of 44-la-2897-part_1_of_2.pdf
+2025-04-18 18:23:24,491 - INFO - Processing page 21/50 of 44-bs-646-part_4_of_5.pdf
+2025-04-18 18:23:35,358 - INFO - Processing page 46/50 of 44-la-2897-part_1_of_2.pdf
+2025-04-18 18:23:36,845 - INFO - Processing page 26/50 of 44-bs-646-part_4_of_5.pdf
+2025-04-18 18:23:44,636 - INFO - Processing page 31/50 of 44-bs-646-part_4_of_5.pdf
+2025-04-18 18:23:46,205 - INFO - Processing 44-sd-394-part_2_of_5.pdf
+2025-04-18 18:23:52,129 - INFO - Processing page 36/50 of 44-bs-646-part_4_of_5.pdf
+2025-04-18 18:24:05,763 - INFO - Processing page 41/50 of 44-bs-646-part_4_of_5.pdf
+2025-04-18 18:24:08,773 - INFO - Processing page 1/50 of 44-sd-394-part_2_of_5.pdf
+2025-04-18 18:24:12,404 - INFO - Processing page 46/50 of 44-bs-646-part_4_of_5.pdf
+2025-04-18 18:24:18,129 - INFO - Processing page 6/50 of 44-sd-394-part_2_of_5.pdf
+2025-04-18 18:24:18,388 - INFO - Processing pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_4_of_4.pdf
+2025-04-18 18:24:27,248 - INFO - Processing page 1/27 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_4_of_4.pdf
+2025-04-18 18:24:29,862 - INFO - Processing page 11/50 of 44-sd-394-part_2_of_5.pdf
+2025-04-18 18:24:36,523 - INFO - Processing page 6/27 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_4_of_4.pdf
+2025-04-18 18:24:37,840 - INFO - Processing page 16/50 of 44-sd-394-part_2_of_5.pdf
+2025-04-18 18:24:49,934 - INFO - Processing page 21/50 of 44-sd-394-part_2_of_5.pdf
+2025-04-18 18:24:51,190 - INFO - Processing page 11/27 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_4_of_4.pdf
+2025-04-18 18:24:56,915 - INFO - Processing page 26/50 of 44-sd-394-part_2_of_5.pdf
+2025-04-18 18:25:12,526 - INFO - Processing page 31/50 of 44-sd-394-part_2_of_5.pdf
+2025-04-18 18:25:18,753 - INFO - Processing page 16/27 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_4_of_4.pdf
+2025-04-18 18:25:21,971 - INFO - Progress: 58.6% (34/58) - Est. remaining: 0h 24m
+2025-04-18 18:25:26,971 - INFO - Processing page 36/50 of 44-sd-394-part_2_of_5.pdf
+2025-04-18 18:25:35,601 - INFO - Processing page 41/50 of 44-sd-394-part_2_of_5.pdf
+2025-04-18 18:25:42,110 - INFO - Processing page 21/27 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_4_of_4.pdf
+2025-04-18 18:25:49,188 - INFO - Processing page 46/50 of 44-sd-394-part_2_of_5.pdf
+2025-04-18 18:25:59,604 - INFO - Processing pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_3.pdf
+2025-04-18 18:26:02,793 - INFO - Processing page 26/27 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_4_of_4.pdf
+2025-04-18 18:26:08,572 - INFO - Processing 44-sd-394-part_5_of_5.pdf
+2025-04-18 18:26:12,318 - INFO - Processing page 1/22 of 44-sd-394-part_5_of_5.pdf
+2025-04-18 18:26:18,418 - INFO - Processing page 6/22 of 44-sd-394-part_5_of_5.pdf
+2025-04-18 18:26:23,362 - INFO - Processing page 1/50 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_3.pdf
+2025-04-18 18:26:26,976 - INFO - Processing page 11/22 of 44-sd-394-part_5_of_5.pdf
+2025-04-18 18:26:31,704 - INFO - Processing page 6/50 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_3.pdf
+2025-04-18 18:26:35,693 - INFO - Processing page 16/22 of 44-sd-394-part_5_of_5.pdf
+2025-04-18 18:26:41,980 - INFO - Processing page 11/50 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_3.pdf
+2025-04-18 18:26:45,616 - INFO - Processing page 16/50 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_3.pdf
+2025-04-18 18:26:47,584 - INFO - Processing page 21/22 of 44-sd-394-part_5_of_5.pdf
+2025-04-18 18:26:50,038 - INFO - Processing page 21/50 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_3.pdf
+2025-04-18 18:26:50,734 - INFO - Processing pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_2_of_4.pdf
+2025-04-18 18:27:01,516 - INFO - Processing page 26/50 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_3.pdf
+2025-04-18 18:27:07,119 - INFO - Processing page 1/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_2_of_4.pdf
+2025-04-18 18:27:08,151 - INFO - Processing page 31/50 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_3.pdf
+2025-04-18 18:27:11,429 - INFO - Processing page 6/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_2_of_4.pdf
+2025-04-18 18:27:15,927 - INFO - Processing page 36/50 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_3.pdf
+2025-04-18 18:27:18,309 - INFO - Processing page 11/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_2_of_4.pdf
+2025-04-18 18:27:24,053 - INFO - Processing page 16/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_2_of_4.pdf
+2025-04-18 18:27:24,418 - INFO - Processing page 41/50 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_3.pdf
+2025-04-18 18:27:31,247 - INFO - Processing page 21/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_2_of_4.pdf
+2025-04-18 18:27:34,660 - INFO - Processing page 46/50 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_3.pdf
+2025-04-18 18:27:37,300 - INFO - Processing page 26/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_2_of_4.pdf
+2025-04-18 18:27:41,250 - INFO - Processing pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_1_of_8.pdf
+2025-04-18 18:27:45,139 - INFO - Processing page 31/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_2_of_4.pdf
+2025-04-18 18:27:54,744 - INFO - Processing page 36/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_2_of_4.pdf
+2025-04-18 18:28:04,295 - INFO - Processing page 41/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_2_of_4.pdf
+2025-04-18 18:28:12,409 - INFO - Processing page 46/50 of pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_2_of_4.pdf
+2025-04-18 18:28:20,646 - INFO - Processing pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 18:28:27,866 - INFO - Processing page 1/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_1_of_8.pdf
+2025-04-18 18:28:37,174 - INFO - Processing page 6/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_1_of_8.pdf
+2025-04-18 18:28:39,131 - INFO - Processing page 1/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 18:28:47,490 - INFO - Processing page 11/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_1_of_8.pdf
+2025-04-18 18:28:51,113 - INFO - Processing page 6/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 18:28:55,774 - INFO - Processing page 16/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_1_of_8.pdf
+2025-04-18 18:29:05,700 - INFO - Processing page 11/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 18:29:15,491 - INFO - Processing page 21/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_1_of_8.pdf
+2025-04-18 18:29:15,711 - INFO - Processing page 16/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 18:29:28,086 - INFO - Processing page 21/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 18:29:37,633 - INFO - Processing page 26/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 18:29:42,094 - INFO - Processing page 26/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_1_of_8.pdf
+2025-04-18 18:29:49,138 - INFO - Processing page 31/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 18:29:58,590 - INFO - Processing page 36/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 18:30:03,908 - INFO - Processing page 31/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_1_of_8.pdf
+2025-04-18 18:30:12,288 - INFO - Processing page 41/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 18:30:22,123 - INFO - Processing page 36/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_1_of_8.pdf
+2025-04-18 18:30:22,159 - INFO - Progress: 67.2% (39/58) - Est. remaining: 0h 19m
+2025-04-18 18:30:24,771 - INFO - Processing page 46/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 18:30:31,415 - INFO - Processing page 41/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_1_of_8.pdf
+2025-04-18 18:30:34,681 - WARNING - Memory usage high (75.2% > 75%), triggering garbage collection
+2025-04-18 18:30:34,698 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:30:39,188 - WARNING - Memory usage high (76.3% > 75%), triggering garbage collection
+2025-04-18 18:30:39,207 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:30:41,614 - INFO - Processing pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:30:49,920 - INFO - Processing page 46/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_1_of_8.pdf
+2025-04-18 18:31:03,212 - INFO - Processing page 1/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:31:07,054 - INFO - Processing pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_7_of_8.pdf
+2025-04-18 18:31:16,083 - INFO - Processing page 6/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:31:23,000 - INFO - Processing page 1/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_7_of_8.pdf
+2025-04-18 18:31:24,278 - INFO - Processing page 11/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:31:33,116 - INFO - Processing page 6/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_7_of_8.pdf
+2025-04-18 18:31:36,223 - INFO - Processing page 16/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:31:42,915 - INFO - Processing page 11/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_7_of_8.pdf
+2025-04-18 18:31:44,520 - INFO - Processing page 21/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:31:54,718 - INFO - Processing page 26/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:31:56,123 - INFO - Processing page 16/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_7_of_8.pdf
+2025-04-18 18:32:02,119 - INFO - Processing page 31/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:32:06,939 - INFO - Processing page 21/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_7_of_8.pdf
+2025-04-18 18:32:10,352 - INFO - Processing page 36/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:32:18,709 - INFO - Processing page 26/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_7_of_8.pdf
+2025-04-18 18:32:20,316 - INFO - Processing page 41/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:32:27,432 - INFO - Processing page 31/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_7_of_8.pdf
+2025-04-18 18:32:29,823 - INFO - Processing page 46/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:32:37,042 - INFO - Processing page 36/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_7_of_8.pdf
+2025-04-18 18:32:43,517 - WARNING - Memory usage high (75.2% > 75%), triggering garbage collection
+2025-04-18 18:32:43,533 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:32:45,491 - INFO - Processing pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:32:53,305 - INFO - Processing page 41/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_7_of_8.pdf
+2025-04-18 18:33:06,158 - INFO - Processing page 46/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_7_of_8.pdf
+2025-04-18 18:33:13,610 - INFO - Processing page 1/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:33:16,114 - INFO - Processing ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7-1_1_1_67-part_1_of_2.pdf
+2025-04-18 18:33:23,066 - INFO - Processing page 6/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:33:30,264 - INFO - Processing page 1/50 of ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7-1_1_1_67-part_1_of_2.pdf
+2025-04-18 18:33:32,498 - INFO - Processing page 11/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:33:40,839 - INFO - Processing page 6/50 of ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7-1_1_1_67-part_1_of_2.pdf
+2025-04-18 18:33:47,373 - INFO - Processing page 16/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:33:52,303 - INFO - Processing page 11/50 of ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7-1_1_1_67-part_1_of_2.pdf
+2025-04-18 18:33:57,282 - INFO - Processing page 21/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:33:58,680 - INFO - Processing page 16/50 of ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7-1_1_1_67-part_1_of_2.pdf
+2025-04-18 18:34:08,033 - INFO - Processing page 26/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:34:08,962 - INFO - Processing page 21/50 of ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7-1_1_1_67-part_1_of_2.pdf
+2025-04-18 18:34:16,812 - INFO - Processing page 26/50 of ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7-1_1_1_67-part_1_of_2.pdf
+2025-04-18 18:34:19,237 - INFO - Processing page 31/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:34:24,828 - INFO - Processing page 31/50 of ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7-1_1_1_67-part_1_of_2.pdf
+2025-04-18 18:34:29,871 - INFO - Processing page 36/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:34:31,578 - INFO - Processing page 36/50 of ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7-1_1_1_67-part_1_of_2.pdf
+2025-04-18 18:34:41,846 - INFO - Processing page 41/50 of ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7-1_1_1_67-part_1_of_2.pdf
+2025-04-18 18:34:52,739 - WARNING - Memory usage high (75.6% > 75%), triggering garbage collection
+2025-04-18 18:34:52,753 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:34:56,673 - INFO - Processing page 41/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:35:02,654 - WARNING - Memory usage high (77.1% > 75%), triggering garbage collection
+2025-04-18 18:35:02,686 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:35:06,049 - WARNING - Memory usage high (76.1% > 75%), triggering garbage collection
+2025-04-18 18:35:06,072 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:35:07,692 - INFO - Processing page 46/50 of ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7-1_1_1_67-part_1_of_2.pdf
+2025-04-18 18:35:08,804 - WARNING - Memory usage high (75.9% > 75%), triggering garbage collection
+2025-04-18 18:35:08,821 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:35:14,103 - WARNING - Memory usage high (76.4% > 75%), triggering garbage collection
+2025-04-18 18:35:14,130 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:35:16,071 - WARNING - Memory usage high (76.0% > 75%), triggering garbage collection
+2025-04-18 18:35:16,088 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:35:21,741 - WARNING - Memory usage high (76.7% > 75%), triggering garbage collection
+2025-04-18 18:35:21,753 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:35:22,718 - INFO - Progress: 74.1% (43/58) - Est. remaining: 0h 15m
+2025-04-18 18:35:24,786 - WARNING - Memory usage high (75.8% > 75%), triggering garbage collection
+2025-04-18 18:35:24,802 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:35:28,662 - WARNING - Memory usage high (75.9% > 75%), triggering garbage collection
+2025-04-18 18:35:28,675 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:35:32,270 - WARNING - Memory usage high (76.4% > 75%), triggering garbage collection
+2025-04-18 18:35:32,284 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:35:34,514 - INFO - Processing pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 18:35:41,614 - INFO - Processing page 46/50 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:36:11,867 - INFO - Processing pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:36:25,712 - INFO - Processing page 1/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:36:33,582 - INFO - Processing page 6/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:36:42,621 - INFO - Processing page 11/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:36:44,493 - INFO - Processing page 1/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 18:36:50,947 - INFO - Processing page 16/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:36:59,486 - INFO - Processing page 6/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 18:37:00,255 - INFO - Processing page 21/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:37:13,956 - INFO - Processing page 26/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:37:18,241 - INFO - Processing page 11/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 18:37:30,050 - INFO - Processing page 31/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:37:33,347 - INFO - Processing page 16/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 18:37:42,481 - INFO - Processing page 36/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:38:02,852 - INFO - Processing page 21/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 18:38:04,990 - INFO - Processing page 41/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:38:17,948 - WARNING - Memory usage high (75.3% > 75%), triggering garbage collection
+2025-04-18 18:38:17,977 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:38:28,991 - WARNING - Memory usage high (75.5% > 75%), triggering garbage collection
+2025-04-18 18:38:29,025 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:38:32,446 - WARNING - Memory usage high (75.3% > 75%), triggering garbage collection
+2025-04-18 18:38:32,488 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:38:39,760 - WARNING - Memory usage high (77.8% > 75%), triggering garbage collection
+2025-04-18 18:38:39,842 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:38:42,496 - WARNING - Memory usage high (77.3% > 75%), triggering garbage collection
+2025-04-18 18:38:42,514 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:38:44,864 - INFO - Processing page 26/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 18:38:47,515 - INFO - Processing page 46/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 18:38:48,427 - WARNING - Memory usage high (77.7% > 75%), triggering garbage collection
+2025-04-18 18:38:48,475 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:38:49,224 - WARNING - Memory usage high (77.5% > 75%), triggering garbage collection
+2025-04-18 18:38:49,263 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:38:55,914 - WARNING - Memory usage high (77.6% > 75%), triggering garbage collection
+2025-04-18 18:38:55,937 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:38:57,472 - WARNING - Memory usage high (77.0% > 75%), triggering garbage collection
+2025-04-18 18:38:57,485 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:39:03,133 - WARNING - Memory usage high (77.8% > 75%), triggering garbage collection
+2025-04-18 18:39:03,159 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:39:07,197 - WARNING - Memory usage high (77.1% > 75%), triggering garbage collection
+2025-04-18 18:39:07,226 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:39:11,413 - WARNING - Memory usage high (76.9% > 75%), triggering garbage collection
+2025-04-18 18:39:11,438 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:39:15,981 - WARNING - Memory usage high (76.9% > 75%), triggering garbage collection
+2025-04-18 18:39:15,997 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:39:19,698 - INFO - Processing pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_3.pdf
+2025-04-18 18:39:25,791 - INFO - Processing page 31/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 18:39:41,798 - INFO - Processing page 1/50 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_3.pdf
+2025-04-18 18:39:46,431 - INFO - Processing page 36/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 18:39:58,463 - INFO - Processing page 6/50 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_3.pdf
+2025-04-18 18:40:02,203 - WARNING - Memory usage high (75.2% > 75%), triggering garbage collection
+2025-04-18 18:40:02,415 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:40:18,223 - INFO - Processing page 41/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 18:40:21,214 - INFO - Processing page 11/50 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_3.pdf
+2025-04-18 18:40:23,062 - INFO - Progress: 79.3% (46/58) - Est. remaining: 0h 13m
+2025-04-18 18:40:28,786 - INFO - Processing page 16/50 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_3.pdf
+2025-04-18 18:40:33,535 - INFO - Processing page 46/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 18:40:38,580 - INFO - Processing page 21/50 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_3.pdf
+2025-04-18 18:40:53,069 - INFO - Processing page 26/50 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_3.pdf
+2025-04-18 18:40:53,773 - INFO - Processing pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 18:41:07,560 - INFO - Processing page 31/50 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_3.pdf
+2025-04-18 18:41:13,558 - INFO - Processing page 1/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 18:41:17,970 - INFO - Processing page 36/50 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_3.pdf
+2025-04-18 18:41:22,173 - INFO - Processing page 6/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 18:41:25,457 - INFO - Processing page 41/50 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_3.pdf
+2025-04-18 18:41:32,454 - INFO - Processing page 11/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 18:41:34,143 - INFO - Processing page 46/50 of pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_3.pdf
+2025-04-18 18:41:43,929 - INFO - Processing ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7_1_1_1_67-part_2_of_2.pdf
+2025-04-18 18:41:44,603 - INFO - Processing page 16/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 18:41:48,373 - INFO - Processing page 1/39 of ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7_1_1_1_67-part_2_of_2.pdf
+2025-04-18 18:41:55,950 - INFO - Processing page 21/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 18:41:58,123 - INFO - Processing page 6/39 of ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7_1_1_1_67-part_2_of_2.pdf
+2025-04-18 18:42:07,076 - INFO - Processing page 26/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 18:42:11,324 - INFO - Processing page 11/39 of ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7_1_1_1_67-part_2_of_2.pdf
+2025-04-18 18:42:17,114 - INFO - Processing page 31/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 18:42:21,353 - INFO - Processing page 16/39 of ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7_1_1_1_67-part_2_of_2.pdf
+2025-04-18 18:42:30,864 - INFO - Processing page 36/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 18:42:32,396 - INFO - Processing page 21/39 of ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7_1_1_1_67-part_2_of_2.pdf
+2025-04-18 18:42:42,830 - INFO - Processing page 26/39 of ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7_1_1_1_67-part_2_of_2.pdf
+2025-04-18 18:42:44,512 - INFO - Processing page 41/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 18:42:50,014 - INFO - Processing page 31/39 of ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7_1_1_1_67-part_2_of_2.pdf
+2025-04-18 18:42:53,889 - INFO - Processing page 46/50 of pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 18:42:59,723 - INFO - Processing page 36/39 of ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7_1_1_1_67-part_2_of_2.pdf
+2025-04-18 18:43:03,082 - INFO - Processing pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_2_of_8.pdf
+2025-04-18 18:43:06,576 - INFO - Processing pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 18:43:15,333 - INFO - Processing page 1/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_2_of_8.pdf
+2025-04-18 18:43:22,306 - INFO - Processing page 6/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_2_of_8.pdf
+2025-04-18 18:43:23,937 - INFO - Processing page 1/53 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 18:43:31,054 - INFO - Processing page 6/53 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 18:43:31,094 - INFO - Processing page 11/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_2_of_8.pdf
+2025-04-18 18:43:38,911 - INFO - Processing page 11/53 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 18:43:41,063 - INFO - Processing page 16/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_2_of_8.pdf
+2025-04-18 18:43:47,109 - INFO - Processing page 16/53 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 18:43:49,591 - INFO - Processing page 21/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_2_of_8.pdf
+2025-04-18 18:43:54,280 - INFO - Processing page 21/53 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 18:43:56,098 - INFO - Processing page 26/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_2_of_8.pdf
+2025-04-18 18:44:05,138 - INFO - Processing page 31/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_2_of_8.pdf
+2025-04-18 18:44:05,444 - INFO - Processing page 26/53 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 18:44:13,729 - INFO - Processing page 31/53 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 18:44:16,252 - INFO - Processing page 36/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_2_of_8.pdf
+2025-04-18 18:44:23,325 - INFO - Processing page 36/53 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 18:44:24,942 - INFO - Processing page 41/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_2_of_8.pdf
+2025-04-18 18:44:33,689 - INFO - Processing page 41/53 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 18:44:35,148 - INFO - Processing page 46/50 of pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_2_of_8.pdf
+2025-04-18 18:44:43,641 - INFO - Processing pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:44:46,329 - INFO - Processing page 46/53 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 18:44:54,682 - INFO - Processing page 51/53 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 18:44:56,276 - INFO - Processing page 1/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:45:00,174 - INFO - Processing pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 18:45:03,147 - INFO - Processing page 6/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:45:09,106 - INFO - Processing page 11/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:45:13,847 - INFO - Processing page 16/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:45:15,785 - INFO - Processing page 1/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 18:45:18,324 - INFO - Processing page 21/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:45:23,197 - INFO - Progress: 89.7% (52/58) - Est. remaining: 0h 6m
+2025-04-18 18:45:30,283 - INFO - Processing page 6/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 18:45:30,546 - INFO - Processing page 26/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:45:40,356 - INFO - Processing page 11/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 18:45:44,962 - INFO - Processing page 31/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:45:48,176 - INFO - Processing page 36/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:45:49,868 - INFO - Processing page 16/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 18:45:52,043 - INFO - Processing page 41/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:46:01,053 - INFO - Processing page 21/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 18:46:03,052 - INFO - Processing page 46/50 of pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 18:46:09,466 - INFO - Processing pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:46:12,628 - INFO - Processing page 26/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 18:46:13,520 - INFO - Processing page 1/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:46:20,284 - INFO - Processing page 6/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:46:24,345 - INFO - Processing page 31/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 18:46:34,447 - INFO - Processing page 11/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:46:35,728 - INFO - Processing page 36/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 18:46:42,172 - INFO - Processing page 16/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:46:47,035 - INFO - Processing page 41/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 18:46:52,485 - INFO - Processing page 21/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:46:57,600 - INFO - Processing page 46/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 18:47:01,641 - INFO - Processing page 26/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:47:08,972 - INFO - Processing pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 18:47:10,796 - INFO - Processing page 31/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:47:19,191 - INFO - Processing page 36/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:47:27,609 - INFO - Processing page 41/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:47:32,721 - INFO - Processing page 46/50 of pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:47:38,488 - INFO - Processing pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 18:47:44,375 - INFO - Processing page 1/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 18:47:56,431 - INFO - Processing page 6/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 18:48:07,935 - INFO - Processing page 11/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 18:48:48,546 - INFO - Processing page 1/49 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 18:48:57,142 - INFO - Processing page 16/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 18:49:20,812 - INFO - Processing page 6/49 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 18:49:39,580 - INFO - Processing page 11/49 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 18:50:14,684 - WARNING - Memory usage high (75.5% > 75%), triggering garbage collection
+2025-04-18 18:50:14,698 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:50:23,817 - INFO - Progress: 94.8% (55/58) - Est. remaining: 0h 3m
+2025-04-18 18:50:32,590 - INFO - Processing page 16/49 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 18:50:45,000 - INFO - Processing page 21/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 18:50:50,774 - WARNING - Memory usage high (75.2% > 75%), triggering garbage collection
+2025-04-18 18:50:50,791 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:50:56,430 - INFO - Processing page 21/49 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 18:51:02,811 - WARNING - Memory usage high (75.8% > 75%), triggering garbage collection
+2025-04-18 18:51:02,867 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:51:11,839 - WARNING - Memory usage high (75.6% > 75%), triggering garbage collection
+2025-04-18 18:51:11,879 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:51:36,226 - WARNING - Memory usage high (75.2% > 75%), triggering garbage collection
+2025-04-18 18:51:36,245 - WARNING - Memory usage too high, pausing for 5 seconds during page processing

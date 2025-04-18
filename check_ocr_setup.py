@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-OCR Setup Checker - Test if OCR dependencies are correctly installed
+GovDocHarvester - OCR Setup Checker
+Test if OCR dependencies are correctly installed
 """
 
 import os

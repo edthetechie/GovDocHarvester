@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-PDF Search System - Main launcher for OCR and search interface
+GovDocHarvester - Main launcher for OCR and search interface
 """
 
 import os

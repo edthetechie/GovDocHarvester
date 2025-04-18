@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-PDF OCR Processor - Extract text from scanned PDF documents
+GovDocHarvester - OCR Processor Module
+Extract text from scanned PDF documents
 """
 
 import os
