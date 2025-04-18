@@ -3,5 +3,14 @@
         "activityBar.background": "#092F50",
         "titleBar.activeBackground": "#0D426F",
         "titleBar.activeForeground": "#F8FCFE"
-    }
+    },
+    
+    // Python settings
+    "python.analysis.extraPaths": [],
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.importFormat": "absolute",
+    "python.languageServer": "Pylance"
 }

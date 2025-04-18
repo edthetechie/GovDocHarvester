@@ -11,3 +11,6 @@ POPPLER_PATH = r"C:\Program Files\poppler\bin"
 
 # Number of OCR worker threads to use (increase for faster processing on multi-core systems)
 OCR_WORKERS = 2
+
+# Maximum memory usage percentage before pausing (75% is a safe default)
+MAX_MEMORY_PERCENT = 75

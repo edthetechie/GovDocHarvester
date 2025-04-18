@@ -28,7 +28,8 @@ def check_python_packages():
     
     # Special check for PIL/Pillow
     try:
-        import PIL
+        # The proper way to import Pillow is through specific modules
+        from PIL import Image
         print(f"✓ PIL (Pillow) is installed")
     except ImportError:
         missing_packages.append('pillow')
@@ -156,7 +157,8 @@ def test_simple_ocr():
         return False
     
     try:
-        from PIL import Image, ImageDraw, ImageFont
+        # Correct import from PIL
+        from PIL import Image, ImageDraw
         import pytesseract
         
         # Create a simple test image with text
