@@ -1140,3 +1140,131 @@
 2025-04-18 18:51:11,879 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
 2025-04-18 18:51:36,226 - WARNING - Memory usage high (75.2% > 75%), triggering garbage collection
 2025-04-18 18:51:36,245 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:51:55,902 - INFO - Processing page 26/49 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 18:52:07,251 - WARNING - Memory usage high (76.1% > 75%), triggering garbage collection
+2025-04-18 18:52:07,274 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:52:13,474 - WARNING - Memory usage high (76.3% > 75%), triggering garbage collection
+2025-04-18 18:52:13,490 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:52:25,273 - WARNING - Memory usage high (77.0% > 75%), triggering garbage collection
+2025-04-18 18:52:25,304 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:52:26,082 - WARNING - Memory usage high (76.2% > 75%), triggering garbage collection
+2025-04-18 18:52:26,096 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:52:42,896 - INFO - Processing page 31/49 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 18:52:49,890 - INFO - Processing page 26/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 18:53:04,893 - INFO - Processing page 36/49 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 18:53:22,209 - INFO - Processing page 41/49 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 18:53:31,360 - WARNING - Memory usage high (78.3% > 75%), triggering garbage collection
+2025-04-18 18:53:31,377 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:53:41,783 - WARNING - Memory usage high (78.0% > 75%), triggering garbage collection
+2025-04-18 18:53:41,826 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:53:48,975 - WARNING - Memory usage high (78.0% > 75%), triggering garbage collection
+2025-04-18 18:53:48,989 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:53:49,217 - WARNING - Memory usage high (77.6% > 75%), triggering garbage collection
+2025-04-18 18:53:49,231 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:53:57,053 - WARNING - Memory usage high (78.7% > 75%), triggering garbage collection
+2025-04-18 18:53:57,065 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:54:02,066 - INFO - Processing page 46/49 of pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 18:54:03,724 - WARNING - Memory usage high (78.8% > 75%), triggering garbage collection
+2025-04-18 18:54:03,737 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:54:11,293 - WARNING - Memory usage high (78.5% > 75%), triggering garbage collection
+2025-04-18 18:54:11,307 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:54:13,067 - WARNING - Memory usage high (77.6% > 75%), triggering garbage collection
+2025-04-18 18:54:13,079 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:54:17,957 - WARNING - Memory usage high (77.3% > 75%), triggering garbage collection
+2025-04-18 18:54:17,971 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:54:23,952 - INFO - Processing pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:54:41,559 - INFO - Processing page 31/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 18:55:01,000 - INFO - Processing page 1/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:55:16,643 - INFO - Processing page 6/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:55:24,307 - INFO - Progress: 96.6% (56/58) - Est. remaining: 0h 2m
+2025-04-18 18:55:24,542 - INFO - Processing page 11/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:55:33,727 - INFO - Processing page 16/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:55:39,273 - INFO - Processing page 21/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:55:43,055 - WARNING - Memory usage high (75.2% > 75%), triggering garbage collection
+2025-04-18 18:55:43,067 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:55:49,252 - WARNING - Memory usage high (75.4% > 75%), triggering garbage collection
+2025-04-18 18:55:49,267 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:55:54,268 - INFO - Processing page 26/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:55:55,402 - WARNING - Memory usage high (76.5% > 75%), triggering garbage collection
+2025-04-18 18:55:55,419 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:55:56,696 - WARNING - Memory usage high (75.5% > 75%), triggering garbage collection
+2025-04-18 18:55:56,712 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:56:01,193 - WARNING - Memory usage high (75.7% > 75%), triggering garbage collection
+2025-04-18 18:56:01,211 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:56:01,713 - INFO - Processing page 36/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 18:56:07,732 - WARNING - Memory usage high (77.4% > 75%), triggering garbage collection
+2025-04-18 18:56:07,762 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:56:14,958 - WARNING - Memory usage high (79.6% > 75%), triggering garbage collection
+2025-04-18 18:56:14,973 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:56:20,742 - WARNING - Memory usage high (79.6% > 75%), triggering garbage collection
+2025-04-18 18:56:20,755 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:56:23,877 - WARNING - Memory usage high (78.1% > 75%), triggering garbage collection
+2025-04-18 18:56:23,889 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:56:25,755 - INFO - Processing page 31/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:56:27,027 - WARNING - Memory usage high (78.1% > 75%), triggering garbage collection
+2025-04-18 18:56:27,041 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:56:32,519 - WARNING - Memory usage high (79.3% > 75%), triggering garbage collection
+2025-04-18 18:56:32,535 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:56:38,413 - WARNING - Memory usage high (79.5% > 75%), triggering garbage collection
+2025-04-18 18:56:38,428 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:56:44,525 - WARNING - Memory usage high (79.7% > 75%), triggering garbage collection
+2025-04-18 18:56:44,540 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:56:49,238 - WARNING - Memory usage high (77.9% > 75%), triggering garbage collection
+2025-04-18 18:56:49,250 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:56:51,248 - WARNING - Memory usage high (77.5% > 75%), triggering garbage collection
+2025-04-18 18:56:51,259 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:56:56,261 - INFO - Processing page 36/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:56:57,050 - WARNING - Memory usage high (79.2% > 75%), triggering garbage collection
+2025-04-18 18:56:57,063 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:57:04,827 - WARNING - Memory usage high (79.8% > 75%), triggering garbage collection
+2025-04-18 18:57:04,854 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:57:10,737 - WARNING - Memory usage high (79.5% > 75%), triggering garbage collection
+2025-04-18 18:57:10,762 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:57:17,834 - WARNING - Memory usage high (80.0% > 75%), triggering garbage collection
+2025-04-18 18:57:17,860 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:57:20,024 - WARNING - Memory usage high (79.0% > 75%), triggering garbage collection
+2025-04-18 18:57:20,037 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:57:23,704 - WARNING - Memory usage high (78.8% > 75%), triggering garbage collection
+2025-04-18 18:57:23,718 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:57:27,661 - WARNING - Memory usage high (78.7% > 75%), triggering garbage collection
+2025-04-18 18:57:27,674 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:57:28,719 - INFO - Processing page 41/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:57:29,617 - WARNING - Memory usage high (78.8% > 75%), triggering garbage collection
+2025-04-18 18:57:29,636 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:57:33,138 - WARNING - Memory usage high (78.9% > 75%), triggering garbage collection
+2025-04-18 18:57:33,156 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:57:36,268 - WARNING - Memory usage high (79.0% > 75%), triggering garbage collection
+2025-04-18 18:57:36,281 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:57:38,158 - INFO - Processing page 41/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 18:57:39,818 - WARNING - Memory usage high (79.1% > 75%), triggering garbage collection
+2025-04-18 18:57:39,831 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:57:42,136 - WARNING - Memory usage high (79.1% > 75%), triggering garbage collection
+2025-04-18 18:57:42,149 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:57:46,156 - WARNING - Memory usage high (79.1% > 75%), triggering garbage collection
+2025-04-18 18:57:46,167 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:57:48,347 - WARNING - Memory usage high (79.2% > 75%), triggering garbage collection
+2025-04-18 18:57:48,364 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:57:54,270 - WARNING - Memory usage high (79.4% > 75%), triggering garbage collection
+2025-04-18 18:57:54,289 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:57:54,320 - WARNING - Memory usage high (79.2% > 75%), triggering garbage collection
+2025-04-18 18:57:54,336 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:57:59,291 - INFO - Processing page 46/50 of pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 18:58:00,317 - WARNING - Memory usage high (80.0% > 75%), triggering garbage collection
+2025-04-18 18:58:00,342 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:58:04,848 - WARNING - Memory usage high (79.7% > 75%), triggering garbage collection
+2025-04-18 18:58:04,863 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:58:06,269 - WARNING - Memory usage high (79.9% > 75%), triggering garbage collection
+2025-04-18 18:58:06,284 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:58:12,701 - WARNING - Memory usage high (80.5% > 75%), triggering garbage collection
+2025-04-18 18:58:12,722 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:58:13,786 - WARNING - Memory usage high (80.0% > 75%), triggering garbage collection
+2025-04-18 18:58:13,798 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:58:18,799 - INFO - Processing page 46/50 of pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 18:58:19,617 - WARNING - Memory usage high (80.3% > 75%), triggering garbage collection
+2025-04-18 18:58:19,631 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:58:21,764 - WARNING - Memory usage high (79.8% > 75%), triggering garbage collection
+2025-04-18 18:58:21,776 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:58:29,793 - WARNING - Memory usage high (75.6% > 75%), triggering garbage collection
+2025-04-18 18:58:29,806 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:58:35,749 - WARNING - Memory usage high (75.6% > 75%), triggering garbage collection
+2025-04-18 18:58:35,763 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
