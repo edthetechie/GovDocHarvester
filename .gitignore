@@ -31,6 +31,8 @@ ocr_text/*
 !ocr_text/.gitkeep
 search_index/*
 !search_index/.gitkeep
+downloads.zip
+ocr_text.zip
 
 # Log files
 *.log
