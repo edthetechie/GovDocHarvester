@@ -1268,3 +1268,7 @@
 2025-04-18 18:58:29,806 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
 2025-04-18 18:58:35,749 - WARNING - Memory usage high (75.6% > 75%), triggering garbage collection
 2025-04-18 18:58:35,763 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:58:43,331 - WARNING - Memory usage high (75.7% > 75%), triggering garbage collection
+2025-04-18 18:58:43,347 - WARNING - Memory usage too high, pausing for 5 seconds during page processing
+2025-04-18 18:58:50,430 - INFO - Building search index...
+2025-04-18 18:58:50,430 - INFO - Found 229 text files to index
