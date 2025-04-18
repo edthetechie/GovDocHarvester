@@ -1,0 +1,473 @@
+2025-04-18 13:14:45,341 - INFO - Starting crawl of https://www.archives.gov/research/rfk with max depth 3
+2025-04-18 13:14:45,342 - INFO - Crawling at depth 1/3
+2025-04-18 13:14:45,342 - INFO - Extracting links from https://www.archives.gov/research/rfk
+2025-04-18 13:14:46,674 - INFO - Crawling at depth 2/3
+2025-04-18 13:14:46,674 - INFO - Extracting links from https://www.archives.gov/research/rfk#page-header
+2025-04-18 13:14:47,770 - INFO - Extracting links from https://www.archives.gov/research/rfk#other
+2025-04-18 13:14:48,859 - INFO - Extracting links from https://www.archives.gov/research/rfk#how
+2025-04-18 13:14:49,967 - INFO - Extracting links from https://www.archives.gov/research/rfk#eo
+2025-04-18 13:14:51,051 - INFO - Extracting links from https://www.archives.gov/research/rfk#main-col
+2025-04-18 13:14:52,134 - INFO - Extracting links from https://www.archives.gov/research/rfk#contact
+2025-04-18 13:14:53,214 - INFO - Extracting links from https://www.archives.gov/research/rfk#release
+2025-04-18 13:14:54,290 - INFO - No more URLs to crawl
+2025-04-18 13:14:54,291 - INFO - Crawl complete. Found 229 PDF files.
+2025-04-18 13:14:54,291 - INFO - Starting download of 229 PDF files
+2025-04-18 13:14:54,292 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_6-part_2_of_4.pdf to downloads/rfk\166-12c-1_section_6-part_2_of_4.pdf
+2025-04-18 13:14:55,151 - INFO - Successfully downloaded 166-12c-1_section_6-part_2_of_4.pdf
+2025-04-18 13:14:56,153 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_1-la-report_8.7.68-part_4_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_1-la-report_8.7.68-part_4_of_7.pdf
+2025-04-18 13:14:57,503 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_1-la-report_8.7.68-part_4_of_7.pdf
+2025-04-18 13:14:58,504 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_65-hq-587_12.4.68-part_7_of_8.pdf to downloads/rfk\166-12c-1_serial_1_65-hq-587_12.4.68-part_7_of_8.pdf
+2025-04-18 13:14:59,431 - INFO - Successfully downloaded 166-12c-1_serial_1_65-hq-587_12.4.68-part_7_of_8.pdf
+2025-04-18 13:15:00,433 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_1-la-report_8.7.68-part_1_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_1-la-report_8.7.68-part_1_of_7.pdf
+2025-04-18 13:15:01,464 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_1-la-report_8.7.68-part_1_of_7.pdf
+2025-04-18 13:15:02,466 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_1-la-report_8.7.68-part_6_of_7_v3.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_1-la-report_8.7.68-part_6_of_7_v3.pdf
+2025-04-18 13:15:03,858 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_1-la-report_8.7.68-part_6_of_7_v3.pdf
+2025-04-18 13:15:04,859 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/173-wfo-135_volume_2_combined-part_4_of_6.pdf to downloads/rfk\173-wfo-135_volume_2_combined-part_4_of_6.pdf
+2025-04-18 13:15:06,308 - INFO - Successfully downloaded 173-wfo-135_volume_2_combined-part_4_of_6.pdf
+2025-04-18 13:15:07,310 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/44-bh-1772-part_2_of_2.pdf to downloads/rfk\44-bh-1772-part_2_of_2.pdf
+2025-04-18 13:15:08,091 - INFO - Successfully downloaded 44-bh-1772-part_2_of_2.pdf
+2025-04-18 13:15:09,092 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_section_1-la-report_7.1.68-part_1_of_8.pdf to downloads/rfk\166-12c-1_serial_2_section_1-la-report_7.1.68-part_1_of_8.pdf
+2025-04-18 13:15:09,977 - INFO - Successfully downloaded 166-12c-1_serial_2_section_1-la-report_7.1.68-part_1_of_8.pdf
+2025-04-18 13:15:10,978 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_box_42_jan1970.pdf to downloads/rfk\166-12c-1_box_42_jan1970.pdf
+2025-04-18 13:15:11,531 - INFO - Successfully downloaded 166-12c-1_box_42_jan1970.pdf
+2025-04-18 13:15:12,532 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/173-wfo-135_volume_2_combined-part_3_of_6.pdf to downloads/rfk\173-wfo-135_volume_2_combined-part_3_of_6.pdf
+2025-04-18 13:15:13,767 - INFO - Successfully downloaded 173-wfo-135_volume_2_combined-part_3_of_6.pdf
+2025-04-18 13:15:14,769 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62-hq-587_la_report_2.7.69-part_5_of_5.pdf to downloads/rfk\166-12c-1_serial_2_62-hq-587_la_report_2.7.69-part_5_of_5.pdf
+2025-04-18 13:15:15,466 - INFO - Successfully downloaded 166-12c-1_serial_2_62-hq-587_la_report_2.7.69-part_5_of_5.pdf
+2025-04-18 13:15:16,468 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_1-la-report_10.10.68-part_2_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_1-la-report_10.10.68-part_2_of_7.pdf
+2025-04-18 13:15:17,660 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_1-la-report_10.10.68-part_2_of_7.pdf
+2025-04-18 13:15:18,662 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_7-part_4_of_6.pdf to downloads/rfk\166-12c-1_section_7-part_4_of_6.pdf
+2025-04-18 13:15:19,966 - INFO - Successfully downloaded 166-12c-1_section_7-part_4_of_6.pdf
+2025-04-18 13:15:20,967 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_2-part_1_of_4.pdf to downloads/rfk\166-12c-1_section_2-part_1_of_4.pdf
+2025-04-18 13:15:21,948 - INFO - Successfully downloaded 166-12c-1_section_2-part_1_of_4.pdf
+2025-04-18 13:15:22,950 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_section_3-la-report_7.1.68-part_3_of_3.pdf to downloads/rfk\166-12c-1_serial_2_section_3-la-report_7.1.68-part_3_of_3.pdf
+2025-04-18 13:15:23,713 - INFO - Successfully downloaded 166-12c-1_serial_2_section_3-la-report_7.1.68-part_3_of_3.pdf
+2025-04-18 13:15:24,715 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_9-part_3_of_6.pdf to downloads/rfk\166-12c-1_section_9-part_3_of_6.pdf
+2025-04-18 13:15:25,941 - INFO - Successfully downloaded 166-12c-1_section_9-part_3_of_6.pdf
+2025-04-18 13:15:26,943 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_4_56-la-156_la_report_6.9.68-part_1_of_4.pdf to downloads/rfk\166-12c-1_serial_1_section_4_56-la-156_la_report_6.9.68-part_1_of_4.pdf
+2025-04-18 13:15:27,899 - INFO - Successfully downloaded 166-12c-1_serial_1_section_4_56-la-156_la_report_6.9.68-part_1_of_4.pdf
+2025-04-18 13:15:28,900 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_2-la-report_8.7.68-part_1_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_2-la-report_8.7.68-part_1_of_7.pdf
+2025-04-18 13:15:29,854 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_2-la-report_8.7.68-part_1_of_7.pdf
+2025-04-18 13:15:30,856 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_1-part_2_of_5.pdf to downloads/rfk\166-12c-1_section_1-part_2_of_5.pdf
+2025-04-18 13:15:32,034 - INFO - Successfully downloaded 166-12c-1_section_1-part_2_of_5.pdf
+2025-04-18 13:15:33,035 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_5_of_5.pdf to downloads/rfk\pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 13:15:34,671 - INFO - Successfully downloaded pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 13:15:35,672 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_65-hq-587_12.4.68-part_2_of_8.pdf to downloads/rfk\166-12c-1_serial_1_65-hq-587_12.4.68-part_2_of_8.pdf
+2025-04-18 13:15:36,828 - INFO - Successfully downloaded 166-12c-1_serial_1_65-hq-587_12.4.68-part_2_of_8.pdf
+2025-04-18 13:15:37,830 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_1-la-report_8.7.68-part_5_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_1-la-report_8.7.68-part_5_of_7.pdf
+2025-04-18 13:15:38,796 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_1-la-report_8.7.68-part_5_of_7.pdf
+2025-04-18 13:15:39,798 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62-hq-587_la_report_2.7.69-part_4_of_5.pdf to downloads/rfk\166-12c-1_serial_2_62-hq-587_la_report_2.7.69-part_4_of_5.pdf
+2025-04-18 13:15:40,910 - INFO - Successfully downloaded 166-12c-1_serial_2_62-hq-587_la_report_2.7.69-part_4_of_5.pdf
+2025-04-18 13:15:41,912 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_4-part_3_of_3.pdf to downloads/rfk\166-12c-1_section_4-part_3_of_3.pdf
+2025-04-18 13:15:43,129 - INFO - Successfully downloaded 166-12c-1_section_4-part_3_of_3.pdf
+2025-04-18 13:15:44,130 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_4_of_6.pdf to downloads/rfk\pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 13:15:44,994 - INFO - Successfully downloaded pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 13:15:45,995 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_4_of_5.pdf to downloads/rfk\pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 13:15:47,235 - INFO - Successfully downloaded pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 13:15:48,237 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_8_of_8.pdf to downloads/rfk\pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_8_of_8.pdf
+2025-04-18 13:15:48,803 - INFO - Successfully downloaded pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_8_of_8.pdf
+2025-04-18 13:15:49,804 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_1_56-la-156_la_report_6.9.68-part_2_of_4.pdf to downloads/rfk\166-12c-1_serial_1_section_1_56-la-156_la_report_6.9.68-part_2_of_4.pdf
+2025-04-18 13:15:51,237 - INFO - Successfully downloaded 166-12c-1_serial_1_section_1_56-la-156_la_report_6.9.68-part_2_of_4.pdf
+2025-04-18 13:15:52,238 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_3_of_5.pdf to downloads/rfk\pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 13:15:53,068 - INFO - Successfully downloaded pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 13:15:54,069 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_6-part_3_of_4.pdf to downloads/rfk\166-12c-1_section_6-part_3_of_4.pdf
+2025-04-18 13:15:54,877 - INFO - Successfully downloaded 166-12c-1_section_6-part_3_of_4.pdf
+2025-04-18 13:15:55,879 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_3_56-la-156_la_report_6.9.68-part_1_of_6.pdf to downloads/rfk\166-12c-1_serial_1_section_3_56-la-156_la_report_6.9.68-part_1_of_6.pdf
+2025-04-18 13:15:57,309 - INFO - Successfully downloaded 166-12c-1_serial_1_section_3_56-la-156_la_report_6.9.68-part_1_of_6.pdf
+2025-04-18 13:15:58,311 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_65-hq-587_12.4.68-part_4_of_8.pdf to downloads/rfk\166-12c-1_serial_1_65-hq-587_12.4.68-part_4_of_8.pdf
+2025-04-18 13:15:59,281 - INFO - Successfully downloaded 166-12c-1_serial_1_65-hq-587_12.4.68-part_4_of_8.pdf
+2025-04-18 13:16:00,282 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/173-wfo-135_volume_2_combined-part_1_of_6.pdf to downloads/rfk\173-wfo-135_volume_2_combined-part_1_of_6.pdf
+2025-04-18 13:16:02,225 - INFO - Successfully downloaded 173-wfo-135_volume_2_combined-part_1_of_6.pdf
+2025-04-18 13:16:03,227 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_section_1-la-report_7.1.68-part_8_of_8.pdf to downloads/rfk\166-12c-1_serial_2_section_1-la-report_7.1.68-part_8_of_8.pdf
+2025-04-18 13:16:03,623 - INFO - Successfully downloaded 166-12c-1_serial_2_section_1-la-report_7.1.68-part_8_of_8.pdf
+2025-04-18 13:16:04,624 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_2_of_5.pdf to downloads/rfk\pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 13:16:05,630 - INFO - Successfully downloaded pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 13:16:06,631 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_7-part_5_of_6.pdf to downloads/rfk\166-12c-1_section_7-part_5_of_6.pdf
+2025-04-18 13:16:07,720 - INFO - Successfully downloaded 166-12c-1_section_7-part_5_of_6.pdf
+2025-04-18 13:16:08,721 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_56-la-156_exhibit_18_6.9.68-part_5_of_5.pdf to downloads/rfk\166-12c-1_serial_1_56-la-156_exhibit_18_6.9.68-part_5_of_5.pdf
+2025-04-18 13:16:09,569 - INFO - Successfully downloaded 166-12c-1_serial_1_56-la-156_exhibit_18_6.9.68-part_5_of_5.pdf
+2025-04-18 13:16:10,572 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_section_2_56-la-156_la_report_7.1.68-part_2_of_7.pdf to downloads/rfk\166-12c-1_serial_2_section_2_56-la-156_la_report_7.1.68-part_2_of_7.pdf
+2025-04-18 13:16:11,441 - INFO - Successfully downloaded 166-12c-1_serial_2_section_2_56-la-156_la_report_7.1.68-part_2_of_7.pdf
+2025-04-18 13:16:12,445 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/44-bs-646-part_4_of_5.pdf to downloads/rfk\44-bs-646-part_4_of_5.pdf
+2025-04-18 13:16:13,468 - INFO - Successfully downloaded 44-bs-646-part_4_of_5.pdf
+2025-04-18 13:16:14,469 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_1_of_4.pdf to downloads/rfk\pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_1_of_4.pdf
+2025-04-18 13:16:15,364 - INFO - Successfully downloaded pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_1_of_4.pdf
+2025-04-18 13:16:16,366 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_2-part_2_of_4.pdf to downloads/rfk\166-12c-1_section_2-part_2_of_4.pdf
+2025-04-18 13:16:17,227 - INFO - Successfully downloaded 166-12c-1_section_2-part_2_of_4.pdf
+2025-04-18 13:16:18,229 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_56-la-156_exhibit_18_6.9.68-part_3_of_5.pdf to downloads/rfk\166-12c-1_serial_1_56-la-156_exhibit_18_6.9.68-part_3_of_5.pdf
+2025-04-18 13:16:20,462 - INFO - Successfully downloaded 166-12c-1_serial_1_56-la-156_exhibit_18_6.9.68-part_3_of_5.pdf
+2025-04-18 13:16:21,464 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_1-la-report_10.10.68-part_7_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_1-la-report_10.10.68-part_7_of_7.pdf
+2025-04-18 13:16:22,081 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_1-la-report_10.10.68-part_7_of_7.pdf
+2025-04-18 13:16:23,083 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_65-hq-587_12.4.68-part_5_of_8.pdf to downloads/rfk\166-12c-1_serial_1_65-hq-587_12.4.68-part_5_of_8.pdf
+2025-04-18 13:16:24,019 - INFO - Successfully downloaded 166-12c-1_serial_1_65-hq-587_12.4.68-part_5_of_8.pdf
+2025-04-18 13:16:25,020 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_4-la-report_8.7.68-part_6_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_4-la-report_8.7.68-part_6_of_7.pdf
+2025-04-18 13:16:25,877 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_4-la-report_8.7.68-part_6_of_7.pdf
+2025-04-18 13:16:26,879 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/44-la-2897-part_2_of_2.pdf to downloads/rfk\44-la-2897-part_2_of_2.pdf
+2025-04-18 13:16:27,542 - INFO - Successfully downloaded 44-la-2897-part_2_of_2.pdf
+2025-04-18 13:16:28,544 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_section_2_56-la-156_la_report_7.1.68-part_6_of_7.pdf to downloads/rfk\166-12c-1_serial_2_section_2_56-la-156_la_report_7.1.68-part_6_of_7.pdf
+2025-04-18 13:16:29,506 - INFO - Successfully downloaded 166-12c-1_serial_2_section_2_56-la-156_la_report_7.1.68-part_6_of_7.pdf
+2025-04-18 13:16:30,507 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_2-la-report_10.10.68-part_1_of_3.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_2-la-report_10.10.68-part_1_of_3.pdf
+2025-04-18 13:16:31,323 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_2-la-report_10.10.68-part_1_of_3.pdf
+2025-04-18 13:16:32,325 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_1-la-report_8.7.68-part_7_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_1-la-report_8.7.68-part_7_of_7.pdf
+2025-04-18 13:16:33,100 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_1-la-report_8.7.68-part_7_of_7.pdf
+2025-04-18 13:16:34,101 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_2-la-report_8.7.68-part_6_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_2-la-report_8.7.68-part_6_of_7.pdf
+2025-04-18 13:16:35,054 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_2-la-report_8.7.68-part_6_of_7.pdf
+2025-04-18 13:16:36,056 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_3_of_3.pdf to downloads/rfk\pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_3_of_3.pdf
+2025-04-18 13:16:36,846 - INFO - Successfully downloaded pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_3_of_3.pdf
+2025-04-18 13:16:37,847 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_5_of_5.pdf to downloads/rfk\pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 13:16:38,456 - INFO - Successfully downloaded pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 13:16:39,457 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_3-la-report_8.7.68-part_4_of_6.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_3-la-report_8.7.68-part_4_of_6.pdf
+2025-04-18 13:16:40,271 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_3-la-report_8.7.68-part_4_of_6.pdf
+2025-04-18 13:16:41,272 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/44-bs-646-part_1_of_5.pdf to downloads/rfk\44-bs-646-part_1_of_5.pdf
+2025-04-18 13:16:42,316 - INFO - Successfully downloaded 44-bs-646-part_1_of_5.pdf
+2025-04-18 13:16:43,317 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_4_of_8.pdf to downloads/rfk\pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_4_of_8.pdf
+2025-04-18 13:16:44,251 - INFO - Successfully downloaded pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_4_of_8.pdf
+2025-04-18 13:16:45,252 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_3-part_1_of_3.pdf to downloads/rfk\166-12c-1_section_3-part_1_of_3.pdf
+2025-04-18 13:16:46,251 - INFO - Successfully downloaded 166-12c-1_section_3-part_1_of_3.pdf
+2025-04-18 13:16:47,252 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_3_of_6.pdf to downloads/rfk\pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 13:16:48,521 - INFO - Successfully downloaded pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 13:16:49,522 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_1_56-la-156_la_report_6.15.68-part_2_of_7.pdf to downloads/rfk\166-12c-1_serial_1_section_1_56-la-156_la_report_6.15.68-part_2_of_7.pdf
+2025-04-18 13:16:50,424 - INFO - Successfully downloaded 166-12c-1_serial_1_section_1_56-la-156_la_report_6.15.68-part_2_of_7.pdf
+2025-04-18 13:16:51,426 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_2_of_5.pdf to downloads/rfk\pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 13:16:52,282 - INFO - Successfully downloaded pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 13:16:53,284 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_6-part_4_of_4.pdf to downloads/rfk\166-12c-1_section_6-part_4_of_4.pdf
+2025-04-18 13:16:54,132 - INFO - Successfully downloaded 166-12c-1_section_6-part_4_of_4.pdf
+2025-04-18 13:16:55,133 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_5-part_2_of_4.pdf to downloads/rfk\166-12c-1_section_5-part_2_of_4.pdf
+2025-04-18 13:16:56,113 - INFO - Successfully downloaded 166-12c-1_section_5-part_2_of_4.pdf
+2025-04-18 13:16:57,115 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_1-part_4_of_5.pdf to downloads/rfk\166-12c-1_section_1-part_4_of_5.pdf
+2025-04-18 13:16:57,879 - INFO - Successfully downloaded 166-12c-1_section_1-part_4_of_5.pdf
+2025-04-18 13:16:58,880 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/44-bs-646-part_5_of_5.pdf to downloads/rfk\44-bs-646-part_5_of_5.pdf
+2025-04-18 13:16:59,795 - INFO - Successfully downloaded 44-bs-646-part_5_of_5.pdf
+2025-04-18 13:17:00,800 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_1_56-la-156_la_report_6.15.68-part_4_of_7.pdf to downloads/rfk\166-12c-1_serial_1_section_1_56-la-156_la_report_6.15.68-part_4_of_7.pdf
+2025-04-18 13:17:02,076 - INFO - Successfully downloaded 166-12c-1_serial_1_section_1_56-la-156_la_report_6.15.68-part_4_of_7.pdf
+2025-04-18 13:17:03,077 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_1-part_3_of_5.pdf to downloads/rfk\166-12c-1_section_1-part_3_of_5.pdf
+2025-04-18 13:17:04,498 - INFO - Successfully downloaded 166-12c-1_section_1-part_3_of_5.pdf
+2025-04-18 13:17:05,499 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/173-wfo-135_volume_2_combined-part_2_of_6.pdf to downloads/rfk\173-wfo-135_volume_2_combined-part_2_of_6.pdf
+2025-04-18 13:17:06,812 - INFO - Successfully downloaded 173-wfo-135_volume_2_combined-part_2_of_6.pdf
+2025-04-18 13:17:07,814 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_3_of_8.pdf to downloads/rfk\pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_3_of_8.pdf
+2025-04-18 13:17:08,749 - INFO - Successfully downloaded pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_3_of_8.pdf
+2025-04-18 13:17:09,751 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_1_56-la-156_la_report_6.15.68-part_3_of_7.pdf to downloads/rfk\166-12c-1_serial_1_section_1_56-la-156_la_report_6.15.68-part_3_of_7.pdf
+2025-04-18 13:17:11,190 - INFO - Successfully downloaded 166-12c-1_serial_1_section_1_56-la-156_la_report_6.15.68-part_3_of_7.pdf
+2025-04-18 13:17:12,191 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_2_56-la-156_la_report_6.9.68-part_4_of_7.pdf to downloads/rfk\166-12c-1_serial_1_section_2_56-la-156_la_report_6.9.68-part_4_of_7.pdf
+2025-04-18 13:17:13,161 - INFO - Successfully downloaded 166-12c-1_serial_1_section_2_56-la-156_la_report_6.9.68-part_4_of_7.pdf
+2025-04-18 13:17:14,163 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_1_56-la-156_la_report_6.9.68-part_3_of_4.pdf to downloads/rfk\166-12c-1_serial_1_section_1_56-la-156_la_report_6.9.68-part_3_of_4.pdf
+2025-04-18 13:17:15,061 - INFO - Successfully downloaded 166-12c-1_serial_1_section_1_56-la-156_la_report_6.9.68-part_3_of_4.pdf
+2025-04-18 13:17:16,063 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_3-la-report_8.7.68-part_2_of_6.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_3-la-report_8.7.68-part_2_of_6.pdf
+2025-04-18 13:17:17,233 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_3-la-report_8.7.68-part_2_of_6.pdf
+2025-04-18 13:17:18,235 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/44-sd-394-part_3_of_5.pdf to downloads/rfk\44-sd-394-part_3_of_5.pdf
+2025-04-18 13:17:19,224 - INFO - Successfully downloaded 44-sd-394-part_3_of_5.pdf
+2025-04-18 13:17:20,225 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_5-part_3_of_4.pdf to downloads/rfk\166-12c-1_section_5-part_3_of_4.pdf
+2025-04-18 13:17:21,043 - INFO - Successfully downloaded 166-12c-1_section_5-part_3_of_4.pdf
+2025-04-18 13:17:22,045 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_section_1-la-report_7.1.68-part_7_of_8.pdf to downloads/rfk\166-12c-1_serial_2_section_1-la-report_7.1.68-part_7_of_8.pdf
+2025-04-18 13:17:22,924 - INFO - Successfully downloaded 166-12c-1_serial_2_section_1-la-report_7.1.68-part_7_of_8.pdf
+2025-04-18 13:17:23,925 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_6_of_6.pdf to downloads/rfk\pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_6_of_6.pdf
+2025-04-18 13:17:24,786 - INFO - Successfully downloaded pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_6_of_6.pdf
+2025-04-18 13:17:25,787 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/44-sd-394-part_4_of_5.pdf to downloads/rfk\44-sd-394-part_4_of_5.pdf
+2025-04-18 13:17:26,213 - INFO - Successfully downloaded 44-sd-394-part_4_of_5.pdf
+2025-04-18 13:17:27,214 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_1-la-report_10.10.68-part_4_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_1-la-report_10.10.68-part_4_of_7.pdf
+2025-04-18 13:17:28,091 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_1-la-report_10.10.68-part_4_of_7.pdf
+2025-04-18 13:17:29,092 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_1-la-report_10.10.68-part_5_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_1-la-report_10.10.68-part_5_of_7.pdf
+2025-04-18 13:17:30,029 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_1-la-report_10.10.68-part_5_of_7.pdf
+2025-04-18 13:17:31,031 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_3_of_5.pdf to downloads/rfk\pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 13:17:31,923 - INFO - Successfully downloaded pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 13:17:32,925 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/173-wfo-135_volume_1_combined-part_1_of_4.pdf to downloads/rfk\173-wfo-135_volume_1_combined-part_1_of_4.pdf
+2025-04-18 13:17:34,000 - INFO - Successfully downloaded 173-wfo-135_volume_1_combined-part_1_of_4.pdf
+2025-04-18 13:17:35,001 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_3-part_3_of_3.pdf to downloads/rfk\166-12c-1_section_3-part_3_of_3.pdf
+2025-04-18 13:17:36,267 - INFO - Successfully downloaded 166-12c-1_section_3-part_3_of_3.pdf
+2025-04-18 13:17:37,269 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_2_56-la-156_la_report_6.9.68-part_3_of_7.pdf to downloads/rfk\166-12c-1_serial_1_section_2_56-la-156_la_report_6.9.68-part_3_of_7.pdf
+2025-04-18 13:17:38,316 - INFO - Successfully downloaded 166-12c-1_serial_1_section_2_56-la-156_la_report_6.9.68-part_3_of_7.pdf
+2025-04-18 13:17:39,317 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_1_56-la-156_la_report_6.9.68-part_1_of_4.pdf to downloads/rfk\166-12c-1_serial_1_section_1_56-la-156_la_report_6.9.68-part_1_of_4.pdf
+2025-04-18 13:17:40,498 - INFO - Successfully downloaded 166-12c-1_serial_1_section_1_56-la-156_la_report_6.9.68-part_1_of_4.pdf
+2025-04-18 13:17:41,499 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/173-wfo-135_volume_1_sub_d-part_2_of_2.pdf to downloads/rfk\173-wfo-135_volume_1_sub_d-part_2_of_2.pdf
+2025-04-18 13:17:42,273 - INFO - Successfully downloaded 173-wfo-135_volume_1_sub_d-part_2_of_2.pdf
+2025-04-18 13:17:43,274 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/173-wfo-135_volume_3-part_2_of_4.pdf to downloads/rfk\173-wfo-135_volume_3-part_2_of_4.pdf
+2025-04-18 13:17:44,406 - INFO - Successfully downloaded 173-wfo-135_volume_3-part_2_of_4.pdf
+2025-04-18 13:17:45,407 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/173-wfo-135_volume_3-part_4_of_4.pdf to downloads/rfk\173-wfo-135_volume_3-part_4_of_4.pdf
+2025-04-18 13:17:46,254 - INFO - Successfully downloaded 173-wfo-135_volume_3-part_4_of_4.pdf
+2025-04-18 13:17:47,255 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_2_56-la-156_la_report_6.9.68-part_6_of_7.pdf to downloads/rfk\166-12c-1_serial_1_section_2_56-la-156_la_report_6.9.68-part_6_of_7.pdf
+2025-04-18 13:17:48,211 - INFO - Successfully downloaded 166-12c-1_serial_1_section_2_56-la-156_la_report_6.9.68-part_6_of_7.pdf
+2025-04-18 13:17:49,213 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_3_of_6.pdf to downloads/rfk\pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 13:17:50,664 - INFO - Successfully downloaded pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_3_of_6.pdf
+2025-04-18 13:17:51,665 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_9-part_6_of_6.pdf to downloads/rfk\166-12c-1_section_9-part_6_of_6.pdf
+2025-04-18 13:17:52,432 - INFO - Successfully downloaded 166-12c-1_section_9-part_6_of_6.pdf
+2025-04-18 13:17:53,434 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_6_of_6.pdf to downloads/rfk\pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_6_of_6.pdf
+2025-04-18 13:17:53,993 - INFO - Successfully downloaded pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_6_of_6.pdf
+2025-04-18 13:17:54,995 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_4_of_5.pdf to downloads/rfk\pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 13:17:56,204 - INFO - Successfully downloaded pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 13:17:57,205 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_2_56-la-156_la_report_6.15.68-part_3_of_7.pdf to downloads/rfk\166-12c-1_serial_1_section_2_56-la-156_la_report_6.15.68-part_3_of_7.pdf
+2025-04-18 13:17:58,537 - INFO - Successfully downloaded 166-12c-1_serial_1_section_2_56-la-156_la_report_6.15.68-part_3_of_7.pdf
+2025-04-18 13:17:59,538 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_2_56-la-156_la_report_6.9.68-part_2_of_7.pdf to downloads/rfk\166-12c-1_serial_1_section_2_56-la-156_la_report_6.9.68-part_2_of_7.pdf
+2025-04-18 13:18:00,759 - INFO - Successfully downloaded 166-12c-1_serial_1_section_2_56-la-156_la_report_6.9.68-part_2_of_7.pdf
+2025-04-18 13:18:01,761 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_3-la-report_8.7.68-part_3_of_6.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_3-la-report_8.7.68-part_3_of_6.pdf
+2025-04-18 13:18:02,689 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_3-la-report_8.7.68-part_3_of_6.pdf
+2025-04-18 13:18:03,691 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_5.pdf to downloads/rfk\pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 13:18:04,514 - INFO - Successfully downloaded pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 13:18:05,516 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_5_of_5.pdf to downloads/rfk\pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 13:18:05,665 - INFO - Successfully downloaded pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 13:18:06,667 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_2_of_5.pdf to downloads/rfk\pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 13:18:07,541 - INFO - Successfully downloaded pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_2_of_5.pdf
+2025-04-18 13:18:08,543 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_3_of_4.pdf to downloads/rfk\pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_3_of_4.pdf
+2025-04-18 13:18:09,410 - INFO - Successfully downloaded pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_3_of_4.pdf
+2025-04-18 13:18:10,412 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_5-part_4_of_4.pdf to downloads/rfk\166-12c-1_section_5-part_4_of_4.pdf
+2025-04-18 13:18:11,265 - INFO - Successfully downloaded 166-12c-1_section_5-part_4_of_4.pdf
+2025-04-18 13:18:12,267 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_7-part_6_of_6.pdf to downloads/rfk\166-12c-1_section_7-part_6_of_6.pdf
+2025-04-18 13:18:13,264 - INFO - Successfully downloaded 166-12c-1_section_7-part_6_of_6.pdf
+2025-04-18 13:18:14,266 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_3_56-la-156_la_report_6.9.68-part_3_of_6.pdf to downloads/rfk\166-12c-1_serial_1_section_3_56-la-156_la_report_6.9.68-part_3_of_6.pdf
+2025-04-18 13:18:15,376 - INFO - Successfully downloaded 166-12c-1_serial_1_section_3_56-la-156_la_report_6.9.68-part_3_of_6.pdf
+2025-04-18 13:18:16,378 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_section_3-la-report_7.1.68-part_2_of_3.pdf to downloads/rfk\166-12c-1_serial_2_section_3-la-report_7.1.68-part_2_of_3.pdf
+2025-04-18 13:18:17,229 - INFO - Successfully downloaded 166-12c-1_serial_2_section_3-la-report_7.1.68-part_2_of_3.pdf
+2025-04-18 13:18:18,231 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_1-la-report_10.10.68-part_1_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_1-la-report_10.10.68-part_1_of_7.pdf
+2025-04-18 13:18:19,008 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_1-la-report_10.10.68-part_1_of_7.pdf
+2025-04-18 13:18:20,010 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_9-part_2_of_6.pdf to downloads/rfk\166-12c-1_section_9-part_2_of_6.pdf
+2025-04-18 13:18:20,916 - INFO - Successfully downloaded 166-12c-1_section_9-part_2_of_6.pdf
+2025-04-18 13:18:21,918 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_56-la-156_exhibits_1-17_6.9.68.pdf to downloads/rfk\166-12c-1_serial_1_56-la-156_exhibits_1-17_6.9.68.pdf
+2025-04-18 13:18:23,677 - INFO - Successfully downloaded 166-12c-1_serial_1_56-la-156_exhibits_1-17_6.9.68.pdf
+2025-04-18 13:18:24,678 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_3-la-report_8.7.68-part_6_of_6.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_3-la-report_8.7.68-part_6_of_6.pdf
+2025-04-18 13:18:25,648 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_3-la-report_8.7.68-part_6_of_6.pdf
+2025-04-18 13:18:26,649 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_2_56-la-156_la_report_6.9.68-part_5_of_7.pdf to downloads/rfk\166-12c-1_serial_1_section_2_56-la-156_la_report_6.9.68-part_5_of_7.pdf
+2025-04-18 13:18:27,510 - INFO - Successfully downloaded 166-12c-1_serial_1_section_2_56-la-156_la_report_6.9.68-part_5_of_7.pdf
+2025-04-18 13:18:28,512 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/44-sd-394-part_1_of_5.pdf to downloads/rfk\44-sd-394-part_1_of_5.pdf
+2025-04-18 13:18:29,330 - INFO - Successfully downloaded 44-sd-394-part_1_of_5.pdf
+2025-04-18 13:18:30,331 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_1_56-la-156_la_report_6.15.68-part_5_of_7.pdf to downloads/rfk\166-12c-1_serial_1_section_1_56-la-156_la_report_6.15.68-part_5_of_7.pdf
+2025-04-18 13:18:31,438 - INFO - Successfully downloaded 166-12c-1_serial_1_section_1_56-la-156_la_report_6.15.68-part_5_of_7.pdf
+2025-04-18 13:18:32,439 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_4_of_5.pdf to downloads/rfk\pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 13:18:33,539 - INFO - Successfully downloaded pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 13:18:34,540 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_2-la-report_10.10.68-part_2_of_3.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_2-la-report_10.10.68-part_2_of_3.pdf
+2025-04-18 13:18:35,442 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_2-la-report_10.10.68-part_2_of_3.pdf
+2025-04-18 13:18:36,443 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_2-la-report_8.7.68-part_3_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_2-la-report_8.7.68-part_3_of_7.pdf
+2025-04-18 13:18:37,897 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_2-la-report_8.7.68-part_3_of_7.pdf
+2025-04-18 13:18:38,899 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_2-la-report_10.10.68-part_3_of_3.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_2-la-report_10.10.68-part_3_of_3.pdf
+2025-04-18 13:18:39,718 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_2-la-report_10.10.68-part_3_of_3.pdf
+2025-04-18 13:18:40,720 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_2-part_4_of_4.pdf to downloads/rfk\166-12c-1_section_2-part_4_of_4.pdf
+2025-04-18 13:18:41,478 - INFO - Successfully downloaded 166-12c-1_section_2-part_4_of_4.pdf
+2025-04-18 13:18:42,479 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_2-la-report_8.7.68-part_7_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_2-la-report_8.7.68-part_7_of_7.pdf
+2025-04-18 13:18:43,007 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_2-la-report_8.7.68-part_7_of_7.pdf
+2025-04-18 13:18:44,008 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/173-wfo-135_volume_2_combined-part_6_of_6.pdf to downloads/rfk\173-wfo-135_volume_2_combined-part_6_of_6.pdf
+2025-04-18 13:18:44,604 - INFO - Successfully downloaded 173-wfo-135_volume_2_combined-part_6_of_6.pdf
+2025-04-18 13:18:45,606 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_3_56-la-156_la_report_6.9.68-part_5_of_6.pdf to downloads/rfk\166-12c-1_serial_1_section_3_56-la-156_la_report_6.9.68-part_5_of_6.pdf
+2025-04-18 13:18:46,940 - INFO - Successfully downloaded 166-12c-1_serial_1_section_3_56-la-156_la_report_6.9.68-part_5_of_6.pdf
+2025-04-18 13:18:47,942 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_3-part_2_of_3.pdf to downloads/rfk\166-12c-1_section_3-part_2_of_3.pdf
+2025-04-18 13:18:49,055 - INFO - Successfully downloaded 166-12c-1_section_3-part_2_of_3.pdf
+2025-04-18 13:18:50,056 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_1_of_8.pdf to downloads/rfk\pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_1_of_8.pdf
+2025-04-18 13:18:51,139 - INFO - Successfully downloaded pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_1_of_8.pdf
+2025-04-18 13:18:52,140 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_5_of_8.pdf to downloads/rfk\pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_5_of_8.pdf
+2025-04-18 13:18:53,007 - INFO - Successfully downloaded pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_5_of_8.pdf
+2025-04-18 13:18:54,009 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_1_56-la-156_la_report_6.15.68-part_7_of_7.pdf to downloads/rfk\166-12c-1_serial_1_section_1_56-la-156_la_report_6.15.68-part_7_of_7.pdf
+2025-04-18 13:18:54,955 - INFO - Successfully downloaded 166-12c-1_serial_1_section_1_56-la-156_la_report_6.15.68-part_7_of_7.pdf
+2025-04-18 13:18:55,957 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_56-la-156_exhibit_18_6.9.68-part_2_of_5.pdf to downloads/rfk\166-12c-1_serial_1_56-la-156_exhibit_18_6.9.68-part_2_of_5.pdf
+2025-04-18 13:18:57,730 - INFO - Successfully downloaded 166-12c-1_serial_1_56-la-156_exhibit_18_6.9.68-part_2_of_5.pdf
+2025-04-18 13:18:58,731 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_section_1-la-report_7.1.68-part_4_of_8.pdf to downloads/rfk\166-12c-1_serial_2_section_1-la-report_7.1.68-part_4_of_8.pdf
+2025-04-18 13:18:59,571 - INFO - Successfully downloaded 166-12c-1_serial_2_section_1-la-report_7.1.68-part_4_of_8.pdf
+2025-04-18 13:19:00,573 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_4-la-report_8.7.68-part_5_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_4-la-report_8.7.68-part_5_of_7.pdf
+2025-04-18 13:19:01,839 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_4-la-report_8.7.68-part_5_of_7.pdf
+2025-04-18 13:19:02,841 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_1_of_5.pdf to downloads/rfk\pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 13:19:03,716 - INFO - Successfully downloaded pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 13:19:04,717 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62-hq-587_la_report_2.7.69-part_1_of_5.pdf to downloads/rfk\166-12c-1_serial_2_62-hq-587_la_report_2.7.69-part_1_of_5.pdf
+2025-04-18 13:19:05,705 - INFO - Successfully downloaded 166-12c-1_serial_2_62-hq-587_la_report_2.7.69-part_1_of_5.pdf
+2025-04-18 13:19:06,707 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_section_1-la-report_7.1.68-part_2_of_8.pdf to downloads/rfk\166-12c-1_serial_2_section_1-la-report_7.1.68-part_2_of_8.pdf
+2025-04-18 13:19:07,593 - INFO - Successfully downloaded 166-12c-1_serial_2_section_1-la-report_7.1.68-part_2_of_8.pdf
+2025-04-18 13:19:08,595 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_1_56-la-156_la_report_6.15.68-part_6_of_7.pdf to downloads/rfk\166-12c-1_serial_1_section_1_56-la-156_la_report_6.15.68-part_6_of_7.pdf
+2025-04-18 13:19:09,548 - INFO - Successfully downloaded 166-12c-1_serial_1_section_1_56-la-156_la_report_6.15.68-part_6_of_7.pdf
+2025-04-18 13:19:10,550 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_4_of_5.pdf to downloads/rfk\pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 13:19:11,423 - INFO - Successfully downloaded pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_4_of_5.pdf
+2025-04-18 13:19:12,425 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_2_of_4.pdf to downloads/rfk\pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_2_of_4.pdf
+2025-04-18 13:19:13,464 - INFO - Successfully downloaded pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_2_of_4.pdf
+2025-04-18 13:19:14,466 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_4_of_4.pdf to downloads/rfk\pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_4_of_4.pdf
+2025-04-18 13:19:15,451 - INFO - Successfully downloaded pol_6-2_us_kennedy_06_12_1968_senator_robert_f._kennedy-part_4_of_4.pdf
+2025-04-18 13:19:16,453 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_2_56-la-156_la_report_6.9.68-part_1_of_7.pdf to downloads/rfk\166-12c-1_serial_1_section_2_56-la-156_la_report_6.9.68-part_1_of_7.pdf
+2025-04-18 13:19:17,517 - INFO - Successfully downloaded 166-12c-1_serial_1_section_2_56-la-156_la_report_6.9.68-part_1_of_7.pdf
+2025-04-18 13:19:18,518 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_8-part_3_of_4.pdf to downloads/rfk\166-12c-1_section_8-part_3_of_4.pdf
+2025-04-18 13:19:19,661 - INFO - Successfully downloaded 166-12c-1_section_8-part_3_of_4.pdf
+2025-04-18 13:19:20,663 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_3-la-report_8.7.68-part_5_of_6.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_3-la-report_8.7.68-part_5_of_6.pdf
+2025-04-18 13:19:21,578 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_3-la-report_8.7.68-part_5_of_6.pdf
+2025-04-18 13:19:22,580 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_4-la-report_8.7.68-part_3_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_4-la-report_8.7.68-part_3_of_7.pdf
+2025-04-18 13:19:23,474 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_4-la-report_8.7.68-part_3_of_7.pdf
+2025-04-18 13:19:24,475 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62-hq-587_la_report_2.7.69-part_2_of_5.pdf to downloads/rfk\166-12c-1_serial_2_62-hq-587_la_report_2.7.69-part_2_of_5.pdf
+2025-04-18 13:19:25,403 - INFO - Successfully downloaded 166-12c-1_serial_2_62-hq-587_la_report_2.7.69-part_2_of_5.pdf
+2025-04-18 13:19:26,405 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_1-la-report_8.7.68-part_2_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_1-la-report_8.7.68-part_2_of_7.pdf
+2025-04-18 13:19:27,573 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_1-la-report_8.7.68-part_2_of_7.pdf
+2025-04-18 13:19:28,574 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_5_of_6.pdf to downloads/rfk\pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 13:19:29,630 - INFO - Successfully downloaded pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 13:19:30,632 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_4_56-la-156_la_report_6.9.68-part_3_of_4.pdf to downloads/rfk\166-12c-1_serial_1_section_4_56-la-156_la_report_6.9.68-part_3_of_4.pdf
+2025-04-18 13:19:31,518 - INFO - Successfully downloaded 166-12c-1_serial_1_section_4_56-la-156_la_report_6.9.68-part_3_of_4.pdf
+2025-04-18 13:19:32,520 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_56-la-156_exhibit_18_6.9.68-part_4_of_5.pdf to downloads/rfk\166-12c-1_serial_1_56-la-156_exhibit_18_6.9.68-part_4_of_5.pdf
+2025-04-18 13:19:34,245 - INFO - Successfully downloaded 166-12c-1_serial_1_56-la-156_exhibit_18_6.9.68-part_4_of_5.pdf
+2025-04-18 13:19:35,247 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/173-wfo-135_volume_1_combined-part_2_of_4.pdf to downloads/rfk\173-wfo-135_volume_1_combined-part_2_of_4.pdf
+2025-04-18 13:19:36,348 - INFO - Successfully downloaded 173-wfo-135_volume_1_combined-part_2_of_4.pdf
+2025-04-18 13:19:37,350 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_65-hq-587_12.4.68-part_1_of_8.pdf to downloads/rfk\166-12c-1_serial_1_65-hq-587_12.4.68-part_1_of_8.pdf
+2025-04-18 13:19:38,427 - INFO - Successfully downloaded 166-12c-1_serial_1_65-hq-587_12.4.68-part_1_of_8.pdf
+2025-04-18 13:19:39,428 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_4-la-report_8.7.68-part_4_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_4-la-report_8.7.68-part_4_of_7.pdf
+2025-04-18 13:19:40,498 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_4-la-report_8.7.68-part_4_of_7.pdf
+2025-04-18 13:19:41,499 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/44-bs-646-part_3_of_5.pdf to downloads/rfk\44-bs-646-part_3_of_5.pdf
+2025-04-18 13:19:42,380 - INFO - Successfully downloaded 44-bs-646-part_3_of_5.pdf
+2025-04-18 13:19:43,383 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_8-part_2_of_4.pdf to downloads/rfk\166-12c-1_section_8-part_2_of_4.pdf
+2025-04-18 13:19:44,645 - INFO - Successfully downloaded 166-12c-1_section_8-part_2_of_4.pdf
+2025-04-18 13:19:45,647 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_2_56-la-156_la_report_6.15.68-part_7_of_7.pdf to downloads/rfk\166-12c-1_serial_1_section_2_56-la-156_la_report_6.15.68-part_7_of_7.pdf
+2025-04-18 13:19:46,406 - INFO - Successfully downloaded 166-12c-1_serial_1_section_2_56-la-156_la_report_6.15.68-part_7_of_7.pdf
+2025-04-18 13:19:47,407 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62-hq-587_la_report_2.7.69-part_3_of_5.pdf to downloads/rfk\166-12c-1_serial_2_62-hq-587_la_report_2.7.69-part_3_of_5.pdf
+2025-04-18 13:19:48,513 - INFO - Successfully downloaded 166-12c-1_serial_2_62-hq-587_la_report_2.7.69-part_3_of_5.pdf
+2025-04-18 13:19:49,515 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_3.pdf to downloads/rfk\pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_3.pdf
+2025-04-18 13:19:50,607 - INFO - Successfully downloaded pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_3.pdf
+2025-04-18 13:19:51,608 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_1_of_6.pdf to downloads/rfk\pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 13:19:52,535 - INFO - Successfully downloaded pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 13:19:53,538 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_1_56-la-156_la_report_6.9.68-part_4_of_4.pdf to downloads/rfk\166-12c-1_serial_1_section_1_56-la-156_la_report_6.9.68-part_4_of_4.pdf
+2025-04-18 13:19:54,303 - INFO - Successfully downloaded 166-12c-1_serial_1_section_1_56-la-156_la_report_6.9.68-part_4_of_4.pdf
+2025-04-18 13:19:55,305 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_7_of_8.pdf to downloads/rfk\pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_7_of_8.pdf
+2025-04-18 13:19:56,413 - INFO - Successfully downloaded pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_7_of_8.pdf
+2025-04-18 13:19:57,415 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_4-la-report_8.7.68-part_2_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_4-la-report_8.7.68-part_2_of_7.pdf
+2025-04-18 13:19:58,329 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_4-la-report_8.7.68-part_2_of_7.pdf
+2025-04-18 13:19:59,331 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_2-la-report_8.7.68-part_4_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_2-la-report_8.7.68-part_4_of_7.pdf
+2025-04-18 13:20:00,835 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_2-la-report_8.7.68-part_4_of_7.pdf
+2025-04-18 13:20:01,838 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_2_56-la-156_la_report_6.15.68-part_5_of_7.pdf to downloads/rfk\166-12c-1_serial_1_section_2_56-la-156_la_report_6.15.68-part_5_of_7.pdf
+2025-04-18 13:20:02,886 - INFO - Successfully downloaded 166-12c-1_serial_1_section_2_56-la-156_la_report_6.15.68-part_5_of_7.pdf
+2025-04-18 13:20:03,888 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_section_3-la-report_7.1.68-part_1_of_3.pdf to downloads/rfk\166-12c-1_serial_2_section_3-la-report_7.1.68-part_1_of_3.pdf
+2025-04-18 13:20:04,777 - INFO - Successfully downloaded 166-12c-1_serial_2_section_3-la-report_7.1.68-part_1_of_3.pdf
+2025-04-18 13:20:05,779 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_3_of_5.pdf to downloads/rfk\pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 13:20:07,088 - INFO - Successfully downloaded pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 13:20:08,089 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_6-part_1_of_4.pdf to downloads/rfk\166-12c-1_section_6-part_1_of_4.pdf
+2025-04-18 13:20:09,989 - INFO - Successfully downloaded 166-12c-1_section_6-part_1_of_4.pdf
+2025-04-18 13:20:10,990 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/44-bs-646-part_2_of_5.pdf to downloads/rfk\44-bs-646-part_2_of_5.pdf
+2025-04-18 13:20:12,215 - INFO - Successfully downloaded 44-bs-646-part_2_of_5.pdf
+2025-04-18 13:20:13,217 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_9-part_1_of_6.pdf to downloads/rfk\166-12c-1_section_9-part_1_of_6.pdf
+2025-04-18 13:20:14,152 - INFO - Successfully downloaded 166-12c-1_section_9-part_1_of_6.pdf
+2025-04-18 13:20:15,153 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_1_of_5.pdf to downloads/rfk\pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 13:20:16,114 - INFO - Successfully downloaded pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 13:20:17,115 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_1-part_5_of_5.pdf to downloads/rfk\166-12c-1_section_1-part_5_of_5.pdf
+2025-04-18 13:20:17,807 - INFO - Successfully downloaded 166-12c-1_section_1-part_5_of_5.pdf
+2025-04-18 13:20:18,808 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_2_of_6.pdf to downloads/rfk\pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 13:20:19,780 - INFO - Successfully downloaded pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 13:20:20,782 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_5_of_5.pdf to downloads/rfk\pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 13:20:21,661 - INFO - Successfully downloaded pol_6_us_kennedy_06_10_1968_senator_robert_f._kennedy-part_5_of_5.pdf
+2025-04-18 13:20:22,663 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_3_56-la-156_la_report_6.9.68-part_6_of_6.pdf to downloads/rfk\166-12c-1_serial_1_section_3_56-la-156_la_report_6.9.68-part_6_of_6.pdf
+2025-04-18 13:20:23,630 - INFO - Successfully downloaded 166-12c-1_serial_1_section_3_56-la-156_la_report_6.9.68-part_6_of_6.pdf
+2025-04-18 13:20:24,632 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_5.pdf to downloads/rfk\pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 13:20:25,758 - INFO - Successfully downloaded pol_6_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 13:20:26,759 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_65-hq-587_12.4.68-part_8_of_8.pdf to downloads/rfk\166-12c-1_serial_1_65-hq-587_12.4.68-part_8_of_8.pdf
+2025-04-18 13:20:27,842 - INFO - Successfully downloaded 166-12c-1_serial_1_65-hq-587_12.4.68-part_8_of_8.pdf
+2025-04-18 13:20:28,843 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_3_of_5.pdf to downloads/rfk\pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 13:20:30,698 - INFO - Successfully downloaded pol_6-2_us_kennedy_06_18_1968_senator_robert_f._kennedy-part_3_of_5.pdf
+2025-04-18 13:20:31,700 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_4_56-la-156_la_report_6.9.68-part_4_of_4.pdf to downloads/rfk\166-12c-1_serial_1_section_4_56-la-156_la_report_6.9.68-part_4_of_4.pdf
+2025-04-18 13:20:32,513 - INFO - Successfully downloaded 166-12c-1_serial_1_section_4_56-la-156_la_report_6.9.68-part_4_of_4.pdf
+2025-04-18 13:20:33,516 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_1-la-report_8.7.68-part_3_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_1-la-report_8.7.68-part_3_of_7.pdf
+2025-04-18 13:20:34,828 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_1-la-report_8.7.68-part_3_of_7.pdf
+2025-04-18 13:20:35,831 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_2-la-report_8.7.68-part_2_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_2-la-report_8.7.68-part_2_of_7.pdf
+2025-04-18 13:20:37,051 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_2-la-report_8.7.68-part_2_of_7.pdf
+2025-04-18 13:20:38,052 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7-1_1_1_67-part_1_of_2.pdf to downloads/rfk\ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7-1_1_1_67-part_1_of_2.pdf
+2025-04-18 13:20:39,111 - INFO - Successfully downloaded ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7-1_1_1_67-part_1_of_2.pdf
+2025-04-18 13:20:40,113 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_4-part_2_of_3.pdf to downloads/rfk\166-12c-1_section_4-part_2_of_3.pdf
+2025-04-18 13:20:41,243 - INFO - Successfully downloaded 166-12c-1_section_4-part_2_of_3.pdf
+2025-04-18 13:20:42,249 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_8-part_4_of_4.pdf to downloads/rfk\166-12c-1_section_8-part_4_of_4.pdf
+2025-04-18 13:20:43,051 - INFO - Successfully downloaded 166-12c-1_section_8-part_4_of_4.pdf
+2025-04-18 13:20:44,053 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_2_56-la-156_la_report_6.15.68-part_6_of_7.pdf to downloads/rfk\166-12c-1_serial_1_section_2_56-la-156_la_report_6.15.68-part_6_of_7.pdf
+2025-04-18 13:20:45,138 - INFO - Successfully downloaded 166-12c-1_serial_1_section_2_56-la-156_la_report_6.15.68-part_6_of_7.pdf
+2025-04-18 13:20:46,139 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_7-part_3_of_6.pdf to downloads/rfk\166-12c-1_section_7-part_3_of_6.pdf
+2025-04-18 13:20:47,413 - INFO - Successfully downloaded 166-12c-1_section_7-part_3_of_6.pdf
+2025-04-18 13:20:48,416 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_section_2_56-la-156_la_report_7.1.68-part_1_of_7.pdf to downloads/rfk\166-12c-1_serial_2_section_2_56-la-156_la_report_7.1.68-part_1_of_7.pdf
+2025-04-18 13:20:49,343 - INFO - Successfully downloaded 166-12c-1_serial_2_section_2_56-la-156_la_report_7.1.68-part_1_of_7.pdf
+2025-04-18 13:20:50,345 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_3.pdf to downloads/rfk\pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_3.pdf
+2025-04-18 13:20:51,657 - INFO - Successfully downloaded pol_6-2_us_kennedy_07_01_1968_senator_robert_f._kennedy-part_2_of_3.pdf
+2025-04-18 13:20:52,659 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_2_56-la-156_la_report_6.15.68-part_2_of_7.pdf to downloads/rfk\166-12c-1_serial_1_section_2_56-la-156_la_report_6.15.68-part_2_of_7.pdf
+2025-04-18 13:20:53,644 - INFO - Successfully downloaded 166-12c-1_serial_1_section_2_56-la-156_la_report_6.15.68-part_2_of_7.pdf
+2025-04-18 13:20:54,645 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_4-la-report_8.7.68-part_1_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_4-la-report_8.7.68-part_1_of_7.pdf
+2025-04-18 13:20:55,527 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_4-la-report_8.7.68-part_1_of_7.pdf
+2025-04-18 13:20:56,528 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_1_of_6.pdf to downloads/rfk\pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 13:20:57,821 - INFO - Successfully downloaded pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_1_of_6.pdf
+2025-04-18 13:20:58,823 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/44-sd-394-part_5_of_5.pdf to downloads/rfk\44-sd-394-part_5_of_5.pdf
+2025-04-18 13:20:59,884 - INFO - Successfully downloaded 44-sd-394-part_5_of_5.pdf
+2025-04-18 13:21:00,904 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_65-hq-587_12.4.68-part_3_of_8.pdf to downloads/rfk\166-12c-1_serial_1_65-hq-587_12.4.68-part_3_of_8.pdf
+2025-04-18 13:21:01,983 - INFO - Successfully downloaded 166-12c-1_serial_1_65-hq-587_12.4.68-part_3_of_8.pdf
+2025-04-18 13:21:02,985 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_1-la-report_10.10.68-part_6_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_1-la-report_10.10.68-part_6_of_7.pdf
+2025-04-18 13:21:03,831 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_1-la-report_10.10.68-part_6_of_7.pdf
+2025-04-18 13:21:04,832 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_9-part_4_of_6.pdf to downloads/rfk\166-12c-1_section_9-part_4_of_6.pdf
+2025-04-18 13:21:05,660 - INFO - Successfully downloaded 166-12c-1_section_9-part_4_of_6.pdf
+2025-04-18 13:21:06,662 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_4_of_6.pdf to downloads/rfk\pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 13:21:07,967 - INFO - Successfully downloaded pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_4_of_6.pdf
+2025-04-18 13:21:08,968 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_2_56-la-156_la_report_6.15.68-part_1_of_7.pdf to downloads/rfk\166-12c-1_serial_1_section_2_56-la-156_la_report_6.15.68-part_1_of_7.pdf
+2025-04-18 13:21:09,843 - INFO - Successfully downloaded 166-12c-1_serial_1_section_2_56-la-156_la_report_6.15.68-part_1_of_7.pdf
+2025-04-18 13:21:10,845 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_8-part_1_of_4.pdf to downloads/rfk\166-12c-1_section_8-part_1_of_4.pdf
+2025-04-18 13:21:12,135 - INFO - Successfully downloaded 166-12c-1_section_8-part_1_of_4.pdf
+2025-04-18 13:21:13,137 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7_1_1_1_67-part_2_of_2.pdf to downloads/rfk\ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7_1_1_1_67-part_2_of_2.pdf
+2025-04-18 13:21:14,290 - INFO - Successfully downloaded ps_jordan_1_1_67_sirhan_sirhan_biashara_jordan-us_ps_7_1_1_1_67-part_2_of_2.pdf
+2025-04-18 13:21:15,292 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_3-la-report_8.7.68-part_1_of_6.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_3-la-report_8.7.68-part_1_of_6.pdf
+2025-04-18 13:21:16,465 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_3-la-report_8.7.68-part_1_of_6.pdf
+2025-04-18 13:21:17,466 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/173-wfo-135_volume_1_combined-part_3_of_4.pdf to downloads/rfk\173-wfo-135_volume_1_combined-part_3_of_4.pdf
+2025-04-18 13:21:18,597 - INFO - Successfully downloaded 173-wfo-135_volume_1_combined-part_3_of_4.pdf
+2025-04-18 13:21:19,599 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_4_56-la-156_la_report_6.9.68-part_2_of_4.pdf to downloads/rfk\166-12c-1_serial_1_section_4_56-la-156_la_report_6.9.68-part_2_of_4.pdf
+2025-04-18 13:21:21,025 - INFO - Successfully downloaded 166-12c-1_serial_1_section_4_56-la-156_la_report_6.9.68-part_2_of_4.pdf
+2025-04-18 13:21:22,141 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_4-part_1_of_3.pdf to downloads/rfk\166-12c-1_section_4-part_1_of_3.pdf
+2025-04-18 13:21:23,160 - INFO - Successfully downloaded 166-12c-1_section_4-part_1_of_3.pdf
+2025-04-18 13:21:24,162 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_section_1-la-report_7.1.68-part_5_of_8.pdf to downloads/rfk\166-12c-1_serial_2_section_1-la-report_7.1.68-part_5_of_8.pdf
+2025-04-18 13:21:25,047 - INFO - Successfully downloaded 166-12c-1_serial_2_section_1-la-report_7.1.68-part_5_of_8.pdf
+2025-04-18 13:21:26,048 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_2_of_8.pdf to downloads/rfk\pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_2_of_8.pdf
+2025-04-18 13:21:27,287 - INFO - Successfully downloaded pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_2_of_8.pdf
+2025-04-18 13:21:28,289 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_4-la-report_8.7.68-part_7_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_4-la-report_8.7.68-part_7_of_7.pdf
+2025-04-18 13:21:28,970 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_4-la-report_8.7.68-part_7_of_7.pdf
+2025-04-18 13:21:29,972 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_2_56-la-156_la_report_6.9.68-part_7_of_7.pdf to downloads/rfk\166-12c-1_serial_1_section_2_56-la-156_la_report_6.9.68-part_7_of_7.pdf
+2025-04-18 13:21:30,780 - INFO - Successfully downloaded 166-12c-1_serial_1_section_2_56-la-156_la_report_6.9.68-part_7_of_7.pdf
+2025-04-18 13:21:31,781 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_section_2_56-la-156_la_report_7.1.68-part_7_of_7.pdf to downloads/rfk\166-12c-1_serial_2_section_2_56-la-156_la_report_7.1.68-part_7_of_7.pdf
+2025-04-18 13:21:32,386 - INFO - Successfully downloaded 166-12c-1_serial_2_section_2_56-la-156_la_report_7.1.68-part_7_of_7.pdf
+2025-04-18 13:21:33,387 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_9-part_5_of_6.pdf to downloads/rfk\166-12c-1_section_9-part_5_of_6.pdf
+2025-04-18 13:21:34,185 - INFO - Successfully downloaded 166-12c-1_section_9-part_5_of_6.pdf
+2025-04-18 13:21:35,186 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_1-la-report_10.10.68-part_3_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_1-la-report_10.10.68-part_3_of_7.pdf
+2025-04-18 13:21:36,165 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_1-la-report_10.10.68-part_3_of_7.pdf
+2025-04-18 13:21:37,166 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_section_1-la-report_7.1.68-part_3_of_8.pdf to downloads/rfk\166-12c-1_serial_2_section_1-la-report_7.1.68-part_3_of_8.pdf
+2025-04-18 13:21:38,041 - INFO - Successfully downloaded 166-12c-1_serial_2_section_1-la-report_7.1.68-part_3_of_8.pdf
+2025-04-18 13:21:39,042 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_56-la-156_exhibit_18_6.9.68-part_1_of_5.pdf to downloads/rfk\166-12c-1_serial_1_56-la-156_exhibit_18_6.9.68-part_1_of_5.pdf
+2025-04-18 13:21:41,994 - INFO - Successfully downloaded 166-12c-1_serial_1_56-la-156_exhibit_18_6.9.68-part_1_of_5.pdf
+2025-04-18 13:21:43,003 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_1_56-la-156_la_report_6.15.68-part_1_of_7.pdf to downloads/rfk\166-12c-1_serial_1_section_1_56-la-156_la_report_6.15.68-part_1_of_7.pdf
+2025-04-18 13:21:43,914 - INFO - Successfully downloaded 166-12c-1_serial_1_section_1_56-la-156_la_report_6.15.68-part_1_of_7.pdf
+2025-04-18 13:21:44,916 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_3_56-la-156_la_report_6.9.68-part_4_of_6.pdf to downloads/rfk\166-12c-1_serial_1_section_3_56-la-156_la_report_6.9.68-part_4_of_6.pdf
+2025-04-18 13:21:46,141 - INFO - Successfully downloaded 166-12c-1_serial_1_section_3_56-la-156_la_report_6.9.68-part_4_of_6.pdf
+2025-04-18 13:21:47,143 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_2-part_3_of_4.pdf to downloads/rfk\166-12c-1_section_2-part_3_of_4.pdf
+2025-04-18 13:21:48,302 - INFO - Successfully downloaded 166-12c-1_section_2-part_3_of_4.pdf
+2025-04-18 13:21:49,303 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/44-sd-394-part_2_of_5.pdf to downloads/rfk\44-sd-394-part_2_of_5.pdf
+2025-04-18 13:21:50,380 - INFO - Successfully downloaded 44-sd-394-part_2_of_5.pdf
+2025-04-18 13:21:51,383 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/173-wfo-135_volume_1_sub_c.pdf to downloads/rfk\173-wfo-135_volume_1_sub_c.pdf
+2025-04-18 13:21:52,340 - INFO - Successfully downloaded 173-wfo-135_volume_1_sub_c.pdf
+2025-04-18 13:21:53,341 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_2_of_6.pdf to downloads/rfk\pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 13:21:54,424 - INFO - Successfully downloaded pol_6_us_kennedy_06_15_1968_senator_robert_f._kennedy-part_2_of_6.pdf
+2025-04-18 13:21:55,425 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_2_56-la-156_la_report_6.15.68-part_4_of_7.pdf to downloads/rfk\166-12c-1_serial_1_section_2_56-la-156_la_report_6.15.68-part_4_of_7.pdf
+2025-04-18 13:21:56,688 - INFO - Successfully downloaded 166-12c-1_serial_1_section_2_56-la-156_la_report_6.15.68-part_4_of_7.pdf
+2025-04-18 13:21:57,690 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_section_2_56-la-156_la_report_7.1.68-part_4_of_7.pdf to downloads/rfk\166-12c-1_serial_2_section_2_56-la-156_la_report_7.1.68-part_4_of_7.pdf
+2025-04-18 13:21:58,557 - INFO - Successfully downloaded 166-12c-1_serial_2_section_2_56-la-156_la_report_7.1.68-part_4_of_7.pdf
+2025-04-18 13:21:59,558 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_5_of_6.pdf to downloads/rfk\pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 13:22:00,574 - INFO - Successfully downloaded pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_5_of_6.pdf
+2025-04-18 13:22:01,580 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_7-part_2_of_6.pdf to downloads/rfk\166-12c-1_section_7-part_2_of_6.pdf
+2025-04-18 13:22:02,890 - INFO - Successfully downloaded 166-12c-1_section_7-part_2_of_6.pdf
+2025-04-18 13:22:03,891 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_1_of_5.pdf to downloads/rfk\pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 13:22:04,776 - INFO - Successfully downloaded pol_6-2_us_kennedy_06_14_1968_senator_robert_f._kennedy-part_1_of_5.pdf
+2025-04-18 13:22:05,778 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_7-part_1_of_6.pdf to downloads/rfk\166-12c-1_section_7-part_1_of_6.pdf
+2025-04-18 13:22:06,791 - INFO - Successfully downloaded 166-12c-1_section_7-part_1_of_6.pdf
+2025-04-18 13:22:07,796 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/173-wfo-135_volume_3-part_3_of_4.pdf to downloads/rfk\173-wfo-135_volume_3-part_3_of_4.pdf
+2025-04-18 13:22:09,241 - INFO - Successfully downloaded 173-wfo-135_volume_3-part_3_of_4.pdf
+2025-04-18 13:22:10,254 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_62_hq_587_section_2-la-report_8.7.68-part_5_of_7.pdf to downloads/rfk\166-12c-1_serial_2_62_hq_587_section_2-la-report_8.7.68-part_5_of_7.pdf
+2025-04-18 13:22:11,209 - INFO - Successfully downloaded 166-12c-1_serial_2_62_hq_587_section_2-la-report_8.7.68-part_5_of_7.pdf
+2025-04-18 13:22:12,211 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/173-wfo-135_volume_2_combined-part_5_of_6.pdf to downloads/rfk\173-wfo-135_volume_2_combined-part_5_of_6.pdf
+2025-04-18 13:22:13,747 - INFO - Successfully downloaded 173-wfo-135_volume_2_combined-part_5_of_6.pdf
+2025-04-18 13:22:14,748 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_1-part_1_of_5.pdf to downloads/rfk\166-12c-1_section_1-part_1_of_5.pdf
+2025-04-18 13:22:15,884 - INFO - Successfully downloaded 166-12c-1_section_1-part_1_of_5.pdf
+2025-04-18 13:22:16,886 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_65-hq-587_12.4.68-part_6_of_8.pdf to downloads/rfk\166-12c-1_serial_1_65-hq-587_12.4.68-part_6_of_8.pdf
+2025-04-18 13:22:17,789 - INFO - Successfully downloaded 166-12c-1_serial_1_65-hq-587_12.4.68-part_6_of_8.pdf
+2025-04-18 13:22:18,790 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_5-part_1_of_4.pdf to downloads/rfk\166-12c-1_section_5-part_1_of_4.pdf
+2025-04-18 13:22:19,665 - INFO - Successfully downloaded 166-12c-1_section_5-part_1_of_4.pdf
+2025-04-18 13:22:20,666 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/173-wfo-135_volume_1_combined-part_4_of_4.pdf to downloads/rfk\173-wfo-135_volume_1_combined-part_4_of_4.pdf
+2025-04-18 13:22:21,594 - INFO - Successfully downloaded 173-wfo-135_volume_1_combined-part_4_of_4.pdf
+2025-04-18 13:22:22,596 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/173-wfo-135_volume_3-part_1_of_4.pdf to downloads/rfk\173-wfo-135_volume_3-part_1_of_4.pdf
+2025-04-18 13:22:23,960 - INFO - Successfully downloaded 173-wfo-135_volume_3-part_1_of_4.pdf
+2025-04-18 13:22:24,962 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_6_of_8.pdf to downloads/rfk\pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_6_of_8.pdf
+2025-04-18 13:22:25,902 - INFO - Successfully downloaded pol_6_us_kennedy_01_01_1967_senator_robert_f._kennedy-part_6_of_8.pdf
+2025-04-18 13:22:26,903 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/44-bh-1772-part_1_of_2.pdf to downloads/rfk\44-bh-1772-part_1_of_2.pdf
+2025-04-18 13:22:27,778 - INFO - Successfully downloaded 44-bh-1772-part_1_of_2.pdf
+2025-04-18 13:22:28,780 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/173-wfo-135_volume_1_sub_d-part_1_of_2.pdf to downloads/rfk\173-wfo-135_volume_1_sub_d-part_1_of_2.pdf
+2025-04-18 13:22:29,934 - INFO - Successfully downloaded 173-wfo-135_volume_1_sub_d-part_1_of_2.pdf
+2025-04-18 13:22:30,935 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_1_section_3_56-la-156_la_report_6.9.68-part_2_of_6.pdf to downloads/rfk\166-12c-1_serial_1_section_3_56-la-156_la_report_6.9.68-part_2_of_6.pdf
+2025-04-18 13:22:32,087 - INFO - Successfully downloaded 166-12c-1_serial_1_section_3_56-la-156_la_report_6.9.68-part_2_of_6.pdf
+2025-04-18 13:22:33,089 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_section_2_56-la-156_la_report_7.1.68-part_5_of_7.pdf to downloads/rfk\166-12c-1_serial_2_section_2_56-la-156_la_report_7.1.68-part_5_of_7.pdf
+2025-04-18 13:22:34,321 - INFO - Successfully downloaded 166-12c-1_serial_2_section_2_56-la-156_la_report_7.1.68-part_5_of_7.pdf
+2025-04-18 13:22:35,321 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_section_2_56-la-156_la_report_7.1.68-part_3_of_7.pdf to downloads/rfk\166-12c-1_serial_2_section_2_56-la-156_la_report_7.1.68-part_3_of_7.pdf
+2025-04-18 13:22:36,169 - INFO - Successfully downloaded 166-12c-1_serial_2_section_2_56-la-156_la_report_7.1.68-part_3_of_7.pdf
+2025-04-18 13:22:37,171 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_serial_2_section_1-la-report_7.1.68-part_6_of_8.pdf to downloads/rfk\166-12c-1_serial_2_section_1-la-report_7.1.68-part_6_of_8.pdf
+2025-04-18 13:22:38,022 - INFO - Successfully downloaded 166-12c-1_serial_2_section_1-la-report_7.1.68-part_6_of_8.pdf
+2025-04-18 13:22:39,024 - INFO - Downloading https://www.archives.gov/files/research/rfk/releases/2025/0418/44-la-2897-part_1_of_2.pdf to downloads/rfk\44-la-2897-part_1_of_2.pdf
+2025-04-18 13:22:39,985 - INFO - Successfully downloaded 44-la-2897-part_1_of_2.pdf
+2025-04-18 13:22:40,986 - INFO - All PDFs downloaded successfully

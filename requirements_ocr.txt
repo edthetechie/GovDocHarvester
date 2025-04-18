@@ -1,0 +1,8 @@
+pytesseract
+pdf2image
+flask
+whoosh
+pillow
+tqdm
+flask-bootstrap
+poppler-utils
