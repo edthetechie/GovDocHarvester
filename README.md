@@ -29,9 +29,11 @@ A comprehensive Python toolkit for downloading, processing, and searching govern
 - Direct PDF viewing from search results
 
 ### 🔗 Archive.gov Integration
-- Smart mapping between local files and their original archive.gov URLs
+- Dynamic mapping between local files and their original archives.gov URLs
+- Automatic URL mapping during download process
+- Verification tools to ensure archive links are valid
 - Pattern-based document identification that works even with partial filenames
-- Automatic redirection to archive.gov when local PDFs aren't available
+- Automatic redirection to archives.gov when local PDFs aren't available
 - Support for different document collections (FBI files, State Department files, etc.)
 
 ## 🛠️ Installation
@@ -99,13 +101,23 @@ Or manually with Python:
 python run_pdf_search.py --ocr rfk --memory-limit 75 --workers 2
 ```
 
-### Step 3: Generate Archive.gov URL Mappings
-Generate mappings between your PDFs and archive.gov URLs:
+### Step 3: Archive URL Mapping
+The system now automatically creates mappings between your PDFs and archives.gov URLs during the download process. However, you can also:
+
+Verify existing archive links:
 ```
-python generate_archive_mappings.py
+python run_pdf_search.py --verify-links
 ```
 
-This creates an `archive_mappings.json` file that maps your local PDFs to their corresponding archive.gov URLs.
+Regenerate mappings if needed:
+```
+python run_pdf_search.py --generate-mappings
+```
+
+Find actual PDF files on archives.gov and map them to local files:
+```
+python find_archive_pdfs.py
+```
 
 ### Step 4: Search Documents
 Launch the web search interface:
@@ -118,7 +130,7 @@ Access the search interface in your browser:
 http://127.0.0.1:5000
 ```
 
-Now you can search through documents, and if a local PDF is not available, users will be redirected to the corresponding archive.gov page.
+Now you can search through documents, and if a local PDF is not available, users will be redirected to the corresponding archives.gov page.
 
 ## 📝 Advanced Configuration
 
@@ -141,21 +153,19 @@ Edit the `ocr_config.py` file to adjust:
 - `MAX_MEMORY_PERCENT`: Memory threshold to prevent crashes
 
 ### Archive URL Mapping Configuration
-Edit the `archive_mappings.py` file to customize:
-- Document ID pattern recognition
-- Manual mappings for specific files
-- URL generation logic
+Archive URL mappings are now generated automatically during download, but you can customize:
+- Domain settings via `--domain` parameter when downloading or regenerating mappings
+- Manual mappings by editing the `archive_mappings.json` file directly
 
 ## 🗂️ Project Structure
-- `pdf_downloader.py`: Core PDF downloading functionality
+- `pdf_downloader.py`: Core PDF downloading functionality with automatic URL mapping
 - `download_site.py`: Simplified interface for pre-configured sites
 - `ocr_processor.py`: OCR processing for scanned PDFs
 - `search_app.py`: Search index creation and querying
 - `web_app.py`: Web-based search and document viewing interface
-- `scan_archive_urls.py`: Scans and generates URL mappings
 - `archive_mappings.py`: URL mapping utility functions
-- `generate_archive_mappings.py`: Interface for generating mappings
-- `run_pdf_search.py`: Combined control script 
+- `find_archive_pdfs.py`: Tool to locate actual PDFs on archives.gov 
+- `run_pdf_search.py`: Combined control script with mapping validation
 - `check_ocr_setup.py`: Diagnostic tool for OCR setup
 
 ## 📚 Use Cases
@@ -169,7 +179,7 @@ Edit the `archive_mappings.py` file to customize:
 - Always be considerate when crawling websites and respect their `robots.txt` files
 - Large PDF collections may require significant disk space and processing time
 - OCR quality depends on the quality of the original scans
-- The archive.gov URL mapping system works based on file naming patterns, so maintaining consistent file naming is important
+- Make sure to use "archives.gov" (with an 's') as the domain for National Archives links
 
 ## 🚀 Deployment
 This project is ready for cloud deployment:
