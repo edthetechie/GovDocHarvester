@@ -28,6 +28,12 @@ A comprehensive Python toolkit for downloading, processing, and searching govern
 - Full-text search with highlighted results
 - Direct PDF viewing from search results
 
+### 🔗 Archive.gov Integration
+- Smart mapping between local files and their original archive.gov URLs
+- Pattern-based document identification that works even with partial filenames
+- Automatic redirection to archive.gov when local PDFs aren't available
+- Support for different document collections (FBI files, State Department files, etc.)
+
 ## 🛠️ Installation
 
 ### Prerequisites
@@ -93,16 +99,26 @@ Or manually with Python:
 python run_pdf_search.py --ocr rfk --memory-limit 75 --workers 2
 ```
 
-### Step 3: Search Documents
+### Step 3: Generate Archive.gov URL Mappings
+Generate mappings between your PDFs and archive.gov URLs:
+```
+python generate_archive_mappings.py
+```
+
+This creates an `archive_mappings.json` file that maps your local PDFs to their corresponding archive.gov URLs.
+
+### Step 4: Search Documents
 Launch the web search interface:
 ```
-python run_pdf_search.py --search
+python web_app.py
 ```
 
 Access the search interface in your browser:
 ```
 http://127.0.0.1:5000
 ```
+
+Now you can search through documents, and if a local PDF is not available, users will be redirected to the corresponding archive.gov page.
 
 ## 📝 Advanced Configuration
 
@@ -124,11 +140,21 @@ Edit the `ocr_config.py` file to adjust:
 - `OCR_WORKERS`: Number of parallel processing threads
 - `MAX_MEMORY_PERCENT`: Memory threshold to prevent crashes
 
+### Archive URL Mapping Configuration
+Edit the `archive_mappings.py` file to customize:
+- Document ID pattern recognition
+- Manual mappings for specific files
+- URL generation logic
+
 ## 🗂️ Project Structure
 - `pdf_downloader.py`: Core PDF downloading functionality
 - `download_site.py`: Simplified interface for pre-configured sites
 - `ocr_processor.py`: OCR processing for scanned PDFs
-- `search_app.py`: Web-based search interface
+- `search_app.py`: Search index creation and querying
+- `web_app.py`: Web-based search and document viewing interface
+- `scan_archive_urls.py`: Scans and generates URL mappings
+- `archive_mappings.py`: URL mapping utility functions
+- `generate_archive_mappings.py`: Interface for generating mappings
 - `run_pdf_search.py`: Combined control script 
 - `check_ocr_setup.py`: Diagnostic tool for OCR setup
 
@@ -137,11 +163,19 @@ Edit the `ocr_config.py` file to adjust:
 - Journalism: Investigate government records databases
 - Archiving: Create local searchable copies of important collections
 - Legal: Build document collections for legal discovery
+- Education: Provide access to primary source materials for students
 
 ## ⚠️ Important Notes
 - Always be considerate when crawling websites and respect their `robots.txt` files
 - Large PDF collections may require significant disk space and processing time
 - OCR quality depends on the quality of the original scans
+- The archive.gov URL mapping system works based on file naming patterns, so maintaining consistent file naming is important
+
+## 🚀 Deployment
+This project is ready for cloud deployment:
+- `Procfile` and `render.yaml` for easy deployment to Heroku or Render
+- `prepare_for_deployment.py` script to optimize for cloud environments
+- Separate requirements files for minimal production deployments
 
 ## 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
