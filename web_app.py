@@ -12,6 +12,7 @@ from whoosh.qparser import QueryParser, MultifieldParser
 from whoosh.highlight import ContextFragmenter
 import logging
 import json
+from archive_mappings import load_archive_mappings, get_archive_url
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
@@ -20,27 +21,20 @@ logger = logging.getLogger(__name__)
 # Initialize Flask app
 app = Flask(__name__, static_folder='static')
 
-# Load Archive.org URL mappings
-ARCHIVE_URLS = {}
-try:
-    if os.path.exists('archive_mappings.json'):
-        with open('archive_mappings.json', 'r') as f:
-            ARCHIVE_URLS = json.load(f)
-        logger.info(f"Loaded {len(ARCHIVE_URLS)} archive URL mappings")
-    else:
-        logger.warning("archive_mappings.json not found. Archive.org links will be disabled.")
-except Exception as e:
-    logger.error(f"Error loading archive mappings: {e}")
-
-# Also try to load local PDF mappings as fallback
+# Load PDF path mappings for direct file access (if available)
 PDF_PATHS = {}
 try:
     if os.path.exists('pdf_mappings.json'):
         with open('pdf_mappings.json', 'r') as f:
             PDF_PATHS = json.load(f)
-        logger.info(f"Loaded {len(PDF_PATHS)} local PDF mappings")
+        logger.info(f"Loaded {len(PDF_PATHS)} PDF mappings")
+    else:
+        logger.warning("pdf_mappings.json not found. PDF viewing will be disabled.")
 except Exception as e:
     logger.error(f"Error loading PDF mappings: {e}")
+
+# Load archive.gov URL mappings
+ARCHIVE_URLS = load_archive_mappings()
 
 class PDFSearchApp:
     def __init__(self, index_dir="search_index"):
@@ -98,17 +92,17 @@ class PDFSearchApp:
                     # Create highlighted snippets from the content field
                     snippets = hit.highlights("content", top=3) or "No preview available"
                     
-                    # Get file information
-                    pdf_path = hit.get("path", "")
-                    title = hit.get("title", "Untitled Document")
-                    filename = hit.get("filename", "")
+                    # Find the PDF file
+                    pdf_path = hit["path"]
+                    title = hit["title"]
+                    filename = hit["filename"]
                     
-                    # Check if we have an archive.org URL for this file
-                    has_archive = filename in ARCHIVE_URLS
-                    archive_url = ARCHIVE_URLS.get(filename, "")
+                    # Try to get archive URL for this file using our improved mapping system
+                    archive_url = get_archive_url(filename)
                     
-                    # Check if this file is available locally as a fallback
+                    # Check access options for this file
                     has_pdf = filename in PDF_PATHS
+                    has_archive = archive_url is not None
                     
                     formatted_results.append({
                         "title": title,
@@ -118,7 +112,7 @@ class PDFSearchApp:
                         "score": hit.score,
                         "has_pdf": has_pdf,
                         "has_archive": has_archive,
-                        "archive_url": archive_url
+                        "archive_url": archive_url or ''
                     })
                 
                 # Return search results and pagination info
@@ -170,20 +164,29 @@ def search():
 
 @app.route('/view/<path:filename>')
 def view_pdf(filename):
-    """View a PDF file if available locally or redirect to archive.org"""
-    # First check if we have an archive.org URL
-    if filename in ARCHIVE_URLS:
-        # Redirect to the archive.org URL
-        return redirect(ARCHIVE_URLS[filename])
-    # Fall back to local file if available
-    elif filename in PDF_PATHS:
+    """View a PDF file or redirect to archive.gov"""
+    # First check if we can serve the PDF directly
+    if filename in PDF_PATHS:
         try:
             return send_file(PDF_PATHS[filename], download_name=filename)
         except Exception as e:
             logger.error(f"Error sending PDF file: {e}")
-            return f"Error: Could not retrieve the PDF file. {str(e)}", 500
-    else:
-        return render_template('pdf_unavailable.html', filename=filename)
+            # Fall back to archive.gov if available
+            archive_url = get_archive_url(filename)
+            if archive_url:
+                return redirect(archive_url)
+            return render_template('pdf_unavailable.html', filename=filename)
+    
+    # Next check if we have an archive.gov URL using our improved mapping system
+    archive_url = get_archive_url(filename)
+    if archive_url:
+        # Redirect to the archive.gov URL
+        logger.info(f"Redirecting to archive.gov URL for {filename}: {archive_url}")
+        return redirect(archive_url)
+    
+    # No access options available
+    logger.warning(f"No PDF or archive.gov URL available for {filename}")
+    return render_template('pdf_unavailable.html', filename=filename)
 
 @app.route('/about')
 def about():
@@ -193,6 +196,9 @@ def about():
 @app.route('/status')
 def status():
     """Status page for debugging deployment issues"""
+    # Get archive URL mappings count using our updated system
+    archive_mappings = load_archive_mappings()
+    
     status_info = {
         "app_running": True,
         "working_directory": os.getcwd(),
@@ -202,8 +208,9 @@ def status():
         "templates_exist": os.path.exists('templates'),
         "template_files": os.listdir('templates') if os.path.exists('templates') else [],
         "pdf_mappings_exist": os.path.exists('pdf_mappings.json'),
+        "pdf_mappings_count": len(PDF_PATHS),
         "archive_mappings_exist": os.path.exists('archive_mappings.json'),
-        "archive_urls_count": len(ARCHIVE_URLS),
+        "archive_mappings_count": len(archive_mappings),
         "index_is_valid": search_app.ix is not None
     }
     
