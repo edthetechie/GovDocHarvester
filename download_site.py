@@ -1,57 +1,61 @@
 #!/usr/bin/env python3
 """
-GovDocHarvester - Download Site Module
-Simplified interface for downloading PDFs from pre-configured websites
+Simple wrapper around pdf_downloader.py for pre-configured websites
 """
 
-import sys
 import argparse
+import sys
 from pdf_downloader import PDFDownloader
-from config import WEBSITE_CONFIGS, DEFAULT_CONFIG
+from config import WEBSITE_CONFIGS
 
 def list_available_sites():
-    """Print a list of available website configurations"""
-    print("Available website configurations:")
+    """List available site configurations"""
+    print("Available site configurations:")
     for site_id, config in WEBSITE_CONFIGS.items():
-        print(f"  {site_id}: {config['description']} ({config['url']})")
+        print(f"  {site_id}: {config['description']}")
+        print(f"      URL: {config['url']}")
+        print(f"      Output directory: {config['output_dir']}")
+        print()
 
 def main():
-    parser = argparse.ArgumentParser(description="Download PDFs from pre-configured government websites")
-    parser.add_argument("site", nargs="?", default=None, help="Site ID to download from (run without args to see list)")
-    parser.add_argument("-l", "--list", action="store_true", help="List available site configurations")
-    parser.add_argument("-d", "--depth", type=int, help="Override crawl depth")
+    parser = argparse.ArgumentParser(description="Download PDFs from pre-configured websites")
+    parser.add_argument("site", nargs="?", help="Site ID to download from")
+    parser.add_argument("--list", "-l", action="store_true", help="List available site configurations")
+    parser.add_argument("--depth", "-d", type=int, help="Override crawl depth")
     parser.add_argument("--delay", type=float, help="Override delay between requests in seconds")
+    parser.add_argument("--archive-domain", default="archives.gov", 
+                      help="Domain to use for archive mappings (default: archives.gov)")
     
     args = parser.parse_args()
     
-    # List sites if requested or if no site specified
-    if args.list or not args.site:
+    if args.list or args.site is None:
         list_available_sites()
         return 0
-    
-    # Check if the site exists
+        
+    # Check if the site ID is valid
     if args.site not in WEBSITE_CONFIGS:
         print(f"Error: Site '{args.site}' not found in configurations.")
-        list_available_sites()
+        print("Use --list to see available sites.")
         return 1
-    
-    # Get the configuration
+        
+    # Get the site configuration
     config = WEBSITE_CONFIGS[args.site]
     
-    # Override parameters if specified
-    depth = args.depth if args.depth is not None else config["depth"]
-    delay = args.delay if args.delay is not None else config["delay"]
+    # Create the downloader
+    downloader = PDFDownloader(
+        config['url'],
+        output_dir=config['output_dir'],
+        delay=args.delay if args.delay is not None else config.get('delay', 1.0)
+    )
     
-    print(f"Downloading PDFs from {config['description']} ({config['url']})")
-    print(f"Output directory: {config['output_dir']}")
-    print(f"Crawl depth: {depth}")
-    print(f"Request delay: {delay}s")
-    print()
-    
-    # Create and run the downloader
-    downloader = PDFDownloader(config["url"], config["output_dir"], delay)
+    # Start crawling and downloading
+    depth = args.depth if args.depth is not None else config.get('depth', 3)
     downloader.crawl(depth)
     downloader.download_all_pdfs()
+    
+    print(f"Downloaded PDFs from {config['description']}")
+    print(f"Files saved to {config['output_dir']}")
+    print(f"Archive mappings saved to archive_mappings.json")
     
     return 0
 

@@ -14,6 +14,7 @@ import re
 from tqdm import tqdm
 import logging
 import time
+import json
 
 # Set up logging
 logging.basicConfig(
@@ -41,9 +42,21 @@ class PDFDownloader:
         self.delay = delay
         self.visited_urls = set()
         self.pdf_urls = set()
+        self.url_mappings = {}
         
         # Create the output directory if it doesn't exist
         os.makedirs(output_dir, exist_ok=True)
+        
+        # Load existing archive mappings if available
+        self.archive_mappings = {}
+        self.archive_mappings_file = "archive_mappings.json"
+        if os.path.exists(self.archive_mappings_file):
+            try:
+                with open(self.archive_mappings_file, 'r') as f:
+                    self.archive_mappings = json.load(f)
+                logger.info(f"Loaded {len(self.archive_mappings)} existing archive mappings")
+            except Exception as e:
+                logger.error(f"Error loading archive mappings: {e}")
     
     def download_pdf(self, pdf_url):
         """Download a PDF file from the given URL"""
@@ -68,7 +81,9 @@ class PDFDownloader:
             # Check if file already exists
             if os.path.exists(file_path):
                 logger.info(f"File already exists: {filename}")
-                return
+                # Even if the file exists, add it to our URL mappings
+                self.add_to_archive_mappings(filename, pdf_url)
+                return file_path
                 
             # Download the file
             logger.info(f"Downloading {pdf_url} to {file_path}")
@@ -87,10 +102,65 @@ class PDFDownloader:
                             pbar.update(len(chunk))
             
             logger.info(f"Successfully downloaded {filename}")
+            
+            # Add to our archive mappings
+            self.add_to_archive_mappings(filename, pdf_url)
+            
             return file_path
         except Exception as e:
             logger.error(f"Failed to download {pdf_url}: {e}")
             return None
+    
+    def add_to_archive_mappings(self, filename, pdf_url):
+        """Add a mapping between a filename and its archive URL"""
+        try:
+            # First check if this is from a known archive domain
+            parsed_url = urllib.parse.urlparse(pdf_url)
+            
+            # Common archive domains (update as needed)
+            archive_domains = [
+                'archives.gov', 
+                'www.archives.gov',
+                'catalog.archives.gov',
+                'archive.org',
+                'www.archive.org'
+            ]
+            
+            # If this is from an archive domain, add to mappings
+            if any(parsed_url.netloc == domain for domain in archive_domains):
+                # Try to extract the base collection URL
+                path_parts = parsed_url.path.split('/')
+                collection_path = None
+                
+                # Look for 'details' in the path
+                if 'details' in path_parts:
+                    idx = path_parts.index('details')
+                    if idx + 1 < len(path_parts):
+                        collection_id = path_parts[idx + 1]
+                        collection_path = f"https://archives.gov/details/{collection_id}"
+                
+                # If we couldn't find a collection, use the parent directory URL
+                if not collection_path:
+                    parent_dir = os.path.dirname(parsed_url.path)
+                    collection_path = f"{parsed_url.scheme}://{parsed_url.netloc}{parent_dir}"
+                
+                # Store the mapping
+                self.archive_mappings[filename.lower()] = collection_path
+                logger.info(f"Added archive mapping: {filename} -> {collection_path}")
+                
+                # Save the mappings to file
+                self.save_archive_mappings()
+        except Exception as e:
+            logger.error(f"Error adding to archive mappings: {e}")
+    
+    def save_archive_mappings(self):
+        """Save archive URL mappings to a JSON file"""
+        try:
+            with open(self.archive_mappings_file, 'w') as f:
+                json.dump(self.archive_mappings, f, indent=2)
+            logger.info(f"Saved {len(self.archive_mappings)} mappings to {self.archive_mappings_file}")
+        except Exception as e:
+            logger.error(f"Error saving archive mappings: {e}")
     
     def extract_links(self, url):
         """Extract all links from the given URL"""
@@ -164,6 +234,9 @@ class PDFDownloader:
             time.sleep(self.delay)
             
         logger.info("All PDFs downloaded successfully")
+        
+        # Save our archive mappings one final time
+        self.save_archive_mappings()
 
 def main():
     parser = argparse.ArgumentParser(description="Download PDF files from a website")
@@ -171,6 +244,7 @@ def main():
     parser.add_argument("-o", "--output", default="downloads", help="Output directory (default: downloads)")
     parser.add_argument("-d", "--depth", type=int, default=3, help="Maximum crawl depth (default: 3)")
     parser.add_argument("--delay", type=float, default=1.0, help="Delay between requests in seconds (default: 1.0)")
+    parser.add_argument("--archive-domain", default="archives.gov", help="Archive domain to use for mappings (default: archives.gov)")
     
     args = parser.parse_args()
     

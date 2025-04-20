@@ -10,6 +10,22 @@ import subprocess
 import time
 import webbrowser
 from config import WEBSITE_CONFIGS
+import logging
+import json
+from pathlib import Path
+from archive_mappings import get_archive_url
+import requests
+
+# Set up logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler("search_app_log.txt"),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
 
 def check_dependencies():
     """Check if required dependencies are installed"""
@@ -89,47 +105,152 @@ def run_ocr(site_id, workers=2):
         return False
 
 def generate_url_mappings(domain="archives.gov"):
-    """Generate URL mappings with the correct domain"""
-    print(f"Generating URL mappings with domain: {domain}")
+    """Generate URL mappings for archive.gov or archives.gov domains"""
+    logger.info(f"Generating URL mappings with domain: {domain}")
     
-    # First, modify the archive_mappings.py file to use the correct domain
+    # Update the domain in archive_mappings.py
+    update_file_domain("archive_mappings.py", domain)
+    
+    # Update the domain in scan_archive_urls.py
+    update_file_domain("scan_archive_urls.py", domain)
+    
+    # Run the URL mapping generation script
     try:
-        # Read the file content
-        with open("archive_mappings.py", "r") as f:
+        # First try importing the module to use its functionality
+        import scan_archive_urls
+        logger.info("Successfully imported scan_archive_urls module")
+        scan_archive_urls.main()
+    except ImportError:
+        # Fall back to subprocess execution if import fails
+        logger.warning("Failed to import scan_archive_urls module, falling back to subprocess")
+        subprocess.run([sys.executable, "generate_archive_mappings.py"], check=True)
+    
+    # Also try to find actual PDF links on archives.gov
+    try:
+        subprocess.run([sys.executable, "find_archive_pdfs.py"], check=True)
+    except Exception as e:
+        logger.error(f"Error running find_archive_pdfs.py: {e}")
+    
+    # Verify the mappings
+    verify_mappings(domain)
+
+def update_file_domain(filename, domain):
+    """Update the domain in a file"""
+    try:
+        if not os.path.exists(filename):
+            logger.warning(f"File not found: {filename}")
+            return False
+            
+        with open(filename, 'r') as f:
             content = f.read()
+            
+        # Replace archive.org with the correct domain
+        content = content.replace('archive.org', domain)
         
-        # Replace any occurrence of archive domains with the new one
-        content = content.replace("archive.org/details/", f"{domain}/details/")
-        content = content.replace("archive.gov/details/", f"{domain}/details/")
-        
-        # Write the updated content back
-        with open("archive_mappings.py", "w") as f:
+        # Also handle variations without www prefix
+        if 'www.' in domain:
+            plain_domain = domain.replace('www.', '')
+            content = content.replace(plain_domain, domain)
+        else:
+            www_domain = f"www.{domain}"
+            content = content.replace(www_domain, domain)
+            
+        with open(filename, 'w') as f:
             f.write(content)
-        print(f"Updated archive_mappings.py to use domain: {domain}")
-        
-        # Do the same for scan_archive_urls.py
-        with open("scan_archive_urls.py", "r") as f:
-            content = f.read()
-        
-        content = content.replace("archive.org/details/", f"{domain}/details/")
-        content = content.replace("archive.gov/details/", f"{domain}/details/")
-        content = content.replace("archive.org/search", f"{domain}/search")
-        content = content.replace("archive.gov/search", f"{domain}/search")
-        
-        with open("scan_archive_urls.py", "w") as f:
-            f.write(content)
-        print(f"Updated scan_archive_urls.py to use domain: {domain}")
-        
-        # Now generate the mappings
-        cmd = [sys.executable, "generate_archive_mappings.py"]
-        subprocess.run(cmd, check=True)
-        
-        print(f"Successfully generated archive mappings using domain: {domain}")
+            
+        logger.info(f"Updated {filename} to use domain: {domain}")
         return True
+        
+    except Exception as e:
+        logger.error(f"Error updating domain in {filename}: {e}")
+        return False
+
+def verify_mappings(domain="archives.gov"):
+    """Verify that mappings were generated correctly"""
+    try:
+        # Load mappings
+        from archive_mappings import load_archive_mappings
+        mappings = load_archive_mappings()
+        
+        if len(mappings) == 0:
+            logger.warning("No mappings found!")
+            return
+            
+        # Verify a few random mappings
+        import random
+        sample_size = min(5, len(mappings))
+        sample_keys = random.sample(list(mappings.keys()), sample_size)
+        
+        logger.info(f"Verifying {sample_size} random mappings:")
+        for key in sample_keys:
+            url = mappings[key]
+            logger.info(f"  {key}: {url}")
+        
+        # Check if the links are valid (if verification needed)
+        # This is commented out to avoid making too many requests
+        # for key in sample_keys:
+        #    url = mappings[key]
+        #    try:
+        #        response = requests.head(url, timeout=5)
+        #        if response.status_code == 200:
+        #            logger.info(f"  VALID: {url}")
+        #        else:
+        #            logger.warning(f"  INVALID ({response.status_code}): {url}")
+        #    except Exception as e:
+        #        logger.warning(f"  ERROR: {url} - {e}")
     
     except Exception as e:
-        print(f"Error generating URL mappings: {e}")
-        return False
+        logger.error(f"Error verifying mappings: {e}")
+
+def verify_archives_links():
+    """Verify that links to archives.gov are valid"""
+    # Load mappings
+    try:
+        from archive_mappings import load_archive_mappings
+        mappings = load_archive_mappings()
+        
+        if len(mappings) == 0:
+            print("No mappings found!")
+            return
+        
+        import random
+        sample_size = min(10, len(mappings))
+        sample_keys = random.sample(list(mappings.keys()), sample_size)
+        
+        print(f"Testing {sample_size} random archive links...")
+        
+        valid_count = 0
+        invalid_count = 0
+        
+        for key in sample_keys:
+            url = mappings[key]
+            try:
+                # Use a GET request for the first few bytes instead of HEAD
+                # as some servers don't support HEAD properly
+                response = requests.get(url, stream=True, timeout=10)
+                response.raw.read(1024)  # Read just the first KB
+                response.close()
+                
+                if response.status_code == 200:
+                    print(f"✓ VALID: {url}")
+                    valid_count += 1
+                else:
+                    print(f"✗ INVALID ({response.status_code}): {url}")
+                    invalid_count += 1
+            except Exception as e:
+                print(f"✗ ERROR: {url} - {str(e)[:100]}...")
+                invalid_count += 1
+        
+        print(f"\nResults: {valid_count} valid, {invalid_count} invalid links")
+        
+        if invalid_count > 0:
+            print("\nSome links are not valid. You may want to try:")
+            print("1. Running with --generate-mappings to regenerate mappings")
+            print("2. Running find_archive_pdfs.py to find actual PDF links on archives.gov")
+            print("3. Checking if the archives.gov website structure has changed")
+    
+    except Exception as e:
+        print(f"Error verifying links: {e}")
 
 def start_search_interface(host="127.0.0.1", port=5000, debug=False, open_browser=True):
     """Start the search web interface"""
@@ -182,6 +303,7 @@ def main():
     parser.add_argument("--no-browser", action="store_true", help="Don't open browser automatically")
     parser.add_argument("--generate-mappings", "-g", action="store_true", help="Regenerate archive URL mappings")
     parser.add_argument("--domain", default="archives.gov", help="Domain to use for archive URLs (default: archives.gov)")
+    parser.add_argument("--verify-links", action="store_true", help="Test a sample of archive.gov links to verify they work")
     
     args = parser.parse_args()
     
@@ -199,6 +321,11 @@ def main():
     # List sites if requested
     if args.list:
         list_sites()
+        return 0
+    
+    # Verify links if requested
+    if args.verify_links:
+        verify_archives_links()
         return 0
     
     # Generate URL mappings if requested
