@@ -92,6 +92,20 @@
             font-size: 12px;
             margin-left: 8px;
         }
+        .archive-link {
+            color: #28a745;
+            text-decoration: none;
+        }
+        .archive-link:hover {
+            text-decoration: underline;
+        }
+        .source-badge {
+            font-size: 11px;
+            padding: 3px 8px;
+            border-radius: 12px;
+            margin-left: 5px;
+            vertical-align: middle;
+        }
     </style>
 </head>
 <body>
@@ -118,9 +132,15 @@
             {% for result in results %}
                 <div class="result">
                     <div class="result-title">
-                        {% if result.has_pdf %}
+                        {% if result.has_archive %}
+                            <a href="{{ result.archive_url }}" class="archive-link" target="_blank">
+                                {{ result.title }}
+                                <span class="source-badge bg-success text-white">archive.org</span>
+                            </a>
+                        {% elif result.has_pdf %}
                             <a href="{{ url_for('view_pdf', filename=result.filename) }}" target="_blank">
                                 {{ result.title }}
+                                <span class="source-badge bg-primary text-white">local</span>
                             </a>
                         {% else %}
                             {{ result.title }}
@@ -128,7 +148,11 @@
                         {% endif %}
                     </div>
                     <div class="snippet-section text-muted">
-                        {{ result.snippets|safe }}
+                        {% if result.snippets %}
+                            {{ result.snippets|safe }}
+                        {% else %}
+                            <p class="text-muted">No preview available</p>
+                        {% endif %}
                     </div>
                 </div>
             {% endfor %}

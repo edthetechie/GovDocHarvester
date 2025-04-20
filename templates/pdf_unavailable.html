@@ -43,10 +43,20 @@
             text-decoration: none;
             color: #0d6efd;
         }
-        .icon-large {
-            font-size: 5rem;
-            color: #6c757d;
-            margin-bottom: 1.5rem;
+        .error-icon {
+            font-size: 60px;
+            color: #dc3545;
+            margin-bottom: 20px;
+        }
+        .file-name {
+            font-family: monospace;
+            background-color: #f8f9fa;
+            padding: 5px 10px;
+            border-radius: 4px;
+            border: 1px solid #dee2e6;
+        }
+        .archive-link {
+            margin-top: 30px;
         }
     </style>
 </head>
@@ -61,31 +71,21 @@
         </div>
 
         <div class="content">
-            <div class="icon-large">
-                📄
+            <div class="error-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-file-earmark-x" viewBox="0 0 16 16">
+                    <path d="M6.854 7.146a.5.5 0 1 0-.708.708L7.293 9 6.146 10.146a.5.5 0 1 0 .708.708L8 9.707l1.146 1.147a.5.5 0 0 0 .708-.708L8.707 9l1.147-1.146a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146z"/>
+                    <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
+                </svg>
             </div>
-            <h1>PDF Unavailable</h1>
-            
-            <p class="lead">
-                Unfortunately, the PDF file "{{ filename }}" is not available for download.
-            </p>
-            
-            <p class="mb-4">
-                Only the OCR text content has been included in this online archive.
-                You may still search for and view the text content of this document.
-            </p>
-            
-            <div class="mt-4">
-                <a href="javascript:history.back()" class="btn btn-primary">Go Back</a>
-                <a href="/" class="btn btn-outline-secondary ms-2">Return to Search</a>
-            </div>
-        </div>
-        
-        <footer class="footer">
-            <p>Powered by GovDocHarvester - Making government documents accessible to all</p>
-        </footer>
-    </div>
-    
+            <h1>PDF Document Unavailable</h1>
+            <p class="lead">We're sorry, the requested PDF file is not available.</p>
+            <p class="mt-4">The file you're looking for: <span class="file-name">{{ filename }}</span></p>
+            <div class="row mt-4">
+                <div class="col-md-8 offset-md-2">
+                    <div class="alert alert-info">
+                        <p><strong>Looking for this document?</strong></p>
+                        <p>This search system contains the text content of documents, but the original PDFs are hosted on the Internet Archive.</p>
+                        <p>You can try to find this document directly on Archive.org by searching for its ID.</p>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

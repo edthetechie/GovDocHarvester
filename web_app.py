@@ -20,15 +20,25 @@ logger = logging.getLogger(__name__)
 # Initialize Flask app
 app = Flask(__name__, static_folder='static')
 
-# Load PDF path mappings
+# Load Archive.org URL mappings
+ARCHIVE_URLS = {}
+try:
+    if os.path.exists('archive_mappings.json'):
+        with open('archive_mappings.json', 'r') as f:
+            ARCHIVE_URLS = json.load(f)
+        logger.info(f"Loaded {len(ARCHIVE_URLS)} archive URL mappings")
+    else:
+        logger.warning("archive_mappings.json not found. Archive.org links will be disabled.")
+except Exception as e:
+    logger.error(f"Error loading archive mappings: {e}")
+
+# Also try to load local PDF mappings as fallback
 PDF_PATHS = {}
 try:
     if os.path.exists('pdf_mappings.json'):
         with open('pdf_mappings.json', 'r') as f:
             PDF_PATHS = json.load(f)
-        logger.info(f"Loaded {len(PDF_PATHS)} PDF mappings")
-    else:
-        logger.warning("pdf_mappings.json not found. PDF viewing will be disabled.")
+        logger.info(f"Loaded {len(PDF_PATHS)} local PDF mappings")
 except Exception as e:
     logger.error(f"Error loading PDF mappings: {e}")
 
@@ -88,12 +98,16 @@ class PDFSearchApp:
                     # Create highlighted snippets from the content field
                     snippets = hit.highlights("content", top=3) or "No preview available"
                     
-                    # Find the PDF file
-                    pdf_path = hit["path"]
-                    title = hit["title"]
-                    filename = hit["filename"]
+                    # Get file information
+                    pdf_path = hit.get("path", "")
+                    title = hit.get("title", "Untitled Document")
+                    filename = hit.get("filename", "")
                     
-                    # Check if this file is available in the PDF mappings
+                    # Check if we have an archive.org URL for this file
+                    has_archive = filename in ARCHIVE_URLS
+                    archive_url = ARCHIVE_URLS.get(filename, "")
+                    
+                    # Check if this file is available locally as a fallback
                     has_pdf = filename in PDF_PATHS
                     
                     formatted_results.append({
@@ -102,7 +116,9 @@ class PDFSearchApp:
                         "filename": filename,
                         "snippets": snippets,
                         "score": hit.score,
-                        "has_pdf": has_pdf
+                        "has_pdf": has_pdf,
+                        "has_archive": has_archive,
+                        "archive_url": archive_url
                     })
                 
                 # Return search results and pagination info
@@ -154,8 +170,13 @@ def search():
 
 @app.route('/view/<path:filename>')
 def view_pdf(filename):
-    """View a PDF file if available"""
-    if filename in PDF_PATHS:
+    """View a PDF file if available locally or redirect to archive.org"""
+    # First check if we have an archive.org URL
+    if filename in ARCHIVE_URLS:
+        # Redirect to the archive.org URL
+        return redirect(ARCHIVE_URLS[filename])
+    # Fall back to local file if available
+    elif filename in PDF_PATHS:
         try:
             return send_file(PDF_PATHS[filename], download_name=filename)
         except Exception as e:
@@ -181,6 +202,8 @@ def status():
         "templates_exist": os.path.exists('templates'),
         "template_files": os.listdir('templates') if os.path.exists('templates') else [],
         "pdf_mappings_exist": os.path.exists('pdf_mappings.json'),
+        "archive_mappings_exist": os.path.exists('archive_mappings.json'),
+        "archive_urls_count": len(ARCHIVE_URLS),
         "index_is_valid": search_app.ix is not None
     }
     
