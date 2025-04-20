@@ -88,6 +88,49 @@ def run_ocr(site_id, workers=2):
         print("Error running OCR processor. Check the log file for details.")
         return False
 
+def generate_url_mappings(domain="archives.gov"):
+    """Generate URL mappings with the correct domain"""
+    print(f"Generating URL mappings with domain: {domain}")
+    
+    # First, modify the archive_mappings.py file to use the correct domain
+    try:
+        # Read the file content
+        with open("archive_mappings.py", "r") as f:
+            content = f.read()
+        
+        # Replace any occurrence of archive domains with the new one
+        content = content.replace("archive.org/details/", f"{domain}/details/")
+        content = content.replace("archive.gov/details/", f"{domain}/details/")
+        
+        # Write the updated content back
+        with open("archive_mappings.py", "w") as f:
+            f.write(content)
+        print(f"Updated archive_mappings.py to use domain: {domain}")
+        
+        # Do the same for scan_archive_urls.py
+        with open("scan_archive_urls.py", "r") as f:
+            content = f.read()
+        
+        content = content.replace("archive.org/details/", f"{domain}/details/")
+        content = content.replace("archive.gov/details/", f"{domain}/details/")
+        content = content.replace("archive.org/search", f"{domain}/search")
+        content = content.replace("archive.gov/search", f"{domain}/search")
+        
+        with open("scan_archive_urls.py", "w") as f:
+            f.write(content)
+        print(f"Updated scan_archive_urls.py to use domain: {domain}")
+        
+        # Now generate the mappings
+        cmd = [sys.executable, "generate_archive_mappings.py"]
+        subprocess.run(cmd, check=True)
+        
+        print(f"Successfully generated archive mappings using domain: {domain}")
+        return True
+    
+    except Exception as e:
+        print(f"Error generating URL mappings: {e}")
+        return False
+
 def start_search_interface(host="127.0.0.1", port=5000, debug=False, open_browser=True):
     """Start the search web interface"""
     print(f"Starting search interface at http://{host}:{port}")
@@ -137,6 +180,8 @@ def main():
     parser.add_argument("--port", type=int, default=5000, help="Port to run the search interface on")
     parser.add_argument("--debug", action="store_true", help="Run in debug mode")
     parser.add_argument("--no-browser", action="store_true", help="Don't open browser automatically")
+    parser.add_argument("--generate-mappings", "-g", action="store_true", help="Regenerate archive URL mappings")
+    parser.add_argument("--domain", default="archives.gov", help="Domain to use for archive URLs (default: archives.gov)")
     
     args = parser.parse_args()
     
@@ -155,6 +200,12 @@ def main():
     if args.list:
         list_sites()
         return 0
+    
+    # Generate URL mappings if requested
+    if args.generate_mappings:
+        success = generate_url_mappings(domain=args.domain)
+        if not success:
+            return 1
     
     # Run OCR processing if requested
     if args.ocr:

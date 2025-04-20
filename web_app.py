@@ -6,6 +6,7 @@ Simplified version for deployment to cloud platforms
 
 import os
 import sys
+import argparse
 from flask import Flask, render_template, request, redirect, url_for, send_file
 from whoosh.index import open_dir, exists_in
 from whoosh.qparser import QueryParser, MultifieldParser
@@ -33,7 +34,8 @@ try:
 except Exception as e:
     logger.error(f"Error loading PDF mappings: {e}")
 
-# Load archive.gov URL mappings
+# Load archive URL mappings
+ARCHIVE_DOMAIN = os.environ.get("ARCHIVE_DOMAIN", "archives.gov")
 ARCHIVE_URLS = load_archive_mappings()
 
 class PDFSearchApp:
@@ -164,28 +166,28 @@ def search():
 
 @app.route('/view/<path:filename>')
 def view_pdf(filename):
-    """View a PDF file or redirect to archive.gov"""
+    """View a PDF file or redirect to archive URL"""
     # First check if we can serve the PDF directly
     if filename in PDF_PATHS:
         try:
             return send_file(PDF_PATHS[filename], download_name=filename)
         except Exception as e:
             logger.error(f"Error sending PDF file: {e}")
-            # Fall back to archive.gov if available
+            # Fall back to archive URL if available
             archive_url = get_archive_url(filename)
             if archive_url:
                 return redirect(archive_url)
             return render_template('pdf_unavailable.html', filename=filename)
     
-    # Next check if we have an archive.gov URL using our improved mapping system
+    # Next check if we have an archive URL using our improved mapping system
     archive_url = get_archive_url(filename)
     if archive_url:
-        # Redirect to the archive.gov URL
-        logger.info(f"Redirecting to archive.gov URL for {filename}: {archive_url}")
+        # Redirect to the archive URL
+        logger.info(f"Redirecting to archive URL for {filename}: {archive_url}")
         return redirect(archive_url)
     
     # No access options available
-    logger.warning(f"No PDF or archive.gov URL available for {filename}")
+    logger.warning(f"No PDF or archive URL available for {filename}")
     return render_template('pdf_unavailable.html', filename=filename)
 
 @app.route('/about')
@@ -211,7 +213,8 @@ def status():
         "pdf_mappings_count": len(PDF_PATHS),
         "archive_mappings_exist": os.path.exists('archive_mappings.json'),
         "archive_mappings_count": len(archive_mappings),
-        "index_is_valid": search_app.ix is not None
+        "index_is_valid": search_app.ix is not None,
+        "archive_domain": ARCHIVE_DOMAIN
     }
     
     return render_template('status.html', status=status_info)
@@ -222,6 +225,20 @@ def page_not_found(e):
     return render_template('404.html'), 404
 
 if __name__ == "__main__":
-    # Use PORT environment variable for cloud platforms
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description="PDF Search Web Interface")
+    parser.add_argument("--host", default="0.0.0.0", help="Host to run the web app on")
+    parser.add_argument("--port", type=int, default=int(os.environ.get("PORT", 5000)), help="Port to run the web app on")
+    parser.add_argument("--debug", action="store_true", help="Run in debug mode")
+    parser.add_argument("--domain", default="archives.gov", help="Domain to use for archive URLs")
+    
+    args = parser.parse_args()
+    
+    # Set the archive domain from arguments or environment variable
+    if args.domain:
+        os.environ["ARCHIVE_DOMAIN"] = args.domain
+        ARCHIVE_DOMAIN = args.domain
+        logger.info(f"Using archive domain: {ARCHIVE_DOMAIN}")
+    
+    # Run the app
+    app.run(host=args.host, port=args.port, debug=args.debug)

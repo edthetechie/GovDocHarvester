@@ -1,44 +1,54 @@
 #!/usr/bin/env python3
 """
-Mapping functions for linking PDF files to their archive.gov URLs
+Archive URL mapping utility functions.
+Handles loading and mapping between PDF filenames and their archives.gov URLs.
 """
 
 import os
 import json
-import re
 import logging
+import re
+from pathlib import Path
 
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-)
+# Set up logging
+logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Constants
-MAPPINGS_FILE = "archive_mappings.json"
-
-def load_archive_mappings(mapping_file=MAPPINGS_FILE):
-    """Load the archive URL mappings from file"""
+def load_archive_mappings(file_path="archive_mappings.json"):
+    """
+    Load archive URL mappings from a JSON file
+    
+    Args:
+        file_path (str): Path to the mappings JSON file
+        
+    Returns:
+        dict: Dictionary mapping PDF filenames to archives.gov URLs
+    """
     mappings = {}
+    
     try:
-        if os.path.exists(mapping_file):
-            with open(mapping_file, 'r') as f:
+        if os.path.exists(file_path):
+            with open(file_path, 'r') as f:
                 mappings = json.load(f)
-            logger.info(f"Loaded {len(mappings)} archive.gov URL mappings from {mapping_file}")
+            logger.info(f"Loaded {len(mappings)} archives.gov URL mappings from {file_path}")
         else:
-            logger.warning(f"Mapping file {mapping_file} not found")
+            logger.warning(f"Archive mappings file not found: {file_path}")
     except Exception as e:
         logger.error(f"Error loading archive mappings: {e}")
     
-    # Add any manual mappings
-    manual_mappings = get_manual_mappings()
+    # Add manual mappings for common collections
+    manual_mappings = {
+        "fbi-rfk-files-hq-62-587.pdf": "https://archives.gov/details/fbi-rfk-files-hq-62-587",
+        "rfk-assassination-state-department-files.pdf": "https://archives.gov/details/rfk-assassination-state-department-files",
+    }
+    
+    # Add the manual mappings to the loaded mappings
     mappings.update(manual_mappings)
     
     logger.info(f"Added manual mappings, total mappings: {len(mappings)}")
     return mappings
 
-def save_archive_mappings(mappings, file_path=MAPPINGS_FILE):
+def save_archive_mappings(mappings, file_path="archive_mappings.json"):
     """
     Save archive URL mappings to JSON file
     
@@ -49,101 +59,78 @@ def save_archive_mappings(mappings, file_path=MAPPINGS_FILE):
     try:
         with open(file_path, 'w') as f:
             json.dump(mappings, f, indent=4)
-        logger.info(f"Saved {len(mappings)} archive.gov URL mappings")
+        logger.info(f"Saved {len(mappings)} archives.gov URL mappings")
     except Exception as e:
         logger.error(f"Error saving archive mappings: {e}")
 
-def get_manual_mappings():
-    """Return manual mappings for specific files"""
-    return {
-        "pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_1_of_6.pdf": "https://archive.gov/details/rfk-assassination-state-department-files",
-        "166-12c-1_box_42_jan1970.pdf": "https://archive.gov/details/fbi-rfk-files-box-42-jan1970",
-    }
-
-def get_archive_url(filename, mapping_file=MAPPINGS_FILE):
-    """Get the archive.gov URL for a filename"""
-    if not filename:
-        return None
+def get_archive_url(filename, mappings=None):
+    """
+    Get the archives.gov URL for a PDF filename
     
-    # Load mappings
-    mappings = load_archive_mappings(mapping_file)
+    Args:
+        filename (str): PDF filename to lookup
+        mappings (dict, optional): Dictionary of existing mappings. If None, will load from file
+        
+    Returns:
+        str or None: The archives.gov URL if found, None otherwise
+    """
+    # Load mappings if not provided
+    if mappings is None:
+        mappings = load_archive_mappings()
+    
+    # Normalize the filename
+    clean_filename = filename.lower().replace(' ', '_')
+    if not clean_filename.endswith('.pdf'):
+        clean_filename += '.pdf'
     
     # Direct lookup
-    if filename in mappings:
-        return mappings[filename]
+    if clean_filename in mappings:
+        return mappings[clean_filename]
     
-    # Clean filename and try again
-    clean_name = clean_filename(filename)
-    if clean_name in mappings:
-        return mappings[clean_name]
+    # Try to find a pattern match
+    return find_mapping_by_pattern(clean_filename, mappings)
+
+def find_mapping_by_pattern(filename, mappings):
+    """
+    Find a mapping based on pattern matching when exact match not found
     
-    # Try to extract document ID and pattern match
-    doc_id = extract_doc_id(filename)
-    if doc_id:
-        # Common pattern mappings
-        if re.match(r"166-12c-1", doc_id):
-            return "https://archive.gov/details/fbi-rfk-files-hq-62-587"
-        elif "box_42" in doc_id or "box42" in doc_id:
-            return "https://archive.gov/details/fbi-rfk-files-box-42-jan1970"
-        elif re.match(r"la[-_\s]?56-156", doc_id, re.IGNORECASE):
-            return "https://archive.gov/details/fbi-rfk-files-la-56-156"
-        elif re.match(r"la[-_\s]?9-4158", doc_id, re.IGNORECASE):
-            return "https://archive.gov/details/fbi-rfk-files-la-9-4158"
-        elif re.match(r"pol[-_\s]?6-2", doc_id, re.IGNORECASE):
-            return "https://archive.gov/details/rfk-assassination-state-department-files"
+    Args:
+        filename (str): PDF filename to lookup
+        mappings (dict): Dictionary of existing mappings
+        
+    Returns:
+        str or None: The archives.gov URL if a pattern match found, None otherwise
+    """
+    # Common patterns to extract from filenames
+    fbi_pattern = re.compile(r'166-12c-1|fbi[-_]rfk|62[-_]587|56[-_]156|box[-_]?42', re.IGNORECASE)
+    state_dept_pattern = re.compile(r'pol[_\s]?6|kennedy|rfk|robert[_\s]?f', re.IGNORECASE)
+    
+    # Collection URLs
+    fbi_collection = "https://archives.gov/details/fbi-rfk-files-hq-62-587"
+    state_dept_collection = "https://archives.gov/details/rfk-assassination-state-department-files"
+    
+    # Check for FBI file patterns
+    if fbi_pattern.search(filename):
+        return fbi_collection
+    
+    # Check for State Department file patterns
+    if state_dept_pattern.search(filename):
+        return state_dept_collection
     
     return None
 
-def set_archive_url(filename, url, mapping_file=MAPPINGS_FILE):
+def set_archive_url(filename, url, file_path="archive_mappings.json"):
     """
-    Set the archive.gov URL for a document filename
+    Set the archives.gov URL for a document filename
     
     Args:
         filename (str): Filename of the PDF
-        url (str): Archive.gov URL
-        mapping_file (str): Path to the mappings JSON file
+        url (str): Archives.gov URL
+        file_path (str): Path to the mappings JSON file
     """
-    mappings = load_archive_mappings(mapping_file)
+    mappings = load_archive_mappings(file_path)
     mappings[filename] = url
-    save_archive_mappings(mappings, mapping_file)
-
-def clean_filename(filename):
-    """Clean up the filename for better matching"""
-    if not filename:
-        return ""
-    
-    # Convert to lowercase
-    clean = filename.lower()
-    
-    # Remove path if present
-    clean = os.path.basename(clean)
-    
-    # Ensure .pdf extension
-    if not clean.endswith('.pdf'):
-        clean = f"{clean}.pdf"
-    
-    return clean
-
-def extract_doc_id(filename):
-    """Extract document ID from a filename"""
-    if not filename:
-        return None
-    
-    # Extract pattern like 166-12c-1 or pol_6-2
-    patterns = [
-        r'^([^_]+)_',  # Match everything before first underscore
-        r'(166-\w+-\d+)',  # FBI file pattern
-        r'(pol_?6-2)',  # State dept file pattern
-        r'(la[-_]?\d+-\d+)',  # LA field office pattern
-        r'box[_\s]?(\d+)'  # Box number pattern
-    ]
-    
-    for pattern in patterns:
-        match = re.search(pattern, filename, re.IGNORECASE)
-        if match:
-            return match.group(1)
-    
-    return None
+    save_archive_mappings(mappings, file_path)
 
 def regenerate_mappings():
     """

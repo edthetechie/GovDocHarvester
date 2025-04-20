@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Scan Archive.gov URLs to generate mappings for PDF files.
-This script searches Archive.gov for RFK assassination records and builds
-a mapping between PDF filenames and their original archive.gov URLs.
+Scan Archives.gov URLs to generate mappings for PDF files.
+This script searches Archives.gov for RFK assassination records and builds
+a mapping between PDF filenames and their original archives.gov URLs.
 """
 
 import os
@@ -26,7 +26,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Search queries to find RFK assassination records on archive.gov
+# Search queries to find RFK assassination records on archives.gov
 SEARCH_QUERIES = [
     "robert kennedy assassination FBI",
     "RFK assassination records",
@@ -35,13 +35,13 @@ SEARCH_QUERIES = [
     "RFK FOIA documents",
 ]
 
-# Known archive.gov collections for RFK documents
+# Known archives.gov collections for RFK documents
 KNOWN_COLLECTIONS = [
-    "https://archive.gov/details/fbi-rfk-files-hq-62-587",
-    "https://archive.gov/details/fbi-rfk-files-la-56-156",
-    "https://archive.gov/details/fbi-rfk-files-la-9-4158",
-    "https://archive.gov/details/fbi-rfk-files-box-42-jan1970",
-    "https://archive.gov/details/rfk-assassination-state-department-files"
+    "https://archives.gov/details/fbi-rfk-files-hq-62-587",
+    "https://archives.gov/details/fbi-rfk-files-la-56-156",
+    "https://archives.gov/details/fbi-rfk-files-la-9-4158",
+    "https://archives.gov/details/fbi-rfk-files-box-42-jan1970",
+    "https://archives.gov/details/rfk-assassination-state-department-files"
 ]
 
 def clean_filename(filename):
@@ -71,7 +71,7 @@ def clean_filename(filename):
 
 def search_archive_gov(query, max_results=20, delay=1.0):
     """
-    Search Archive.gov for the given query
+    Search Archives.gov for the given query
     
     Args:
         query (str): Search query
@@ -79,10 +79,10 @@ def search_archive_gov(query, max_results=20, delay=1.0):
         delay (float): Delay between requests in seconds
         
     Returns:
-        list: List of Archive.gov item URLs
+        list: List of Archives.gov item URLs
     """
     item_urls = []
-    logger.info(f"Searching Archive.gov for: {query}")
+    logger.info(f"Searching Archives.gov for: {query}")
     
     try:
         # Add delay to be respectful to the server
@@ -92,7 +92,7 @@ def search_archive_gov(query, max_results=20, delay=1.0):
         encoded_query = quote_plus(query)
         
         # Construct the search URL
-        search_url = f"https://archive.gov/search?query={encoded_query}&sin=TXT"
+        search_url = f"https://archives.gov/search?query={encoded_query}&sin=TXT"
         
         # Request the search page
         response = requests.get(search_url)
@@ -111,25 +111,25 @@ def search_archive_gov(query, max_results=20, delay=1.0):
             if title_link and 'href' in title_link.attrs:
                 href = title_link['href']
                 if href.startswith('/details/'):
-                    full_url = f"https://archive.gov{href}"
+                    full_url = f"https://archives.gov{href}"
                     item_urls.append(full_url)
                     logger.info(f"Found item: {full_url}")
         
     except Exception as e:
-        logger.error(f"Error searching Archive.gov: {e}")
+        logger.error(f"Error searching Archives.gov: {e}")
     
     return item_urls
 
 def scan_collection_page(url, delay=1.0):
     """
-    Scan an Archive.gov collection page for downloadable PDF files
+    Scan an Archives.gov collection page for downloadable PDF files
     
     Args:
-        url (str): Archive.gov collection URL
+        url (str): Archives.gov collection URL
         delay (float): Delay between requests in seconds
         
     Returns:
-        dict: Dictionary mapping PDF filenames to archive.gov URLs
+        dict: Dictionary mapping PDF filenames to archives.gov URLs
     """
     mappings = {}
     logger.info(f"Scanning collection page: {url}")
@@ -283,11 +283,11 @@ def create_doc_collection_mappings(filenames):
     
     # Common doc ID patterns and their likely collections
     collection_patterns = {
-        r"^166-12c-1": "https://archive.gov/details/fbi-rfk-files-hq-62-587",
-        r"box[_\s]?42": "https://archive.gov/details/fbi-rfk-files-box-42-jan1970",
-        r"^(?:la|los[_\s]angeles)[_\s-]?56-156": "https://archive.gov/details/fbi-rfk-files-la-56-156",
-        r"^(?:la|los[_\s]angeles)[_\s-]?9-4158": "https://archive.gov/details/fbi-rfk-files-la-9-4158",
-        r"pol[_\s]?6-2": "https://archive.gov/details/rfk-assassination-state-department-files",
+        r"^166-12c-1": "https://archives.gov/details/fbi-rfk-files-hq-62-587",
+        r"box[_\s]?42": "https://archives.gov/details/fbi-rfk-files-box-42-jan1970",
+        r"^(?:la|los[_\s]angeles)[_\s-]?56-156": "https://archives.gov/details/fbi-rfk-files-la-56-156",
+        r"^(?:la|los[_\s]angeles)[_\s-]?9-4158": "https://archives.gov/details/fbi-rfk-files-la-9-4158",
+        r"pol[_\s]?6-2": "https://archives.gov/details/rfk-assassination-state-department-files",
     }
     
     for filename in filenames:
@@ -328,11 +328,11 @@ def extract_doc_id_from_filename(filename):
 
 def main():
     """
-    Main function to scan Archive.gov collections and generate mapping
+    Main function to scan Archives.gov collections and generate mapping
     """
     mappings = {}
     
-    # First, search for RFK assassination records on Archive.gov
+    # First, search for RFK assassination records on Archives.gov
     all_item_urls = set()
     for query in SEARCH_QUERIES:
         item_urls = search_archive_gov(query)
@@ -341,7 +341,7 @@ def main():
     # Add known collections
     all_item_urls.update(KNOWN_COLLECTIONS)
     
-    logger.info(f"Found {len(all_item_urls)} unique Archive.gov items to scan")
+    logger.info(f"Found {len(all_item_urls)} unique Archives.gov items to scan")
     
     # Scan each collection page for PDF links
     for url in all_item_urls:
@@ -369,8 +369,8 @@ def main():
     
     # Add manual mappings for specific files
     manual_mappings = {
-        "pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_1_of_6.pdf": "https://archive.gov/details/rfk-assassination-state-department-files",
-        "166-12c-1_box_42_jan1970.pdf": "https://archive.gov/details/fbi-rfk-files-box-42-jan1970",
+        "pol_6-2_us_kennedy_06_05_1968_senator_robert_f._kennedy-part_1_of_6.pdf": "https://archives.gov/details/rfk-assassination-state-department-files",
+        "166-12c-1_box_42_jan1970.pdf": "https://archives.gov/details/fbi-rfk-files-box-42-jan1970",
         # Add more manual mappings here if needed
     }
     
